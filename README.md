@@ -5,7 +5,9 @@ This folder contains a variety of vulnerability explotations for working with go
 
 ## Running an explotation
 ### Scan ips which may exist the vulnerability
+![goby new scan](./imgs/scan.png "goby new scan")
 ### Click "verify" button
+![goby verify](./imgs/verify.png "goby verify")
 ### Do some action like execute cmd, or get a reverse shell
 ![goby explotation](./imgs/opensmtpd_rce_CVE-2020-7247.png "goby explotation")
 
