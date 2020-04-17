@@ -4,9 +4,9 @@ ThinkPHP 诞生于 2006 年，是一个国产开源的 PHP 开发框架，其借
 
 在 ThinkPHP 5 中，由于框架对控制器名没有进行足够的检测，会导致在没有开启强制路由的情况下的远程代码执行漏洞。
 
-影响版本：ThinkPHP 5.x
+**影响版本**：ThinkPHP 5.x
 
-FOFA 查询规则：app="ThinkPHP"
+**[FOFA](https://fofa.so/result?qbase64=YXBwPSJUaGlua1BIUCI%3D) 查询规则**：app="ThinkPHP"
 
 # Demo
 

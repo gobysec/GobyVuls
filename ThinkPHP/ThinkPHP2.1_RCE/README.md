@@ -10,9 +10,9 @@ $res = preg_replace('@(\w+)'.$depr.'([^'.$depr.'\/]+)@e', '$var[\'\\1\']="\\2";'
 
 这是个非常危险的参数，如果用了这个参数，`preg_replace` 的第二个参数就会被当做 PHP 代码执行。
 
-影响版本：ThinkPHP 2.1
+**影响版本**：ThinkPHP 2.1
 
-FOFA 查询规则：app="ThinkPHP"
+**[FOFA](https://fofa.so/result?qbase64=YXBwPSJUaGlua1BIUCI%3D) 查询规则**：app="ThinkPHP"
 
 # Demo
 
