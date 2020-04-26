@@ -1,5 +1,5 @@
 # GobyVuls
-Vulnerabilities of Goby supported with exploitation.
+[Vulnerabilities](vulnerability_list.md) of Goby supported with exploitation.
 
 This folder contains a variety of vulnerability explotations for working with goby. 
 
