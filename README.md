@@ -4,6 +4,7 @@ Vulnerabilities of Goby supported with exploitation.
 This folder contains a variety of vulnerability explotations for working with goby. 
 
 ## Running an explotation
+Download goby from [release page](https://github.com/gobysec/Goby/releases), and run.
 ### Scan ips which may exist the vulnerability
 ![goby new scan](./imgs/scan.png "goby new scan")
 ### Click "verify" button
