@@ -1,4 +1,4 @@
-# VMware_vCenter_File_Read
+# VMware vCenter Arbitrary File Read
 
 VMware vCenter Server is advanced server management software that provides a centralized platform for controlling your VMware vSphere environments, allowing you to automate and deliver a virtual infrastructure across the hybrid cloud with confidence. A remote attacker who successfully exploited this vulnerability can read arbitrary files on the target system.
 
