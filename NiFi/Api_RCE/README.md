@@ -8,4 +8,4 @@ This module uses the NiFi API to create an ExecuteProcess processor that will ex
 
 # Demo
 
-![](Apache_NiFi_Api_RCE.gif)
+![](Apache_Nifi_Api_RCE.gif)
