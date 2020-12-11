@@ -1,7 +1,7 @@
 # GobyVuls
 [Vulnerabilities](vulnerability_list.md) of Goby supported with exploitation.
 
-This folder contains a variety of vulnerability explotations for working with goby. 
+This folder contains a variety of vulnerability exploitations for working with goby. 
 
 ## Running an explotation
 Download goby from [release page](https://github.com/gobysec/Goby/releases), and run.
