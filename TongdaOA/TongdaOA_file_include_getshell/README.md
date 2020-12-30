@@ -6,4 +6,4 @@ There is a file include vulnerability in Tongda OA, which may cause the server t
 
 # Demo
 
-![](tongdaOA_getshell.gif)
+![](TongdaOA_getshell.gif)
