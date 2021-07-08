@@ -2,7 +2,7 @@
 
 Yapi is not authorized to create an account and can create a task in the background. Any command can be specified by the command parameter
 
-**[FOFA](https://fofa.so/result?qbase64=YXBwPSJDaXRyaXgtQURDIg%3D%3D) query rule**: app="YAPI"
+**[FOFA](https://fofa.so/result?qbase64=YXBwPSJZQVBJIg%3D%3D) query rule**: [app="YAPI"](https://fofa.so/result?qbase64=YXBwPSJZQVBJIg%3D%3D)
 
 # Demo
 
