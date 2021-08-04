@@ -6,5 +6,5 @@ FOFA **query rule**: [app="Jetty"](https://fofa.so/result?qbase64=YXBwPSJKZXR0eS
 
 # Demo
 
-![img](https://raw.githubusercontent.com/xiaoheihei1107/GobyVuls/master/Jetty/Jetty_File_Read_CVE_2021_34429.gif)
+![img](Jetty_File_Read_CVE_2021_34429.gif)
 

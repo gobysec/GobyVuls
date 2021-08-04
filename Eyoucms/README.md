@@ -6,4 +6,4 @@ FOFA **query rule**: [app="eyoucms"](https://fofa.so/result?qbase64=YXBwPSJleW91
 
 # Demo
 
-![EyouCMS_Session_brute_force_Bypass_login.gif (1136×661)](https://raw.githubusercontent.com/xiaoheihei1107/GobyVuls/master/Eyoucms/EyouCMS_Session_brute_force_Bypass_login.gif)
+![](EyouCMS_Session_brute_force_Bypass_login.gif)
