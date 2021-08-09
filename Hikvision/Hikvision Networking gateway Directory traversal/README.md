@@ -6,4 +6,4 @@ FOFA **query rule**: [body="通用系统" && body="data/login.php"](https://fofa
 
 # Demo
 
-![Hikvision_Networking_gateway_Directory_traversal.gif](https://github.com/xiaoheihei1107/GobyVuls/blob/master/Hikvision/Hikvision%20Networking%20gateway%20Directory%20traversal/Hikvision_Networking_gateway_Directory_traversal.gif?raw=true)
+![Hikvision_Networking_gateway_Directory_traversal.gif](Hikvision_Networking_gateway_Directory_traversal.gif)
