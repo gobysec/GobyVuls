@@ -6,5 +6,5 @@ FOFA **query rule**: [body="全息AI网络运维平台"](https://fofa.so/result?
 
 # Demo
 
-![TG_WanWangBoTong_ajax_system_set_RCE.gif](https://github.com/xiaoheihei1107/GobyVuls/blob/master/TG-WanWangBoTong/ajax_system_set_RCE/TG_WanWangBoTong_ajax_system_set_RCE.gif?raw=true)
+![TG_WanWangBoTong_ajax_system_set_RCE.gif](TG_WanWangBoTong_ajax_system_set_RCE.gif)
 
