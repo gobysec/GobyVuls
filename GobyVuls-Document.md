@@ -100,3 +100,26 @@ There is a security vulnerability in Aspera Faspex. The vulnerability stems from
 
 **Impact** : Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server.
 
+## Smartbi Unauthorized And JDBC Arbitrary Code Execution Vulnerability
+**Chinese name: Smartbi 未授权访问及 JDBC 任意代码执行漏洞**
+
+**Description** : Smartbi is a business intelligence BI software launched by Smart Software, which meets the development stage of BI products. Smart software integrates the functional requirements of data analysis and decision support in various industries to meet the big data analysis needs of end users in enterprise-level reports, data visualization analysis, self-service exploration analysis, data mining modeling, AI intelligent analysis and other scenarios.
+
+**Impact** : There is an unauthorized access background interface vulnerability between Smartbi V7 and V10.5.8. Combined with postgresql JDBC, it can write arbitrary files or execute arbitrary code to obtain server permissions.
+
+![](https://s3.bmp.ovh/imgs/2023/03/17/c33297736a9aa870.gif)
+
+## yunucms request_uri method code execution vulnerabilities
+**Chinese name: yunucms 城市分站管理系统 request_uri 参数代码执行漏洞**
+
+**Description** : yunucms is a free and open source urban substation management system developed by Yunyou Network Technology Co., Ltd. based on the TP5.0 framework.
+
+**Impact** : There is a code execution vulnerability in the request_uri parameter of the front-end wap/index/index method of the yunucms system v1-2.0.5. Attackers can obtain server permissions through the vulnerability.
+
+## WordPress Plugin BackupBuddy Arbitrary File Read Vulnerability (CVE-2022-31474)
+**Chinese name: WordPress BackupBuddy 插件 local-download 参数任意文件读取漏洞（CVE-2022-31474）**
+
+**Description** : WordPress BackupBuddy plugin is a fast and simple plugin for WordPress backup and restore.
+WordPress plugin BackupBuddy versions 8.5.8.0 to 8.7.4.1 have an information disclosure vulnerability, which stems from an arbitrary file read and download vulnerability.
+
+**Impact** : Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website.
