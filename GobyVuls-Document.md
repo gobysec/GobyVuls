@@ -123,3 +123,46 @@ There is a security vulnerability in Aspera Faspex. The vulnerability stems from
 WordPress plugin BackupBuddy versions 8.5.8.0 to 8.7.4.1 have an information disclosure vulnerability, which stems from an arbitrary file read and download vulnerability.
 
 **Impact** : Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website.
+
+## TurboMail mail system viewfile file reading vulnerability
+**Chinese name: TurboMail 邮件系统 viewfile 文件读取漏洞**
+
+**Description** : TurboMail mail system is an email server system developed for the communication needs of enterprises and institutions. There is a file reading vulnerability in the TurboMail mail system. An attacker can read the configuration file through this vulnerability, and then perform base64 decryption on the password to log in to the background/maintlogin.jsp.
+
+**Impact** : There is a file reading vulnerability in the TurboMail mail system. An attacker can read the configuration file through the /viewfile endpoint, and then decrypt the password to base64 and log in to the background /maintlogin.jsp.
+
+## Apache Guacamole tokens Api Default Credential Vulnerability
+**Chinese name: Apache Guacamole tokens 接口默认密码漏洞**
+
+**Description** : Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. Apache Guacamole default password may lead information disclosure.
+
+**Impact** : Attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions.
+
+## Liferay Portal Unauthenticated 7.2.1 RCE (CVE-2020-7961)
+**Chinese name: Liferay Portal 7.2.1 版本 invoke 文件远程代码执行漏洞（CVE-2020-7961）**
+
+**Description** : Liferay Portal is a set of J2EE-based portal solutions of American Liferay Company. The program uses EJB and JMS and other technologies, and can be used as Web publishing and sharing workspace, enterprise collaboration platform, social network and so on.
+
+**Impact** : A code issue vulnerability exists in versions prior to Liferay Portal 7.2.1 CE GA2. A remote attacker could exploit this vulnerability to execute arbitrary code using JSON Web services.
+
+## SugarCRM index.php File Upload Vulnerability (CVE-2023-22952)
+**Chinese name: SugarCRM index.php 任意文件上传漏洞（CVE-2023-22952）**
+
+**Description** : SugarCRM is a set of open source customer relationship management system (CRM) of American SugarCRM company. The system supports differentiated marketing, management and distribution of sales leads for different customer needs, and realizes information sharing and tracking of sales representatives.
+
+**Impact** : SugarCRM has a security vulnerability. The vulnerability stems from an authorization bypass and PHP local file inclusion vulnerability in the installation component, which allows unauthenticated remote code execution on the configured SugarCRM instance through HTTP requests.
+
+## Oracle E-Business Suite BneViewerXMLService Arbitrary File Upload Vulnerability (CVE-2022-21587)
+**Chinese name: Oracle E-Business Suite 软件 BneViewerXMLService 任意文件上传漏洞（CVE-2022-21587）**
+
+**Description** : Oracle E-Business Suite (E-Business Suite) is a set of fully integrated global business management software from Oracle Corporation. The software provides functions such as customer relationship management, service management, and financial management.
+
+**Impact** : A security vulnerability exists in Oracle Web Applications Desktop Integrator versions 12.2.3-12.2.11 of Oracle E-Business Suite. An unauthenticated attacker gains server privileges by uploading a malicious webshell file.
+
+## WordPress Plugin WP Live Chat Support path File Inclusion Vulnerability
+**Chinese name: WordPress WP Live Chat Support 插件 path 文件包含漏洞**
+
+**Description** : WP Live Chat Support is a reliable and tested live chat solution for WordPress.
+There is a file inclusion vulnerability in WP Live Chat Support <= 9.4.2.Attackers can exploit this vulnerability to obtain sensitive files.
+
+**Impact** : Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website.
