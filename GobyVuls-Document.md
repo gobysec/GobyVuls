@@ -3,16 +3,29 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 **Updated document date: March 17, 2023** 
 
+## Joomla Web Api Unauthorized Access
+
+|   **Vulnerability**  | **Joomla Web Api Unauthorized Access**  |
+| :----:   | :-----|
+|  **Chinese name**  |Joomla Web Api接口未授权访问  |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="FIT2CLOUD-MeterSphere"](https://fofa.info/result?qbase64=YXBwPSJGSVQyQ0xPVUQtTWV0ZXJTcGhlcmUi) |
+| **Number of assets affected**  | 2574 |
+| **Description**  | MeterSphere is a one-stop open source continuous testing platform, covering functions such as test tracking, interface testing, UI testing and performance testing, and is fully compatible with mainstream open source standards such as JMeter and Selenium.</p><p>MeterSphere has an unauthorized arbitrary file read vulnerability. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+**Updated document date: March 17, 2023** 
+
 ## MeterSphere files File Read Vulnerability(CVE-2023-25573)
 
 |   **Vulnerability**  | **MeterSphere files File Read Vulnerability(CVE-2023-25573)**  |
 | :----:   | :-----|
 |  **Chinese name**  |metersphere 平台 files 文件读取漏洞（CVE-2023-25573）  |
-| **CVSS core**  | 7.2 |
-| **FOFA Query**  (click to view the results directly)| [app="cockpit"](https://fofa.info/result?qbase64=YXBwPSJjb2NrcGl0Ig%3D%3D) |
-| **Number of assets affected**  | 1643 |
-| **Description**  | Cockpit is a self-hosted, flexible and user-friendly headless content platform for creating custom digital experiences.</p><p>Cockpit has a file upload vulnerability, which allows attackers to upload arbitrary files, leading to server control, etc. |
-| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="FIT2CLOUD-MeterSphere"](https://fofa.info/result?qbase64=YXBwPSJGSVQyQ0xPVUQtTWV0ZXJTcGhlcmUi) |
+| **Number of assets affected**  | 2574 |
+| **Description**  | MeterSphere is a one-stop open source continuous testing platform, covering functions such as test tracking, interface testing, UI testing and performance testing, and is fully compatible with mainstream open source standards such as JMeter and Selenium.</p><p>MeterSphere has an unauthorized arbitrary file read vulnerability. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
 
 ## Cockpit File Upload Vulnerability(CVE-2023-1313)
 
