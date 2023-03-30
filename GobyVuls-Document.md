@@ -1,7 +1,7 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: March 17, 2023** 
+**Updated document date: March 30, 2023** 
 
 ## Smartbi DB2 JDBC Arbitrary Code Execution Vulnerability
 
@@ -27,7 +27,6 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
 | **Impact** | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
 
-**Updated document date: March 17, 2023** 
 
 ## MeterSphere files File Read Vulnerability(CVE-2023-25573)
 
