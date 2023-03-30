@@ -8,11 +8,11 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 |   **Vulnerability**  | **Smartbi DB2 JDBC Arbitrary Code Execution Vulnerability**  |
 | :----:   | :-----|
 |  **Chinese name**  |Smartbi DB2 JDBC 任意代码执行漏洞  |
-| **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| [app="Joomla"](https://fofa.info/result?qbase64=YXBwPSJKb29tbGEi) |
-| **Number of assets affected**  | 747187 |
-| **Description**  | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
-| **Impact** | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [(body="gcfutil = jsloader.resolve('smartbi.gcf.gcfutil')") || body="gcfutil = jsloader.resolve('smartbi.gcf.gcfutil')"](https://fofa.info/result?qbase64=KGJvZHk9ImdjZnV0aWwgPSBqc2xvYWRlci5yZXNvbHZlKCdzbWFydGJpLmdjZi5nY2Z1dGlsJykiKSB8fCBib2R5PSJnY2Z1dGlsID0ganNsb2FkZXIucmVzb2x2ZSgnc21hcnRiaS5nY2YuZ2NmdXRpbCcpIg%3D%3D) |
+| **Number of assets affected**  | 291 |
+| **Description**  | Smartbi is a business intelligence BI software launched by Smart Software, which meets the development stage of BI products. |
+| **Impact** | There is an unauthorized access background interface vulnerability between Smartbi V7 and V10.5.8. Combining DB2 JDBC exploitation and bypassing defense checks can lead to JNDI injection vulnerabilities, executing arbitrary code, and obtaining server privileges. |
 
 ## Joomla Web Api Unauthorized Access
 
