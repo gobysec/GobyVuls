@@ -9,7 +9,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  |Smartbi DB2 JDBC 任意代码执行漏洞  |
 | **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [[(body="gcfutil = jsloader.resolve('smartbi.gcf.gcfutil')") || body="gcfutil = jsloader.resolve('smartbi.gcf.gcfutil')"](https://fofa.info/result?qbase64=KGJvZHk9ImdjZnV0aWwgPSBqc2xvYWRlci5yZXNvbHZlKCdzbWFydGJpLmdjZi5nY2Z1dGlsJykiKSB8fCBib2R5PSJnY2Z1dGlsID0ganNsb2FkZXIucmVzb2x2ZSgnc21hcnRiaS5nY2YuZ2NmdXRpbCcpIg%3D%3D)](https://fofa.info/result?qbase64=KGJvZHk9ImdjZnV0aWwgPSBqc2xvYWRlci5yZXNvbHZlKCdzbWFydGJpLmdjZi5nY2Z1dGlsJykiKSB8fCBib2R5PSJnY2Z1dGlsID0ganNsb2FkZXIucmVzb2x2ZSgnc21hcnRiaS5nY2YuZ2NmdXRpbCcpIg%3D%3D) |
+| **FOFA Query**  (click to view the results directly)| https://fofa.info/result?qbase64=KGJvZHk9ImdjZnV0aWwgPSBqc2xvYWRlci5yZXNvbHZlKCdzbWFydGJpLmdjZi5nY2Z1dGlsJykiKSB8fCBib2R5PSJnY2Z1dGlsID0ganNsb2FkZXIucmVzb2x2ZSgnc21hcnRiaS5nY2YuZ2NmdXRpbCcpIg%3D%3D |
 | **Number of assets affected**  | 291 |
 | **Description**  | Smartbi is a business intelligence BI software launched by Smart Software, which meets the development stage of BI products. |
 | **Impact** | There is an unauthorized access background interface vulnerability between Smartbi V7 and V10.5.8. Combining DB2 JDBC exploitation and bypassing defense checks can lead to JNDI injection vulnerabilities, executing arbitrary code, and obtaining server privileges. |
