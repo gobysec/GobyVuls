@@ -14,6 +14,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Smartbi is a business intelligence BI software launched by Smart Software, which meets the development stage of BI products. |
 | **Impact** | There is an unauthorized access background interface vulnerability between Smartbi V7 and V10.5.8. Combining DB2 JDBC exploitation and bypassing defense checks can lead to JNDI injection vulnerabilities, executing arbitrary code, and obtaining server privileges. |
 
+![](https://s3.bmp.ovh/imgs/2023/03/30/8258465c5b97a719.gif)
+
 ## Joomla Web Api Unauthorized Access
 
 |   **Vulnerability**  | **Joomla Web Api Unauthorized Access**  |
