@@ -3,16 +3,27 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 **Updated document date: March 17, 2023** 
 
+## Smartbi DB2 JDBC Arbitrary Code Execution Vulnerability
+
+|   **Vulnerability**  | **Smartbi DB2 JDBC Arbitrary Code Execution Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  |Smartbi DB2 JDBC 任意代码执行漏洞  |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="Joomla"](https://fofa.info/result?qbase64=YXBwPSJKb29tbGEi) |
+| **Number of assets affected**  | 747187 |
+| **Description**  | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
+| **Impact** | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
+
 ## Joomla Web Api Unauthorized Access
 
 |   **Vulnerability**  | **Joomla Web Api Unauthorized Access**  |
 | :----:   | :-----|
 |  **Chinese name**  |Joomla Web Api接口未授权访问  |
 | **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| [app="FIT2CLOUD-MeterSphere"](https://fofa.info/result?qbase64=YXBwPSJGSVQyQ0xPVUQtTWV0ZXJTcGhlcmUi) |
-| **Number of assets affected**  | 2574 |
-| **Description**  | MeterSphere is a one-stop open source continuous testing platform, covering functions such as test tracking, interface testing, UI testing and performance testing, and is fully compatible with mainstream open source standards such as JMeter and Selenium.</p><p>MeterSphere has an unauthorized arbitrary file read vulnerability. |
-| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+| **FOFA Query**  (click to view the results directly)| [app="Joomla"](https://fofa.info/result?qbase64=YXBwPSJKb29tbGEi) |
+| **Number of assets affected**  | 747187 |
+| **Description**  | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
+| **Impact** | Attackers can obtain the passwords of MySQL database accounts through unauthorized access vulnerabilities, resulting in sensitive data leakage, and ultimately the system is in an extremely insecure state. |
 
 **Updated document date: March 17, 2023** 
 
