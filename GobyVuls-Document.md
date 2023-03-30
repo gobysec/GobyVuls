@@ -8,11 +8,11 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 |   **Vulnerability**  | **Cockpit File Upload Vulnerability(CVE-2023-1313)**  |
 | :----:   | :-----|
 |  **Chinese name**  | Cockpit 平台 upload 文件上传漏洞（CVE-2023-1313）  |
-| **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| [app="JeecgBoot-企业级低代码平台"](https://fofa.info/result?qbase64=YXBwPSJKZWVjZ0Jvb3Qt5LyB5Lia57qn5L2O5Luj56CB5bmz5Y%2BwIg%3D%3D) |
-| **Number of assets affected**  | 3965 |
-| **Description**  | JeecgBoot is a low -code development platform based on code generator. |
-| **Impact** | Attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions. |
+| **CVSS core**  | 7.2 |
+| **FOFA Query**  (click to view the results directly)| [app="cockpit"]([https://fofa.info/result?qbase64=YXBwPSJKZWVjZ0Jvb3Qt5LyB5Lia57qn5L2O5Luj56CB5bmz5Y%2BwIg%3D%3D](https://fofa.info/result?qbase64=YXBwPSJjb2NrcGl0Ig%3D%3D)) |
+| **Number of assets affected**  | 1643 |
+| **Description**  | Cockpit is a self-hosted, flexible and user-friendly headless content platform for creating custom digital experiences.</p><p>Cockpit has a file upload vulnerability, which allows attackers to upload arbitrary files, leading to server control, etc. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 
 ## JeecgBoot Default Password Vulnerability
 
