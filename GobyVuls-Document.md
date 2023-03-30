@@ -2,6 +2,42 @@
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
 **Updated document date: March 17, 2023** 
+
+## Cockpit File Upload Vulnerability(CVE-2023-1313)
+
+|   **Vulnerability**  | **Cockpit File Upload Vulnerability(CVE-2023-1313)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Cockpit 平台 upload 文件上传漏洞（CVE-2023-1313）  |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="JeecgBoot-企业级低代码平台"](https://fofa.info/result?qbase64=YXBwPSJKZWVjZ0Jvb3Qt5LyB5Lia57qn5L2O5Luj56CB5bmz5Y%2BwIg%3D%3D) |
+| **Number of assets affected**  | 3965 |
+| **Description**  | JeecgBoot is a low -code development platform based on code generator. |
+| **Impact** | Attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions. |
+
+## JeecgBoot Default Password Vulnerability
+
+|   **Vulnerability**  | **JeecgBoot Default Password Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | JeecgBoot 开发平台默认口令漏洞  |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="JeecgBoot-企业级低代码平台"](https://fofa.info/result?qbase64=YXBwPSJKZWVjZ0Jvb3Qt5LyB5Lia57qn5L2O5Luj56CB5bmz5Y%2BwIg%3D%3D) |
+| **Number of assets affected**  | 3965 |
+| **Description**  | JeecgBoot is a low -code development platform based on code generator. |
+| **Impact** | Attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions. |
+
+
+**CVSS core**: 7.5
+
+**FOFA query** (click to view the results directly):
+
+[app="JeecgBoot-企业级低代码平台"](https://fofa.info/result?qbase64=YXBwPSJKZWVjZ0Jvb3Qt5LyB5Lia57qn5L2O5Luj56CB5bmz5Y%2BwIg%3D%3D)
+
+**Number of assets affected**： 3965
+
+**Description** : JeecgBoot is a low -code development platform based on code generator.
+
+**Impact** : Attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions.
+
 ## Nacos Authentication Bypass Vulnerability
 **Chinese name: Nacos 身份认证绕过漏洞**
 
@@ -11,6 +47,7 @@ The open source service management platform Nacos has a high-risk vulnerability 
 **Impact** : The open source service management platform Nacos has a high-risk vulnerability of authentication bypass in versions 0.1.0 to 2.20, which causes attackers to bypass key authentication and enter the background, resulting in system control and other consequences.
 
 ![](https://s3.bmp.ovh/imgs/2023/03/17/98a67053444f1997.gif)
+
 ## Weaver e-cology OA browser.jsp keyword SQL Injection Vulnerability
 
 **Chinese name: 泛微-协同办公OA browser.jsp 文件 keyword 参数 SQL注入漏洞**
