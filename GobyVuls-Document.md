@@ -1,7 +1,33 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: March 30, 2023** 
+**Updated document date: March 31, 2023** 
+
+## Zyxel Authentication Bypass Vulnerability (CVE-2022-0342)
+
+|   **Vulnerability**  | **Zyxel Authentication Bypass Vulnerability (CVE-2022-0342)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Zyxel 认证绕过漏洞 (CVE-2022-0342)  |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](body=\"/2FA-access.cgi\" && body=\"zyxel zyxel_style1\") |
+| **Number of assets affected**  | 6806 |
+| **Description**  | Zyxel USG/ZyWALL is a firewall of China Zyxel Technology (Zyxel). |
+| **Impact** | Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/03/31/ff8f9f2124edc110.gif)
+
+## Zyxel Path Traversal Vulnerability (CVE-2022-2030)
+
+|   **Vulnerability**  | **Zyxel Path Traversal Vulnerability (CVE-2022-2030)**  |
+| :----:   | :-----|
+|  **Chinese name**  |Zyxel 路径遍历漏洞 (CVE-2022-2030)  |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
+| **Number of assets affected**  | 6860 |
+| **Description**  | Zyxel USG FLEX is a firewall from China's Zyxel Technology (Zyxel). Offers flexible VPN options (IPsec, SSL or L2TP) to provide flexible and secure remote access for remote work and management.A security vulnerability in Zyxel products stems from a directory traversal vulnerability found in some CGI programs caused by improper handling of specific character sequences in URLs, combined with vulnerability cve-2022-0342 that could allow an unauthenticated attacker to access vulnerable Attack some restricted files on the device. The following products and versions are affected: Zyxel USG FLEX 100(W) firmware version 4.50 to 5.30, USG FLEX 200 firmware version 4.50 to 5.30, USG FLEX 500 firmware version 4.50 to 5.30, USG FLEX 700 firmware version 4.50 to 5.30, USG FLEX 50 (W) firmware version 4.16 to 5.30, USG20(W)-VPN firmware version 4.16 to 5.30, ATP series firmware version 4.32 to 5.30, VPN series firmware version 4.30 to 5.30, USG/ZyWALL series firmware version 4.11 to 4.72. |
+| **Impact** | Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/03/31/5f6fb3131fb049d7.gif)
 
 ## Smartbi DB2 JDBC Arbitrary Code Execution Vulnerability
 
