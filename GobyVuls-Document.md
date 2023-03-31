@@ -9,7 +9,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  | Zyxel 认证绕过漏洞 (CVE-2022-0342)  |
 | **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](body=\"/2FA-access.cgi\" && body=\"zyxel zyxel_style1\") |
+| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
 | **Number of assets affected**  | 6806 |
 | **Description**  | Zyxel USG/ZyWALL is a firewall of China Zyxel Technology (Zyxel). |
 | **Impact** | Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
