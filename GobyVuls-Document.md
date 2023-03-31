@@ -3,19 +3,6 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 **Updated document date: March 31, 2023** 
 
-## WordPress Plugin BackupBuddy Arbitrary File Read Vulnerability (CVE-2022-31474)
-
-|   **Vulnerability**  | **WordPress Plugin BackupBuddy Arbitrary File Read Vulnerability (CVE-2022-31474)**  |
-| :----:   | :-----|
-|  **Chinese name**  | QNAP-NAS authLogin.cgi app_token RCE Vulnerability (CVE-2022-27596) |
-| **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
-| **Number of assets affected**  | 6806 |
-| **Description**  | WordPress BackupBuddy plugin is a fast and simple plugin for WordPress backup and restore.WordPress plugin BackupBuddy versions 8.5.8.0 to 8.7.4.1 have an information disclosure vulnerability, which stems from an arbitrary file read and download vulnerability. |
-| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
-
-![](https://s3.bmp.ovh/imgs/2023/03/31/ff8f9f2124edc110.gif)
-
 ## Zyxel Authentication Bypass Vulnerability (CVE-2022-0342)
 
 |   **Vulnerability**  | **Zyxel Authentication Bypass Vulnerability (CVE-2022-0342)**  |
