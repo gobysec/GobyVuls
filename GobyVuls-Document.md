@@ -1,7 +1,126 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: March 31, 2023** 
+**Updated document date: April 01, 2023** 
+
+## Zyxel Authentication Bypass Vulnerability (CVE-2022-0342)
+
+|   **Vulnerability**  | **Zyxel Authentication Bypass Vulnerability (CVE-2022-0342)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Zyxel 认证绕过漏洞 (CVE-2022-0342) |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
+| **Number of assets affected**  | 6806 |
+| **Description**  | Zyxel USG/ZyWALL is a firewall of China Zyxel Technology (Zyxel). Zyxel USG/ZyWALL 4.20 to 4.70, USG FLEX 4.50 to 5.20, ATP 4.32 to 5.20, VPN 4.30 to 5.20, NSG 1.20 to 1.33 Patch 4 have security vulnerabilities, which can be exploited by attackers to circumvent Authenticate over the web and gain administrative access to the device. |
+| **Impact** | Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/ca2c23fcafe64c05.gif)
+
+## PbootCMS 3.1.2 RCE (CVE-2022-32417)
+
+|   **Vulnerability**  | **PbootCMS 3.1.2 RCE (CVE-2022-32417)**  |
+| :----:   | :-----|
+|  **Chinese name**  | PbootCMS 3.1.2 远程代码执行漏洞（CVE-2022-32417） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [banner="Set-Cookie: pbootsystem=" \|\| header="Set-Cookie: pbootsystem=" \|\| title="PbootCMS"](https://fofa.info/result?qbase64=CmJhbm5lcj0iU2V0LUNvb2tpZTogcGJvb3RzeXN0ZW09IiB8fCBoZWFkZXI9IlNldC1Db29raWU6IHBib290c3lzdGVtPSIgfHwgdGl0bGU9IlBib290Q01TIg%3D%3D) |
+| **Number of assets affected**  | 144504 |
+| **Description**  | PbootCMS is an open source enterprise website content management system (CMS) developed by PbootCMS personal developers using PHP language. There is a security vulnerability in PbootCMS version 3.1.2, through which an attacker can cause remote code execution. |
+| **Impact** | There is a security vulnerability in PbootCMS version 3.1.2, through which an attacker can cause remote code execution. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/47ea94dc539d5cf8.gif)
+
+
+## Weblogic ForeignOpaqueReference  Remote Code Execution Vulnerability (CVE-2023-21839)
+
+|   **Vulnerability**  | **Weblogic ForeignOpaqueReference  Remote Code Execution Vulnerability (CVE-2023-21839)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Weblogic ForeignOpaqueReference 反序列化远程代码执行漏洞（CVE-2023-21839） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [(body="Welcome to WebLogic Server") \|\| (title=="Error 404--Not Found") \|\| (((body="\<h1\>BEA WebLogic Server" \|\| server="Weblogic" \|\| body="content=\"WebLogic Server" \|\| body="\<h1\>Welcome to Weblogic Application" \|\| body="\<h1\>BEA WebLogic Server") && header!="couchdb" && header!="boa" && header!="RouterOS" && header!="X-Generator: Drupal") \|\| (banner="Weblogic" && banner!="couchdb" && banner!="drupal" && banner!=" Apache,Tomcat,Jboss" && banner!="ReeCam IP Camera" && banner!="\<h2\>Blog Comments\</h2\>")) \|\| (port="7001" && protocol=="weblogic")](https://fofa.info/result?qbase64=Cihib2R5PSJXZWxjb21lIHRvIFdlYkxvZ2ljIFNlcnZlciIpfHwodGl0bGU9PSJFcnJvciA0MDQtLU5vdCBGb3VuZCIpIHx8ICgoKGJvZHk9IjxoMT5CRUEgV2ViTG9naWMgU2VydmVyIiB8fCBzZXJ2ZXI9IldlYmxvZ2ljIiB8fCBib2R5PSJjb250ZW50PVwiV2ViTG9naWMgU2VydmVyIiB8fCBib2R5PSI8aDE%2BV2VsY29tZSB0byBXZWJsb2dpYyBBcHBsaWNhdGlvbiIgfHwgYm9keT0iPGgxPkJFQSBXZWJMb2dpYyBTZXJ2ZXIiKSAmJiBoZWFkZXIhPSJjb3VjaGRiIiAmJiBoZWFkZXIhPSJib2EiICYmIGhlYWRlciE9IlJvdXRlck9TIiAmJiBoZWFkZXIhPSJYLUdlbmVyYXRvcjogRHJ1cGFsIikgfHwgKGJhbm5lcj0iV2VibG9naWMiICYmIGJhbm5lciE9ImNvdWNoZGIiICYmIGJhbm5lciE9ImRydXBhbCIgJiYgYmFubmVyIT0iIEFwYWNoZSxUb21jYXQsSmJvc3MiICYmIGJhbm5lciE9IlJlZUNhbSBJUCBDYW1lcmEiICYmIGJhbm5lciE9IjxoMj5CbG9nIENvbW1lbnRzPC9oMj4iKSkgfHwgKHBvcnQ9IjcwMDEiICYmIHByb3RvY29sPT0id2VibG9naWMiKQ%3D%3D) |
+| **Number of assets affected**  | 128502 |
+| **Description**  | WebLogic Server is one of the application server components applicable to cloud and traditional environments. WebLogic has a remote code execution vulnerability, which allows an unauthenticated attacker to access and destroy the vulnerable WebLogic Server through the IIOP protocol network. A successful exploitation of the vulnerability can cause the WebLogic Server to be taken over by the attacker, resulting in remote code execution. |
+| **Impact** | WebLogic has a remote code execution vulnerability, which allows an unauthenticated attacker to access and destroy the vulnerable WebLogic Server through the IIOP protocol network. A successful exploitation of the vulnerability can cause the WebLogic Server to be taken over by the attacker, resulting in remote code execution. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/67b39bfe7311567f.gif)
+
+## PHICOMM FIR302B management.cgi RCE (CVE-2022-27373)
+
+|   **Vulnerability**  | **PHICOMM FIR302B management.cgi RCE (CVE-2022-27373)**  |
+| :----:   | :-----|
+|  **Chinese name**  | 斐讯 FIR302B management.cgi 远程命令执行漏洞 (CVE-2022-27373) |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [title="FIR302B"](https://fofa.info/result?qbase64=dGl0bGU9IkZJUjMwMkIi) |
+| **Number of assets affected**  | 14766 |
+| **Description**  | phicomm Feixun fir302b is a router of Shanghai Feixun Data Communication Technology Co., Ltd. (phicomm), China. Feixun fir302b has a security vulnerability that stems from the discovery of a Remote Command Execution (RCE) vulnerability through the Ping function. |
+| **Impact** | Feixun fir302b has a security vulnerability that stems from the discovery of a Remote Command Execution (RCE) vulnerability through the Ping function. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/3a6df3f44e86bfc0.gif)
+
+## Atlassian Confluence Default Login (CVE-2022-26138)
+
+|   **Vulnerability**  | **Atlassian Confluence Default Login (CVE-2022-26138)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Atlassian Confluence 硬编码用户登陆漏洞 (CVE-2022-26138) |
+| **CVSS core**  | 7.0 |
+| **FOFA Query**  (click to view the results directly)| [(header="X-Confluence-" && header!="TP-LINK Router UPnP") \|\| (banner="X-Confluence-" && banner!="TP-LINK Router UPnP") \|\| (body="name=\"confluence-base-url\"" && body="id=\"com-atlassian-confluence") \|\| title="Atlassian Confluence" \|\| (title=="Errors" && body="Confluence")](https://fofa.info/result?qbase64=CihoZWFkZXI9IlgtQ29uZmx1ZW5jZS0iICYmIGhlYWRlciE9IlRQLUxJTksgUm91dGVyIFVQblAiKSB8fCAoYmFubmVyPSJYLUNvbmZsdWVuY2UtIiAmJiBiYW5uZXIhPSJUUC1MSU5LIFJvdXRlciBVUG5QIikgfHwgKGJvZHk9Im5hbWU9XCJjb25mbHVlbmNlLWJhc2UtdXJsXCIiICYmIGJvZHk9ImlkPVwiY29tLWF0bGFzc2lhbi1jb25mbHVlbmNlIikgfHwgdGl0bGU9IkF0bGFzc2lhbiBDb25mbHVlbmNlIiB8fCAodGl0bGU9PSJFcnJvcnMiICYmIGJvZHk9IkNvbmZsdWVuY2UiKQ%3D%3D) |
+| **Number of assets affected**  | 90658 |
+| **Description**  | Atlassian Confluence Server is a server version of Atlassian's collaboration software with enterprise knowledge management functions and support for building enterprise WiKi. A security vulnerability exists in Atlassian Confluence Server, which stems from the use of hard-coded passwords that allow attackers to log in to view sensitive information such as team space members. |
+| **Impact** | A security vulnerability exists in Atlassian Confluence Server, which stems from the use of hard-coded passwords that allow attackers to log in to view sensitive information such as team space members. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/67b39bfe7311567f.gif)
+
+## Jira Server SSRF (CVE-2022-26135)
+
+|   **Vulnerability**  | **Jira Server SSRF (CVE-2022-26135)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Jira Server 服务端请求伪造 (CVE-2022-26135) |
+| **CVSS core**  | 7.0 |
+| **FOFA Query**  (click to view the results directly)| [body="Signup!default.jspa"](https://fofa.info/result?qbase64=Ym9keT0iU2lnbnVwIWRlZmF1bHQuanNwYSI%3D) |
+| **Number of assets affected**  | 4586 |
+| **Description**  | Atlassian JIRA Server is a server version of a defect tracking management system developed by Atlassian in Australia. The system is mainly used to track and manage various problems and defects in the work. A security vulnerability exists in Atlassian Jira Server. An attacker exploits this vulnerability to perform a server-side request forgery attack via a batch endpoint. |
+| **Impact** | A security vulnerability exists in Atlassian Jira Server. An attacker exploits this vulnerability to perform a server-side request forgery attack via a batch endpoint. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/492aaf83b98a7363.gif)
+
+## QVIS-NVR Camera Management System RCE (CVE-2021-41419)
+
+|   **Vulnerability**  | **QVIS-NVR Camera Management System RCE (CVE-2021-41419)**  |
+| :----:   | :-----|
+|  **Chinese name**  | QVIS-NVR Camera Management System JSF 反序列化漏洞（CVE-2021-41419）|
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="qvisBase.js"](https://fofa.info/result?qbase64=Ym9keT0icXZpc0Jhc2UuanMi) |
+| **Number of assets affected**  | 1801 |
+| **Description**  | QVIS NVR Camera Management System is a monitoring system of QVIS company. A security vulnerability exists in the QVIS NVR Camera Management System due to vulnerability to remote code execution via Java deserialization. |
+| **Impact** | A security vulnerability exists in the QVIS NVR Camera Management System due to vulnerability to remote code execution via Java deserialization. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/1f12fd865122acb3.gif)
+
+
+## Apache OFBiz xmlrpc Deserialization Vulnerability (CVE-2020-9496) 
+
+|   **Vulnerability**  | **Apache OFBiz xmlrpc Deserialization Vulnerability (CVE-2020-9496)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Apache OFBiz xmlrpc 反序列化漏洞 (CVE-2020-9496) |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [cert="Organizational Unit: Apache OFBiz" \|\| (body="www.ofbiz.org" && body="/images/ofbiz_powered.gif")](https://fofa.info/result?qbase64=CmNlcnQ9Ik9yZ2FuaXphdGlvbmFsIFVuaXQ6IEFwYWNoZSBPRkJpeiIgfHwgKGJvZHk9Ind3dy5vZmJpei5vcmciICYmIGJvZHk9Ii9pbWFnZXMvb2ZiaXpfcG93ZXJlZC5naWYiKQ%3D%3D) |
+| **Number of assets affected**  | 1226 |
+| **Description**  | Apache OFBiz is a suite of business applications flexible enough to be used across any industry. A common architecture allows developers to easily extend or enhance it to create custom features. |
+| **Impact** | There is a deserialization vulnerability in the Apache OFBiz SOAPService processing interface. An attacker can obtain server privileges by sending specially constructed deserialized data, executing arbitrary code on the target server, executing system commands, or entering the memory horse. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/15ed5f12c7b11753.gif)
+
+## Liferay Portal RCE (CVE-2019-16891)  
+
+|   **Vulnerability**  | **Liferay Portal RCE (CVE-2019-16891)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Liferay Portal 远程代码执行漏洞（CVE-2019-16891） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="Powered by Liferay Portal" \|\| header="Liferay Portal" \|\| banner="Liferay Portal" \|\| header="guest_language_id=" \|\| banner="guest_language_id=" \|\| body="Liferay.AUI" \|\| body="Liferay.currentURL"](https://fofa.info/result?qbase64=Ym9keT0iUG93ZXJlZCBieSBMaWZlcmF5IFBvcnRhbCIgfHwgaGVhZGVyPSJMaWZlcmF5IFBvcnRhbCIgfHwgYmFubmVyPSJMaWZlcmF5IFBvcnRhbCIgfHwgaGVhZGVyPSJndWVzdF9sYW5ndWFnZV9pZD0iIHx8IGJhbm5lcj0iZ3Vlc3RfbGFuZ3VhZ2VfaWQ9IiB8fCBib2R5PSJMaWZlcmF5LkFVSSIgfHwgYm9keT0iTGlmZXJheS5jdXJyZW50VVJMIg%3D%3D) |
+| **Number of assets affected**  | 144504 |
+| **Description**  | Liferay Portal is a J2EE-based portal solution developed by American Liferay Company. The solution uses technologies such as EJB and JMS, and can be used as Web publishing and shared workspace, enterprise collaboration platform, social network, etc. A code issue vulnerability exists in Liferay Portal CE version 6.2.5. This vulnerability stems from improper design or implementation problems in the code development process of network systems or products. |
+| **Impact** | A code issue vulnerability exists in Liferay Portal CE version 6.2.5. This vulnerability stems from improper design or implementation problems in the code development process of network systems or products. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/01/267b1226161fa8b5.gif)
 
 ## WordPress Plugin BackupBuddy Arbitrary File Read Vulnerability (CVE-2022-31474)
 
@@ -9,7 +128,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  | WordPress BackupBuddy 插件 local-download 参数任意文件读取漏洞（CVE-2022-31474） |
 | **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| [](https://fofa.info/result?qbase64=aGVhZGVyPSJXb3JkUHJlc3MiIHx8IGhlYWRlcj0iYXBpLncub3JnIiB8fCBib2R5PSIvd3AtY29udGVudC90aGVtZXMvIg%3D%3D) |
+| **FOFA Query**  (click to view the results directly)| [header="WordPress" \|\| header="api.w.org" \|\| body="/wp-content/themes/"](https://fofa.info/result?qbase64=aGVhZGVyPSJXb3JkUHJlc3MiIHx8IGhlYWRlcj0iYXBpLncub3JnIiB8fCBib2R5PSIvd3AtY29udGVudC90aGVtZXMvIg%3D%3D) |
 | **Number of assets affected**  | 34049801 |
 | **Description**  | WordPress BackupBuddy plugin is a fast and simple plugin for WordPress backup and restore. WordPress plugin BackupBuddy versions 8.5.8.0 to 8.7.4.1 have an information disclosure vulnerability, which stems from an arbitrary file read and download vulnerability. |
 | **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
@@ -35,7 +154,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  |Zyxel 路径遍历漏洞 (CVE-2022-2030)  |
 | **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| [](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
+| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
 | **Number of assets affected**  | 6860 |
 | **Description**  | Zyxel USG FLEX is a firewall from China's Zyxel Technology (Zyxel). Offers flexible VPN options (IPsec, SSL or L2TP) to provide flexible and secure remote access for remote work and management.A security vulnerability in Zyxel products stems from a directory traversal vulnerability found in some CGI programs caused by improper handling of specific character sequences in URLs, combined with vulnerability cve-2022-0342 that could allow an unauthenticated attacker to access vulnerable Attack some restricted files on the device. The following products and versions are affected: Zyxel USG FLEX 100(W) firmware version 4.50 to 5.30, USG FLEX 200 firmware version 4.50 to 5.30, USG FLEX 500 firmware version 4.50 to 5.30, USG FLEX 700 firmware version 4.50 to 5.30, USG FLEX 50 (W) firmware version 4.16 to 5.30, USG20(W)-VPN firmware version 4.16 to 5.30, ATP series firmware version 4.32 to 5.30, VPN series firmware version 4.30 to 5.30, USG/ZyWALL series firmware version 4.11 to 4.72. |
 | **Impact** | Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
