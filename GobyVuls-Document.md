@@ -9,7 +9,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  | WordPress BackupBuddy 插件 local-download 参数任意文件读取漏洞（CVE-2022-31474） |
 | **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| header="WordPress" || header="api.w.org" || body="/wp-content/themes/" [](https://fofa.info/result?qbase64=aGVhZGVyPSJXb3JkUHJlc3MiIHx8IGhlYWRlcj0iYXBpLncub3JnIiB8fCBib2R5PSIvd3AtY29udGVudC90aGVtZXMvIg%3D%3D) |
+| **FOFA Query**  (click to view the results directly)| header="WordPress" ||｜｜ header="api.w.org" || body="/wp-content/themes/" [](https://fofa.info/result?qbase64=aGVhZGVyPSJXb3JkUHJlc3MiIHx8IGhlYWRlcj0iYXBpLncub3JnIiB8fCBib2R5PSIvd3AtY29udGVudC90aGVtZXMvIg%3D%3D) |
 | **Number of assets affected**  | 34049801 |
 | **Description**  | WordPress BackupBuddy plugin is a fast and simple plugin for WordPress backup and restore. WordPress plugin BackupBuddy versions 8.5.8.0 to 8.7.4.1 have an information disclosure vulnerability, which stems from an arbitrary file read and download vulnerability. |
 | **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
@@ -35,7 +35,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  |Zyxel 路径遍历漏洞 (CVE-2022-2030)  |
 | **CVSS core**  | 7.5 |
-| **FOFA Query**  (click to view the results directly)| [body="/2FA-access.cgi" && body="zyxel zyxel_style1"](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
+| **FOFA Query**  (click to view the results directly)| [](https://fofa.info/result?qbase64=Ym9keT0iLzJGQS1hY2Nlc3MuY2dpIiAmJiBib2R5PSJ6eXhlbCB6eXhlbF9zdHlsZTEi) |
 | **Number of assets affected**  | 6860 |
 | **Description**  | Zyxel USG FLEX is a firewall from China's Zyxel Technology (Zyxel). Offers flexible VPN options (IPsec, SSL or L2TP) to provide flexible and secure remote access for remote work and management.A security vulnerability in Zyxel products stems from a directory traversal vulnerability found in some CGI programs caused by improper handling of specific character sequences in URLs, combined with vulnerability cve-2022-0342 that could allow an unauthenticated attacker to access vulnerable Attack some restricted files on the device. The following products and versions are affected: Zyxel USG FLEX 100(W) firmware version 4.50 to 5.30, USG FLEX 200 firmware version 4.50 to 5.30, USG FLEX 500 firmware version 4.50 to 5.30, USG FLEX 700 firmware version 4.50 to 5.30, USG FLEX 50 (W) firmware version 4.16 to 5.30, USG20(W)-VPN firmware version 4.16 to 5.30, ATP series firmware version 4.32 to 5.30, VPN series firmware version 4.30 to 5.30, USG/ZyWALL series firmware version 4.11 to 4.72. |
 | **Impact** | Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
