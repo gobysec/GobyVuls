@@ -1,7 +1,60 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: April 04, 2023** 
+**Updated document date: April 06, 2023** 
+
+## Yonyou NC com.ufsoft.iufo.jiuqi.JiuQiClientReqDispatch Deserialization Command Execution Vulnerability
+
+|   **Vulnerability**  | **Yonyou NC com.ufsoft.iufo.jiuqi.JiuQiClientReqDispatch Deserialization Command Execution Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 		用友NC com.ufsoft.iufo.jiuqi.JiuQiClientReqDispatch 反序列化命令执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="Yonyou-UFIDA-NC"](https://fofa.info/result?qbase64=YXBwPSJZb255b3UtVUZJREEtTkMi) |
+| **Number of assets affected**  | 11642 |
+| **Description**  | PlaySMS is a free and open source SMS gateway software. An input validation error vulnerability existed in PlaySMS versions prior to 1.4.3, which was caused by the program not sanitizing malicious strings. An attacker could exploit this vulnerability to execute arbitrary code. |
+| **Impact** | An input validation error vulnerability existed in PlaySMS versions prior to 1.4.3, which was caused by the program not sanitizing malicious strings. An attacker could exploit this vulnerability to execute arbitrary code. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/06/05179a798f7fc68a.gif)
+
+## playSMS 1.4.3 RCE (CVE-2020-8644)
+
+|   **Vulnerability**  | **playSMS 1.4.3 RCE (CVE-2020-8644)**  |
+| :----:   | :-----|
+|  **Chinese name**  | 	playSMS 1.4.3 远程命令执行漏洞 (CVE-2020-8644) |
+| **CVSS core**  | 9.5 |
+| **FOFA Query**  (click to view the results directly)| [title=="playSMS"](https://fofa.info/result?qbase64=dGl0bGU9PSJwbGF5U01TIg%3D%3D) |
+| **Number of assets affected**  | 722 |
+| **Description**  | PlaySMS is a free and open source SMS gateway software. An input validation error vulnerability existed in PlaySMS versions prior to 1.4.3, which was caused by the program not sanitizing malicious strings. An attacker could exploit this vulnerability to execute arbitrary code. |
+| **Impact** | An input validation error vulnerability existed in PlaySMS versions prior to 1.4.3, which was caused by the program not sanitizing malicious strings. An attacker could exploit this vulnerability to execute arbitrary code. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/03/70ee3365dd90c1a5.gif)
+
+## YoudianCMS v9.5.0 SQL Injection (CVE-2022-32300)
+
+|   **Vulnerability**  | **YoudianCMS v9.5.0 SQL Injection (CVE-2022-32300)**  |
+| :----:   | :-----|
+|  **Chinese name**  | YoudianCMS v9.5.0 sql注入（CVE-2022-32300） |
+| **CVSS core**  | 8.8 |
+| **FOFA Query**  (click to view the results directly)| [body="YoudianCMS"](https://fofa.info/result?qbase64=Ym9keT0iWW91ZGlhbkNNUyI%3D) |
+| **Number of assets affected**  | 987 |
+| **Description**  | YouDianCMS is a website CMS. YoudianCMS v9.5.0 version exists security holes, the vulnerability stems from a pass/App/Lib/Action/Admin/MailAction class. PHP MailSendID parameters of SQL injection vulnerabilities are found out. |
+| **Impact** | Able to read some sensitive files through SQL injection vulnerability. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/06/b6d2916d8bfa2662.gif)
+
+## SolarView Compact downloader.php RCE (CVE-2023-23333)
+
+|   **Vulnerability**  | **SolarView Compact downloader.php RCE (CVE-2023-23333)**  |
+| :----:   | :-----|
+|  **Chinese name**  | SolarView Compact downloader.php 任意命令执行漏洞（CVE-2023-23333）|
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [body="SolarView Compact"](https://fofa.info/result?qbase64=dGl0bGU9PSJwbGF5U01TIg%3D%3D) |
+| **Number of assets affected**  | 5585 |
+| **Description**  | There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+
+![](https://s3.bmp.ovh/imgs/2023/04/03/a32aa1b44858819c.gif)
 
 ## QNAP-NAS authLogin.cgi app_token RCE Vulnerability (CVE-2022-27596)
 
