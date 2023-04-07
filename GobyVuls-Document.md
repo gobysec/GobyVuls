@@ -3,6 +3,46 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 **Updated document date: April 06, 2023** 
 
+## NUUO NVR __debugging_center_utils___.php Command Execution
+
+|   **Vulnerability**  | **NUUO NVR __debugging_center_utils___.php Command Execution**  |
+| :----:   | :-----|
+|  **Chinese name**  |   NUUO NVR 摄像机 __debugging_center_utils___.php 命令执行漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [title="Network Video Recorder Login"](https://fofa.info/result?qbase64=dGl0bGU9Ik5ldHdvcmsgVmlkZW8gUmVjb3JkZXIgTG9naW4i) |
+| **Number of assets affected**  | 10146 |
+| **Description**  | The NUUO NVR video storage management device __debugging_center_utils___.php has an unauthorized remote command execution vulnerability. An attacker can execute arbitrary system commands without any permissions, thereby invading the server and obtaining administrator permissions on the server. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server.< |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/c18c326c391b4092.gif)
+
+## Grafana welcome Arbitrary File Reading Vulnerability
+
+|   **Vulnerability**  | **Grafana welcome Arbitrary File Reading Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  |   Grafana 网络应用程序平台 welcome 任意文件读取漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="Grafana_Labs-公司产品"](https://fofa.info/result?qbase64=YXBwPSJHcmFmYW5hX0xhYnMt5YWs5Y%2B45Lqn5ZOBIg%3D%3D) |
+| **Number of assets affected**  | 369673 |
+| **Description**  | Grafana is a cross-platform, open source platform for data visualization web applications. After users configure the connected data source, Grafana can display data graphs and warnings in a Web browser. Unauthorized attackers can exploit this vulnerability and gain access to sensitive server files. |
+| **Impact** | Grafana can display graphs and warnings in a Web browser. Unauthorized attackers can exploit this vulnerability and gain access to sensitive server files. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/ac7eb471dfe138dc.gif)
+
+## MeterSphere File Read Vulnerability(CVE-2023-25814)
+
+|   **Vulnerability**  | **MeterSphere File Read Vulnerability(CVE-2023-25814)**  |
+| :----:   | :-----|
+|  **Chinese name**  |    MeterSphere 文件读取漏洞（CVE-2023-25814） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="FIT2CLOUD-MeterSphere"](https://fofa.info/result?qbase64=YXBwPSJGSVQyQ0xPVUQtTWV0ZXJTcGhlcmUi) |
+| **Number of assets affected**  | 2552 |
+| **Description**  | MeterSphere is a one-stop open source continuous testing platform, covering functions such as test tracking, interface testing, UI testing and performance testing, and is fully compatible with mainstream open source standards such as JMeter and Selenium. MeterSphere has an unauthorized arbitrary file read vulnerability. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/4fd8616dc5a1c81c.gif)
+
+
 ## Yonyou NC com.ufsoft.iufo.jiuqi.JiuQiClientReqDispatch Deserialization Command Execution Vulnerability
 
 |   **Vulnerability**  | **Yonyou NC com.ufsoft.iufo.jiuqi.JiuQiClientReqDispatch Deserialization Command Execution Vulnerability**  |
@@ -15,6 +55,102 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Impact** | An input validation error vulnerability existed in PlaySMS versions prior to 1.4.3, which was caused by the program not sanitizing malicious strings. An attacker could exploit this vulnerability to execute arbitrary code. |
 
 ![](https://s3.bmp.ovh/imgs/2023/04/06/05179a798f7fc68a.gif)
+
+## OneThink category method code execution vulnerabilities
+
+|   **Vulnerability**  | **OneThink category method code execution vulnerabilities**  |
+| :----:   | :-----|
+|  **Chinese name**  | 	OneThink 内容管理框架 category 方法代码执行漏洞 |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [(header="ThinkPHP" && title="Onethink") \|\| body="<a href=\\\"http://www.onethink.cn\\\" target=\\\"_blank\\\">OneThink\</a>" \|\| body="/css/onethink.css"](https://fofa.info/result?qbase64=KGhlYWRlcj0iVGhpbmtQSFAiICYmIHRpdGxlPSJPbmV0aGluayIpIHx8IGJvZHk9IjxhIGhyZWY9XFxcImh0dHA6Ly93d3cub25ldGhpbmsuY25cXFwiIHRhcmdldD1cXFwiX2JsYW5rXFxcIj5PbmVUaGluazwvYT4iIHx8IGJvZHk9Ii9jc3Mvb25ldGhpbmsuY3NzIg%3D%3D) |
+| **Number of assets affected**  | 2854 |
+| **Description**  |  OneThink is an open source content management framework developed by the ThinkPHP team based on ThinkPHP. There is a SQL injection vulnerability in the category parameter of the front-end home/article/index method of the OneThink system v1 version. An attacker can use the vulnerability to jointly query any template, causing the file to be included, and finally obtain server permissions. |
+| **Impact** | There is a SQL injection vulnerability in the category parameter of the front-end home/article/index method of the OneThink system v1 version. An attacker can use the vulnerability to jointly query any template, causing the file to be included, and finally obtain server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/35c9841dac3ce243.gif)
+
+## wavlink mesh.cgi command execution (CVE-2022-2486)
+
+|   **Vulnerability**  | **wavlink mesh.cgi command execution (CVE-2022-2486)**  |
+| :----:   | :-----|
+|  **Chinese name**  | wavlink mesh.cgi命令执行漏洞（CVE-2022-2486） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="firstFlage"](https://fofa.info/result?qbase64=Ym9keT0iZmlyc3RGbGFnZSI%3D) |
+| **Number of assets affected**  | 3078 |
+| **Description**  | WAVLINK is a router developed by China Ruiyin Technology (WAVLINK) company. The system mesh.cgi file has a command execution vulnerability, and attackers can obtain server privileges through this vulnerability. Including models WN530HG4, WN531G3, WN572HG3, WN535G3, WN575A4, etc. |
+| **Impact** | Attackers can use this vulnerability to execute system commands to gain server privileges. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/a53061701522ba0d.gif)
+
+
+## WSO2 API Manager save_artifact_ajaxprocessor.jsp XXE Vulnerability (CVE-2020-24589)
+
+|   **Vulnerability**  | **WSO2 API Manager save_artifact_ajaxprocessor.jsp XXE Vulnerability (CVE-2020-24589)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WSO2 API Manager 系统 save_artifact_ajaxprocessor.jsp XXE 漏洞（CVE-2020-24589） |
+| **CVSS core**  | 9.1 |
+| **FOFA Query**  (click to view the results directly)| [title="WSO2" \|\| header="Server: WSO2 Carbon Server" \|\| banner="Server: WSO2 Carbon Server"](https://fofa.info/result?qbase64=dGl0bGU9IldTTzIiIHx8IGhlYWRlcj0iU2VydmVyOiBXU08yIENhcmJvbiBTZXJ2ZXIiIHx8IGJhbm5lcj0iU2VydmVyOiBXU08yIENhcmJvbiBTZXJ2ZXIi) |
+| **Number of assets affected**  | 15231 |
+| **Description**  | WSO2 API Manager is a set of API lifecycle management solutions from WSO2 in the United States. A vulnerability exists in WSO2 API Manager. The following products and versions are affected: WSO2 API Manager from version 3.1.0 and API Microgateway version 2.2.0, the attacker can read arbitrary files and detect intranet information, etc. |
+| **Impact** | A vulnerability exists in WSO2 API Manager. The following products and versions are affected: WSO2 API Manager from version 3.1.0 and API Microgateway version 2.2.0, the attacker can read arbitrary files and detect intranet information, etc. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/92ab16512332fe0c.gif)
+
+
+## Liferay Portal Unauthenticated 7.2.1 RCE (CVE-2020-7961)
+
+|   **Vulnerability**  | **Liferay Portal Unauthenticated 7.2.1 RCE (CVE-2020-7961)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Liferay Portal 7.2.1 版本 invoke 文件远程代码执行漏洞（CVE-2020-7961）） |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [body="Powered by Liferay Portal" \|\| header="Liferay Portal" \|\| banner="Liferay Portal" \|\| header="guest_language_id=" \|\| banner="guest_language_id=" \|\| body="Liferay.AUI" \|\| body="Liferay.currentURL"](https://fofa.info/result?qbase64=Ym9keT0iUG93ZXJlZCBieSBMaWZlcmF5IFBvcnRhbCIgfHwgaGVhZGVyPSJMaWZlcmF5IFBvcnRhbCIgfHwgYmFubmVyPSJMaWZlcmF5IFBvcnRhbCIgfHwgaGVhZGVyPSJndWVzdF9sYW5ndWFnZV9pZD0iIHx8IGJhbm5lcj0iZ3Vlc3RfbGFuZ3VhZ2VfaWQ9IiB8fCBib2R5PSJMaWZlcmF5LkFVSSIgfHwgYm9keT0iTGlmZXJheS5jdXJyZW50VVJMIg%3D%3D) |
+| **Number of assets affected**  | 59885 |
+| **Description**  | Liferay Portal is a set of J2EE-based portal solutions of American Liferay Company. The program uses EJB and JMS and other technologies, and can be used as Web publishing and sharing workspace, enterprise collaboration platform, social network and so on. A code issue vulnerability exists in versions prior to Liferay Portal 7.2.1 CE GA2. A remote attacker could exploit this vulnerability to execute arbitrary code using JSON Web services. |
+| **Impact** | A code issue vulnerability exists in versions prior to Liferay Portal 7.2.1 CE GA2. A remote attacker could exploit this vulnerability to execute arbitrary code using JSON Web services. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/a16de9eefef6f8a5.gif)
+
+
+## Apache ShenYu Admin plugin API Unauth Access Vulnerability (CVE-2022-23944)
+
+|   **Vulnerability**  | **Apache ShenYu Admin plugin API Unauth Access Vulnerability (CVE-2022-23944)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Apache ShenYu Admin plugin 接口未授权访问漏洞（CVE-2022-23944） |
+| **CVSS core**  | 9.1 |
+| **FOFA Query**  (click to view the results directly)| [body="id=\\\"httpPath\\\" style=\\\"display: none"](https://fofa.info/result?qbase64=Ym9keT0iaWQ9XFxcImh0dHBQYXRoXFxcIiBzdHlsZT1cXFwiZGlzcGxheTogbm9uZSI%3D) |
+| **Number of assets affected**  | 74 |
+| **Description**  | Apache ShenYu is an asynchronous, high-performance, cross-language, reactive API gateway of the Apache Foundation. Apache ShenYu 2.4.0 and 2.4.1 have an access control error vulnerability that stems from users accessing the /plugin api without authentication. |
+| **Impact** | Apache ShenYu 2.4.0 and 2.4.1 have an access control error vulnerability that stems from users accessing the /plugin api without authentication. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/7151dc2cc22bed37.gif)
+
+
+## Microsoft Exchange Server Remote Command Execution Vulnerability (CVE-2021-26857/CVE-2021-26858)
+
+|   **Vulnerability**  | **Microsoft Exchange Server Remote Command Execution Vulnerability (CVE-2021-26857/CVE-2021-26858)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Microsoft Exchange Server 远程命令执行漏洞（CVE-2021-26857/CVE-2021-26858） |
+| **CVSS core**  | 7.8 |
+| **FOFA Query**  (click to view the results directly)| [banner="Microsoft ESMTP MAIL Service" \|\| banner="Microsoft Exchange Server" \|\| banner="Microsoft Exchange Internet Mail Service" \|\| banner="Microsoft SMTP MAIL" \|\| banner="Microsoft Exchange" \|\| (banner="owa" && banner="Location" && cert!="Technicolor") \|\| banner="Set-Cookie: OutlookSession" \|\| (((header="owa" && (header="Location" \|\| header="X-Owa-Version" \|\| header="Set-Cookie: OWA-COOKIE")) \|\| (body="href=\\\"/owa/auth/" && (title="Outlook" \|\| title="Exchange " \|\| body="var a_sLgn" \|\| body="aria-label=\\\"Outlook Web App\\\" class=\\\"signInImageHeader"))) && header!="WordPress" && body!="wp-content" && body!="wp-includes") \|\| body="\<!-- owapage = ASP.auth_logon_aspx" \|\| header="x-owa-version" \|\| body="window.location.replace(\\\"/owa/\\\" + window.location.hash);\</script>\</head>\<body>\</body>" \|\| body="\<meta http-equiv=\\\"Refresh\\\" contect=\\\"0;url=/owa\\\">" \|\| body="themes/resources/segoeui-semibold.ttf" \|\| title=="Microsoft Outlook Web Access" \|\| body="aria-label=\\\"Outlook Web App" \|\| title="Outlook Web Access" \|\| header="OutlookSession" \|\| (body=".mouse .owaLogoContainer, .twide .owaLogoContainer" && body="owaLogoContainer") \|\| (body="\<div class=\\\"signInHeader\\\">Outlook\</div>" && body="/owa/") \|\| (body="owapage = ASP.auth_logon_aspx" && body="/owa/" && (body="showPasswordCheck" \|\| body="Outlook")) \|\| (title="Outlook Web App" && body="Microsoft Corporation") \|\| header="realm=\\\"Outlook Web App" \|\| ((body="使用 Outlook Web App " \|\| body=" use Outlook Web App") && body="Microsoft Corporation")](https://fofa.info/result?qbase64=YmFubmVyPSJNaWNyb3NvZnQgRVNNVFAgTUFJTCBTZXJ2aWNlIiB8fCBiYW5uZXI9Ik1pY3Jvc29mdCBFeGNoYW5nZSBTZXJ2ZXIiIHx8IGJhbm5lcj0iTWljcm9zb2Z0IEV4Y2hhbmdlIEludGVybmV0IE1haWwgU2VydmljZSIgfHwgYmFubmVyPSJNaWNyb3NvZnQgU01UUCBNQUlMIiB8fCBiYW5uZXI9Ik1pY3Jvc29mdCBFeGNoYW5nZSIgfHwgKGJhbm5lcj0ib3dhIiAmJiBiYW5uZXI9IkxvY2F0aW9uIiAmJiBjZXJ0IT0iVGVjaG5pY29sb3IiKSB8fCBiYW5uZXI9IlNldC1Db29raWU6IE91dGxvb2tTZXNzaW9uIiB8fCAoKChoZWFkZXI9Im93YSIgJiYgKGhlYWRlcj0iTG9jYXRpb24iIHx8IGhlYWRlcj0iWC1Pd2EtVmVyc2lvbiIgfHwgaGVhZGVyPSJTZXQtQ29va2llOiBPV0EtQ09PS0lFIikpIHx8IChib2R5PSJocmVmPVxcXCIvb3dhL2F1dGgvIiAmJiAodGl0bGU9Ik91dGxvb2siIHx8IHRpdGxlPSJFeGNoYW5nZSAiIHx8IGJvZHk9InZhciBhX3NMZ24iIHx8IGJvZHk9ImFyaWEtbGFiZWw9XFxcIk91dGxvb2sgV2ViIEFwcFxcXCIgY2xhc3M9XFxcInNpZ25JbkltYWdlSGVhZGVyIikpKSAmJiBoZWFkZXIhPSJXb3JkUHJlc3MiICYmIGJvZHkhPSJ3cC1jb250ZW50IiAmJiBib2R5IT0id3AtaW5jbHVkZXMiKSB8fCBib2R5PSI8IS0tIG93YXBhZ2UgPSBBU1AuYXV0aF9sb2dvbl9hc3B4IiB8fCBoZWFkZXI9Ingtb3dhLXZlcnNpb24iIHx8IGJvZHk9IndpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKFxcXCIvb3dhL1xcXCIgKyB3aW5kb3cubG9jYXRpb24uaGFzaCk7PC9zY3JpcHQ%2BPC9oZWFkPjxib2R5PjwvYm9keT4iIHx8IGJvZHk9IjxtZXRhIGh0dHAtZXF1aXY9XFxcIlJlZnJlc2hcXFwiIGNvbnRlY3Q9XFxcIjA7dXJsPS9vd2FcXFwiPiIgfHwgYm9keT0idGhlbWVzL3Jlc291cmNlcy9zZWdvZXVpLXNlbWlib2xkLnR0ZiIgfHwgdGl0bGU9PSJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQWNjZXNzIiB8fCBib2R5PSJhcmlhLWxhYmVsPVxcXCJPdXRsb29rIFdlYiBBcHAiIHx8IHRpdGxlPSJPdXRsb29rIFdlYiBBY2Nlc3MiIHx8IGhlYWRlcj0iT3V0bG9va1Nlc3Npb24iIHx8IChib2R5PSIubW91c2UgLm93YUxvZ29Db250YWluZXIsIC50d2lkZSAub3dhTG9nb0NvbnRhaW5lciIgJiYgYm9keT0ib3dhTG9nb0NvbnRhaW5lciIpIHx8IChib2R5PSI8ZGl2IGNsYXNzPVxcXCJzaWduSW5IZWFkZXJcXFwiPk91dGxvb2s8L2Rpdj4iICYmIGJvZHk9Ii9vd2EvIikgfHwgKGJvZHk9Im93YXBhZ2UgPSBBU1AuYXV0aF9sb2dvbl9hc3B4IiAmJiBib2R5PSIvb3dhLyIgJiYgKGJvZHk9InNob3dQYXNzd29yZENoZWNrIiB8fCBib2R5PSJPdXRsb29rIikpIHx8ICh0aXRsZT0iT3V0bG9vayBXZWIgQXBwIiAmJiBib2R5PSJNaWNyb3NvZnQgQ29ycG9yYXRpb24iKSB8fCBoZWFkZXI9InJlYWxtPVxcXCJPdXRsb29rIFdlYiBBcHAiIHx8ICgoYm9keT0i5L2%2F55SoIE91dGxvb2sgV2ViIEFwcCAiIHx8IGJvZHk9IiB1c2UgT3V0bG9vayBXZWIgQXBwIikgJiYgYm9keT0iTWljcm9zb2Z0IENvcnBvcmF0aW9uIik%3D) |
+| **Number of assets affected**  | 2198588 |
+| **Description**  | Microsoft Exchange Server is a suite of e-mail services programs from Microsoft Corporation of the United States. It provides mail access, storage, forwarding, voicemail, email filtering and filtering functions. Microsoft Exchange Server has a remote command execution vulnerability. Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+| **Impact** | Microsoft Exchange Server has a remote code execution vulnerability. Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/f5e117459cecb928.gif)
+
+
+## H2 Database Console login.do Code Execution Vulnerability (CVE-2021-42392)
+
+|   **Vulnerability**  | **H2 Database Console login.do Code Execution Vulnerability (CVE-2021-42392)**  |
+| :----:   | :-----|
+|  **Chinese name**  | H2 Database 数据库 login.do 文件远程代码执行漏洞 (CVE-2021-42392) |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="login.jsp?jsessionid=" && body="Welcome to H2"](https://fofa.info/result?qbase64=Ym9keT0ibG9naW4uanNwP2pzZXNzaW9uaWQ9IiAmJiBib2R5PSJXZWxjb21lIHRvIEgyIg%3D%3D) |
+| **Number of assets affected**  | 488 |
+| **Description**  | H2 database is a Java memory database, which is mainly used for unit testing. There is an unauthorized remote code execution vulnerability in the H2 Database Web management page. An attacker can use this vulnerability to arbitrarily execute code on the server side, write to the back door, and obtain server permissions, thereby controlling the entire web server. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/07/0a5df04ffd240ed7.gif)
 
 ## playSMS 1.4.3 RCE (CVE-2020-8644)
 
