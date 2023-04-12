@@ -1,7 +1,46 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: April 11, 2023** 
+**Updated document date: April 12, 2023** 
+
+## WordPress plugin Metform forms Information Disclosure (CVE-2022-1442)
+
+|   **Vulnerability**  | **WordPress plugin Metform forms Information Disclosure (CVE-2022-1442)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Metform 插件 forms 文件信息泄露漏洞（CVE-2022-1442） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body=\"wp-content/plugins/metform/\"]([https://xxx](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL21ldGZvcm0vIg%3D%3D)) |
+| **Number of assets affected**  | 13517 |
+| **Description**  | WordPress plugin Metform is a secure contact form plugin for WordPress. There is a security vulnerability in the WordPress plugin Metform. The vulnerability is caused by improper access control in the ~/core/forms/action.php file, and attackers can obtain various key information of users. |
+| **Impact** | There is a security vulnerability in the WordPress plugin Metform. The vulnerability is caused by improper access control in the ~/core/forms/action.php file, and attackers can obtain various key information of users. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/12/d33ddd786b414472.gif)
+
+
+## CaiMore Gateway formping file Command Execution Vulnerability
+
+|   **Vulnerability**  | **CaiMore Gateway formping file Command Execution Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 厦门才茂通信科技有限公司网关 formping 文件命令执行漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [banner=\"Basic realm=\\\"CaiMore\" \|\| header=\"Basic realm=\\\"CaiMore\"](https://en.fofa.info/result?qbase64=YmFubmVyPSJCYXNpYyByZWFsbT1cXFwiQ2FpTW9yZSIgfHwgaGVhZGVyPSJCYXNpYyByZWFsbT1cXFwiQ2FpTW9yZSI%3D) |
+| **Number of assets affected**  | 1265 |
+| **Description**  | The gateway of Xiamen Caimao Communication Technology Co., Ltd. is designed with open software architecture. It is a metal shell design, with two Ethernet RJ45 interfaces, and an industrial design wireless gateway using 3G/4G/5G wide area network for Internet communication. There is a command execution vulnerability in the formping file of the gateway of Xiamen Caimao Communication Technology Co., Ltd. An attacker can use this vulnerability to arbitrarily execute code on the server side, write to the back door, obtain server permissions, and then control the entire web server. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/12/7d6fdb188ac503b5.gif)
+
+## Hikvision iSecure Center springboot Information disclosure vulnerability
+
+|   **Vulnerability**  | **Hikvision iSecure Center springboot Information disclosure vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 海康综合安防管理平台系统 springboot 信息泄露漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=\"综合安防管理平台\" && body=\"nginxService/v1/download/InstallRootCert.exe\"](https://en.fofa.info/result?qbase64=dGl0bGU9Iue7vOWQiOWuiemYsueuoeeQhuW5s%2BWPsCIgJiYgYm9keT0ibmdpbnhTZXJ2aWNlL3YxL2Rvd25sb2FkL0luc3RhbGxSb290Q2VydC5leGUi) |
+| **Number of assets affected**  | 3095 |
+| **Description**  | Hikvision iSecure Center is an integrated management platform, which can centrally manage the access video monitoring points to achieve unified deployment, configuration, management and scheduling. the framework it uses has a spring boot information disclosure vulnerability. An attacker can access the exposed route to obtain information such as environment variables, intranet addresses, and user names in the configuration. |
+| **Impact** | Hikvision iSecure Center is a spring boot information disclosure vulnerability. An attacker can access and download the heapdump heap to obtain sensitive information such as the intranet account password. |
+
 
 ## Ruiyou Tianyi Application Virtualization System Index.php File Remote Code Execution Vulnerability
 
