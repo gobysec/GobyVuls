@@ -1,7 +1,46 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: April 12, 2023** 
+**Updated document date: April 13, 2023** 
+
+## MCMS Shiro Deserialization Vulnerability (CVE-2022-22928)
+
+|   **Vulnerability**  | **MCMS Shiro Deserialization Vulnerability (CVE-2022-22928)**  |
+| :----:   | :-----|
+|  **Chinese name**  | 铭飞 MCMS shiro 反序列化漏洞（CVE-2022-22928） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body=\"铭飞Mcms\" \|\| title=\"铭飞Mcms\"](https://en.fofa.info/result?qbase64=Ym9keT0i6ZOt6aOeTWNtcyIgfHwgdGl0bGU9IumTremjnk1jbXMi) |
+| **Number of assets affected**  | 295 |
+| **Description**  | Mingfei Mcms is a complete open source J2EE system of Mingfei Technology Co., Ltd. Mingfei Mcms V5 2.2 and earlier versions contain a security vulnerability, which stems from the existence of hard coded Shiro key in the software, which allows attackers to exploit the key and execute arbitrary code. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/12/6e4ebece1945ba6f.gif)
+
+## GoAnywhere MFT Deserialization Vulnerability (CVE-2023-0669)
+
+|   **Vulnerability**  | **GoAnywhere MFT Deserialization Vulnerability (CVE-2023-0669)**  |
+| :----:   | :-----|
+|  **Chinese name**  | GoAnywhere MFT 反序列化漏洞（CVE-2023-0669） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [banner=\".goanywhere.com\" \|\| title=\"GoAnywhere\"](https://en.fofa.info/result?qbase64=YmFubmVyPSIuZ29hbnl3aGVyZS5jb20iIHx8IHRpdGxlPSJHb0FueXdoZXJlIg%3D%3D) |
+| **Number of assets affected**  | 4399 |
+| **Description**  | GoAnywhere MFT is a solution for managing file transfer, which simplifies data exchange between systems, employees, customers and trading partners. It provides centralized control through extensive security settings, detailed audit trails, and helps to process information in files into XML, EDI, CSV, and JSON databases. There is a Java deserialization vulnerability in GoAnywhere MFT. An attacker can use this vulnerability to execute arbitrary code, execute commands on the server, enter memory horses, etc., and obtain server privileges. |
+| **Impact** | There is a Java deserialization vulnerability in GoAnywhere MFT. An attacker can use this vulnerability to execute arbitrary code, execute commands on the server, enter memory horses, etc., and obtain server privileges. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/12/a8aaa327c8938de6.gif)
+
+## ZOHO ManageEngine Password Manager Pro RCE (CVE-2022-35405)
+
+|   **Vulnerability**  | **ZOHO ManageEngine Password Manager Pro RCE (CVE-2022-35405)**  |
+| :----:   | :-----|
+|  **Chinese name**  | ZOHO ManageEngine Password Manager Pro 远程代码执行漏洞（CVE-2022-35405） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [banner=\"Server: PMP\" \|\| header=\"Server: PMP\" \|\| banner=\"Set-Cookie: pmpcc=\" \|\| header=\"Set-Cookie: pmpcc=\" \|\| title=\"ManageEngine Password Manager Pro\"](https://en.fofa.info/result?qbase64=YmFubmVyPSJTZXJ2ZXI6IFBNUCIgfHwgaGVhZGVyPSJTZXJ2ZXI6IFBNUCIgfHwgYmFubmVyPSJTZXQtQ29va2llOiBwbXBjYz0iIHx8IGhlYWRlcj0iU2V0LUNvb2tpZTogcG1wY2M9IiB8fCB0aXRsZT0iTWFuYWdlRW5naW5lIFBhc3N3b3JkIE1hbmFnZXIgUHJvIg%3D%3D) |
+| **Number of assets affected**  | 672 |
+| **Description**  | ZOHO ManageEngine Password Manager Pro is a password manager from the American company ZOHO. ZOHO ManageEngine Password Manager Pro versions prior to 12101 and PAM360 prior to 5510 have security vulnerabilities, attackers can execute arbitrary commands to gain server privileges. |
+| **Impact** | ZOHO ManageEngine Password Manager Pro versions prior to 12101 and PAM360 prior to 5510 have security vulnerabilities, attackers can execute arbitrary commands to gain server privileges. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/12/8c05d22e66e4bd93.gif)
 
 ## WordPress plugin Metform forms Information Disclosure (CVE-2022-1442)
 
@@ -41,6 +80,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Hikvision iSecure Center is an integrated management platform, which can centrally manage the access video monitoring points to achieve unified deployment, configuration, management and scheduling. the framework it uses has a spring boot information disclosure vulnerability. An attacker can access the exposed route to obtain information such as environment variables, intranet addresses, and user names in the configuration. |
 | **Impact** | Hikvision iSecure Center is a spring boot information disclosure vulnerability. An attacker can access and download the heapdump heap to obtain sensitive information such as the intranet account password. |
 
+![](https://s3.bmp.ovh/imgs/2023/04/13/47c0acd2094e7191.gif)
+
 
 ## Ruiyou Tianyi Application Virtualization System Index.php File Remote Code Execution Vulnerability
 
@@ -79,17 +120,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | The OpenCart Newsletter Custom Popup module is a module for newsletter subscriptions. There is a SQL injection vulnerability in the email parameter of the extension/module/so_newletter_custom_popup/newsletter interface of the Opencart Newsletter Custom Popup 4.0 module due to improper filtering. |
 | **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
 
-
-## Wordpress Plugins WPCargo barcode.php text RCE (CVE-2021-25003)
-
-|   **Vulnerability**  | **Wordpress Plugins WPCargo barcode.php text RCE (CVE-2021-25003)**  |
-| :----:   | :-----|
-|  **Chinese name**  | Wordpress WPCargo 插件 barcode.php 文件 text 参数代码执行漏洞 (CVE-2021-25003） |
-| **CVSS core**  | 10.0 |
-| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/wpcargo"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3dwY2FyZ28i) |
-| **Number of assets affected**  | 7908 |
-| **Description**  | wpcargo is a WordPress plugin for logistics, freight and courier operations. Versions of WPCargo Track & Trace prior to WordPress 6.9.0 have a code injection vulnerability that stems from the plugin containing a file that allows an unauthenticated attacker to write a PHP file anywhere on the web server, causing a remote Execute code or commands. |
-| **Impact** | Versions of WPCargo Track & Trace prior to WordPress 6.9.0 have a code injection vulnerability that stems from the plugin containing a file that allows an unauthenticated attacker to write a PHP file anywhere on the web server, causing a remote Execute code or commands. |
+![](https://s3.bmp.ovh/imgs/2023/04/12/0092879ad5b9054b.gif)
 
 ## WordPress plugin AWP Classifieds SQL injection vulnerability (CVE-2022-3254)
 
@@ -102,6 +133,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | WordPress plugin AWP Classifieds is a leading plug-in that quickly and easily adds classified ads sections to your WordPress website in minutes. WordPress plugin AWP Classifieds has an SQL injection vulnerability prior to 4.3, which is caused by the plugin's inability to escape the type parameter correctly. Attackers can exploit the vulnerability to obtain sensitive information such as user names and passwords. |
 | **Impact** | WordPress plugin AWP Classifieds has an SQL injection vulnerability prior to 4.3, which is caused by the plugin's inability to escape the type parameter correctly. Attackers can exploit the vulnerability to obtain sensitive information such as user names and passwords. |
 
+![](https://s3.bmp.ovh/imgs/2023/04/13/812af92728d9dd9a.gif)
 
 ## GetSimpleCMS theme-edit.php content Arbitrary code execution vulnerability (CVE-2022-41544)
 
@@ -113,6 +145,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 2784 |
 | **Description**  | GetSimple CMS is a content management system (CMS) written in the PHP language. GetSimple CMS v3.3.16 has a security vulnerability that stems from the discovery of the remote Code execution (RCE) vulnerability through the edited_file parameter in admin/theme-edit.php. |
 | **Impact** | GetSimple CMS v3.3.16 has a security vulnerability that stems from the discovery of the remote Code execution (RCE) vulnerability through the edited_file parameter in admin/theme-edit.php. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/13/fc08fe3813440052.gif)
 
 
 ## NUUO NVR __debugging_center_utils___.php Command Execution
