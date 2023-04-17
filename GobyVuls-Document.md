@@ -1,7 +1,66 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: April 13, 2023** 
+**Updated document date: April 17, 2023** 
+
+## Apache CouchDB Unauthenticated Remote Code Execution Vulnerability (CVE-2022-24706)
+
+|   **Vulnerability**  | **Apache CouchDB Unauthenticated Remote Code Execution Vulnerability (CVE-2022-24706)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Apache CouchDB 未认证远程代码执行漏洞 (CVE-2022-24706) |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [banner=\"name couchdb at\"](https://en.fofa.info/result?qbase64=YmFubmVyPSJuYW1lIGNvdWNoZGIgYXQi) |
+| **Number of assets affected**  | 2817 |
+| **Description**  | Apache CouchDB is a document-oriented database system developed by the Apache Foundation using Erlang. An access control error vulnerability existed prior to Apache CouchDB 3.2.2 that stemmed from the ability of an attacker to access an incorrect default installation and gain administrator privileges without authenticating. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/17/66ab3b4f04224398.gif)
+
+## ThinkPHP Debug Mode Log Information Disclosure Vulnerability
+
+|   **Vulnerability**  | **ThinkPHP Debug Mode Log Information Disclosure Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | ThinkPHP Debug 模式日志信息泄露漏洞 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [(((header=\"thinkphp\" \|\| header=\"think_template\") && header!=\"couchdb\" && header!=\"St: upnp:rootdevice\") \|\| body=\"href=\\\"http://www.thinkphp.cn\\\">ThinkPHP\</a \>\<sup\>\" \|\| ((banner=\"thinkphp\" \|\| banner=\"think_template\") && banner!=\"couchdb\" && banner!=\"St: upnp:rootdevice\") \|\| (body=\"ThinkPHP\" && body=\"internal function\"))](https://en.fofa.info/result?qbase64=KCgoaGVhZGVyPSJ0aGlua3BocCIgfHwgaGVhZGVyPSJ0aGlua190ZW1wbGF0ZSIpICYmIGhlYWRlciE9ImNvdWNoZGIiICYmIGhlYWRlciE9IlN0OiB1cG5wOnJvb3RkZXZpY2UiKSB8fCBib2R5PSJocmVmPVwiaHR0cDovL3d3dy50aGlua3BocC5jblwiPlRoaW5rUEhQPC9hID48c3VwPiIgfHwgKChiYW5uZXI9InRoaW5rcGhwIiB8fCBiYW5uZXI9InRoaW5rX3RlbXBsYXRlIikgJiYgYmFubmVyIT0iY291Y2hkYiIgJiYgYmFubmVyIT0iU3Q6IHVwbnA6cm9vdGRldmljZSIpIHx8IChib2R5PSJUaGlua1BIUCIgJiYgYm9keT0iaW50ZXJuYWwgZnVuY3Rpb24iKSk%3D) |
+| **Number of assets affected**  | 680923 |
+| **Description**  | env configuration leakage: Attacker can fetch env configuration file in laravel framework 5.5.21 and earlier. CVE-2018-15133: In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack. When exploit CVE-2018-15133, you need to input a url path that support POST method. |
+| **Impact** | Laravel env configuration leakage |
+
+
+## Laravel env configuration leakage
+
+|   **Vulnerability**  | **Laravel env configuration leakage**  |
+| :----:   | :-----|
+|  **Chinese name**  | Laravel 环境配置 信息泄露漏洞（CVE-2018-15133） |
+| **CVSS core**  | 8.1 |
+| **FOFA Query**  (click to view the results directly)| [(header=\"laravel_session\")](https://en.fofa.info/result?qbase64=KGhlYWRlcj0ibGFyYXZlbF9zZXNzaW9uIik%3D) |
+| **Number of assets affected**  | 1150688 |
+| **Description**  | env configuration leakage: Attacker can fetch env configuration file in laravel framework 5.5.21 and earlier. CVE-2018-15133: In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack. When exploit CVE-2018-15133, you need to input a url path that support POST method. |
+| **Impact** | Laravel env configuration leakage |
+
+## Nostromo nhttpd RCE (CVE-2019-16278)
+
+|   **Vulnerability**  | **Nostromo nhttpd RCE (CVE-2019-16278)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Nostromo nhttpd远程代码执行漏洞（CVE-2019-16278） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [(header=\"Server: nostromo\" \|\| banner=\"Server: nostromo \")](https://en.fofa.info/result?qbase64=KGhlYWRlcj0iU2VydmVyOiBub3N0cm9tbyIgfHwgYmFubmVyPSJTZXJ2ZXI6IG5vc3Ryb21vICIp) |
+| **Number of assets affected**  | 3737 |
+| **Description**  | Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6 allows an attacker to achieve remote code execution via a crafted HTTP request. |
+| **Impact** | Nostromo nhttpd RCE (CVE-2019-16278) |
+
+## Kibana Unauthorized RCE (CVE-2019-7609)
+
+|   **Vulnerability**  | **Kibana Unauthorized RCE (CVE-2019-7609)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Kibana 远程代码执行漏洞（CVE-2019-7609） |
+| **CVSS core**  | 6.0 |
+| **FOFA Query**  (click to view the results directly)| [(title=\"Kibana\" \|\| body=\"kbnVersion\" \|\| (header=\"Kbn-Name: kibana\" && header=\"Kbn-Version\") \|\| (body=\"kibana_dashboard_only_user\" && header=\"Kbn-Name\") \|\| (banner=\"Kbn-Name: kibana\" && banner=\"Kbn-Version\")) \|\| (title=\"Kibana\" \|\| body=\"kbnVersion\" \|\| (header=\"Kbn-Name: kibana\" && header=\"Kbn-Version\") \|\| (body=\"kibana_dashboard_only_user\" && header=\"Kbn-Name\") \|\| (banner=\"Kbn-Name: kibana\" && banner=\"Kbn-Version\"))](https://en.fofa.info/result?qbase64=KHRpdGxlPSJLaWJhbmEiIHx8IGJvZHk9ImtiblZlcnNpb24iIHx8IChoZWFkZXI9Iktibi1OYW1lOiBraWJhbmEiICYmIGhlYWRlcj0iS2JuLVZlcnNpb24iKSB8fCAoYm9keT0ia2liYW5hX2Rhc2hib2FyZF9vbmx5X3VzZXIiICYmIGhlYWRlcj0iS2JuLU5hbWUiKSB8fCAoYmFubmVyPSJLYm4tTmFtZToga2liYW5hIiAmJiBiYW5uZXI9Iktibi1WZXJzaW9uIikpIHx8ICh0aXRsZT0iS2liYW5hIiB8fCBib2R5PSJrYm5WZXJzaW9uIiB8fCAoaGVhZGVyPSJLYm4tTmFtZToga2liYW5hIiAmJiBoZWFkZXI9Iktibi1WZXJzaW9uIikgfHwgKGJvZHk9ImtpYmFuYV9kYXNoYm9hcmRfb25seV91c2VyIiAmJiBoZWFkZXI9Iktibi1OYW1lIikgfHwgKGJhbm5lcj0iS2JuLU5hbWU6IGtpYmFuYSIgJiYgYmFubmVyPSJLYm4tVmVyc2lvbiIpKQ%3D%3D) |
+| **Number of assets affected**  | 75087 |
+| **Description**  | By exploiting the vulnerability, the attacker can initiate relevant requests to kibana through the JavaScript prototype chain pollution attack in the timelion component, so as to take over the server and execute arbitrary commands on the server |
+| **Impact** | Kibana Unauthorized RCE (CVE-2019-7609) |
+
 
 ## MCMS Shiro Deserialization Vulnerability (CVE-2022-22928)
 
