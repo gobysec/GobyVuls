@@ -3,6 +3,19 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 **Updated document date: April 19, 2023** 
 
+## Weblogic ForeignOpaqueReference Remote Code Execution Vulnerability (CVE-2023-21979)
+
+|   **Vulnerability**  | **Weblogic ForeignOpaqueReference Remote Code Execution Vulnerability (CVE-2023-21979)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Weblogic ForeignOpaqueReference 反序列化远程代码执行漏洞（CVE-2023-21979） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [(body="Welcome to WebLogic Server") \|\| (title=="Error 404--Not Found") \|\| (((body="\<h1>BEA WebLogic Server" \|\| server="Weblogic" \|\| body="content=\"WebLogic Server" \|\| body="\<h1>Welcome to Weblogic Application" \|\| body="\<h1>BEA WebLogic Server") && header!="couchdb" && header!="boa" && header!="RouterOS" && header!="X-Generator: Drupal") \|\| (banner="Weblogic" && banner!="couchdb" && banner!="drupal" && banner!=" Apache,Tomcat,Jboss" && banner!="ReeCam IP Camera" && banner!="\<h2>Blog Comments</h2>")) \|\| (port="7001" && protocol=="weblogic")](https://en.fofa.info/result?qbase64=KGJvZHk9IldlbGNvbWUgdG8gV2ViTG9naWMgU2VydmVyIikgfHwgKHRpdGxlPT0iRXJyb3IgNDA0LS1Ob3QgRm91bmQiKSB8fCAoKChib2R5PSI8aDE%2BQkVBIFdlYkxvZ2ljIFNlcnZlciIgfHwgc2VydmVyPSJXZWJsb2dpYyIgfHwgYm9keT0iY29udGVudD1cIldlYkxvZ2ljIFNlcnZlciIgfHwgYm9keT0iPGgxPldlbGNvbWUgdG8gV2VibG9naWMgQXBwbGljYXRpb24iIHx8IGJvZHk9IjxoMT5CRUEgV2ViTG9naWMgU2VydmVyIikgJiYgaGVhZGVyIT0iY291Y2hkYiIgJiYgaGVhZGVyIT0iYm9hIiAmJiBoZWFkZXIhPSJSb3V0ZXJPUyIgJiYgaGVhZGVyIT0iWC1HZW5lcmF0b3I6IERydXBhbCIpIHx8IChiYW5uZXI9IldlYmxvZ2ljIiAmJiBiYW5uZXIhPSJjb3VjaGRiIiAmJiBiYW5uZXIhPSJkcnVwYWwiICYmIGJhbm5lciE9IiBBcGFjaGUsVG9tY2F0LEpib3NzIiAmJiBiYW5uZXIhPSJSZWVDYW0gSVAgQ2FtZXJhIiAmJiBiYW5uZXIhPSI8aDI%2BQmxvZyBDb21tZW50czwvaDI%2BIikpIHx8IChwb3J0PSI3MDAxIiAmJiBwcm90b2NvbD09IndlYmxvZ2ljIik%3D) |
+| **Number of assets affected**  | 126908 |
+| **Description**  | WebLogic Server is one of the application server components applicable to cloud and traditional environments. WebLogic has a remote code execution vulnerability, which allows an unauthenticated attacker to access and destroy the vulnerable WebLogic Server through the IIOP protocol network. A successful exploitation of the vulnerability can cause the WebLogic Server to be taken over by the attacker, resulting in remote code execution. |
+| **Impact** | WebLogic has a remote code execution vulnerability, which allows an unauthenticated attacker to access and destroy the vulnerable WebLogic Server through the IIOP protocol network. A successful exploitation of the vulnerability can cause the WebLogic Server to be taken over by the attacker, resulting in remote code execution. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/21/4471db3f7b0147fa.gif)
+
 ## Weblogic LinkRef Deserialization Remote Code Execution Vulnerability (CVE-2023-21931)
 
 |   **Vulnerability**  | **Weblogic LinkRef Deserialization Remote Code Execution Vulnerability (CVE-2023-21931)**  |
@@ -40,6 +53,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | env configuration leakage: Attacker can fetch env configuration file in laravel framework 5.5.21 and earlier. CVE-2018-15133: In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack. When exploit CVE-2018-15133, you need to input a url path that support POST method. |
 | **Impact** | Laravel env configuration leakage |
 
+![](https://s3.bmp.ovh/imgs/2023/04/21/a15d8379c113c7b6.gif)
+
 
 ## Laravel env configuration leakage
 
@@ -62,6 +77,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 3737 |
 | **Description**  | Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6 allows an attacker to achieve remote code execution via a crafted HTTP request. |
 | **Impact** | Nostromo nhttpd RCE (CVE-2019-16278) |
+
+![](https://s3.bmp.ovh/imgs/2023/04/21/5cc3d5eeb458b766.gif)
 
 ## Kibana Unauthorized RCE (CVE-2019-7609)
 
