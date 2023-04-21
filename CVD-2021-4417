@@ -1,0 +1,12 @@
+## ThinkPHP Debug Mode Log Information Disclosure Vulnerability
+
+|   **Vulnerability**  | **ThinkPHP Debug Mode Log Information Disclosure Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | ThinkPHP Debug 模式日志信息泄露漏洞 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [(((header=\"thinkphp\" \|\| header=\"think_template\") && header!=\"couchdb\" && header!=\"St: upnp:rootdevice\") \|\| body=\"href=\\\"http://www.thinkphp.cn\\\">ThinkPHP\</a \>\<sup\>\" \|\| ((banner=\"thinkphp\" \|\| banner=\"think_template\") && banner!=\"couchdb\" && banner!=\"St: upnp:rootdevice\") \|\| (body=\"ThinkPHP\" && body=\"internal function\"))](https://en.fofa.info/result?qbase64=KCgoaGVhZGVyPSJ0aGlua3BocCIgfHwgaGVhZGVyPSJ0aGlua190ZW1wbGF0ZSIpICYmIGhlYWRlciE9ImNvdWNoZGIiICYmIGhlYWRlciE9IlN0OiB1cG5wOnJvb3RkZXZpY2UiKSB8fCBib2R5PSJocmVmPVwiaHR0cDovL3d3dy50aGlua3BocC5jblwiPlRoaW5rUEhQPC9hID48c3VwPiIgfHwgKChiYW5uZXI9InRoaW5rcGhwIiB8fCBiYW5uZXI9InRoaW5rX3RlbXBsYXRlIikgJiYgYmFubmVyIT0iY291Y2hkYiIgJiYgYmFubmVyIT0iU3Q6IHVwbnA6cm9vdGRldmljZSIpIHx8IChib2R5PSJUaGlua1BIUCIgJiYgYm9keT0iaW50ZXJuYWwgZnVuY3Rpb24iKSk%3D) |
+| **Number of assets affected**  | 680923 |
+| **Description**  | env configuration leakage: Attacker can fetch env configuration file in laravel framework 5.5.21 and earlier. CVE-2018-15133: In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack. When exploit CVE-2018-15133, you need to input a url path that support POST method. |
+| **Impact** | Laravel env configuration leakage |
+
+![](https://s3.bmp.ovh/imgs/2023/04/21/a15d8379c113c7b6.gif)
