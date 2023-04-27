@@ -1,7 +1,66 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: April 19, 2023** 
+**Updated document date: April 27, 2023** 
+
+## ZXHN H108NS Router tools_admin.asp Permission Bypass Vulnerability
+
+|   **Vulnerability**  | **ZXHN H108NS Router tools_admin.asp Permission Bypass Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 中兴 H108NS 路由器 tools_admin.asp 文件权限绕过漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [banner=\"Basic realm=\\\"H108NS\\\"\" \|\| header=\"Basic realm=\\\"H108NS\\\"\"](https://en.fofa.info/result?qbase64=YmFubmVyPSJCYXNpYyByZWFsbT1cIkgxMDhOU1wiIiB8fCBoZWFkZXI9IkJhc2ljIHJlYWxtPVwiSDEwOE5TXCIi) |
+| **Number of assets affected**  | 8245 |
+| **Description**  | ZTE H108NS router is a router product that integrates WiFi management, route allocation, dynamic access to Internet connections and other functions. The ZTE H108NS router has an identity authentication bypass vulnerability. An attacker can use this vulnerability to bypass identity authentication and allow access to the router's management panel to modify the administrator password to obtain sensitive user information. |
+| **Impact** | An attacker can use this vulnerability to bypass identity authentication and allow access to the management panel of the router to modify the administrator password and obtain sensitive information of the user. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/27/79bd32a6c7ab12b2.gif)
+
+## ezOFFICE OA OfficeServer.jsp Arbitrarily File Upload Vulnerability
+
+|   **Vulnerability**  | **ezOFFICE OA OfficeServer.jsp Arbitrarily File Upload Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 万户 OA OfficeServer.jsp 任意文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [(banner=\"OASESSIONID\" && banner=\"/defaultroot/\") \|\| (header=\"OASESSIONID\" && header=\"/defaultroot/\")\|\|body=\"/defaultroot/themes/common/common.css\"\|\|body=\"ezofficeDomainAccount\"\|\|title=\"Wanhu ezOFFICE\" \|\| title=\"万户ezOFFICE\"](https://en.fofa.info/result?qbase64=KGJhbm5lcj0iT0FTRVNTSU9OSUQiICYmIGJhbm5lcj0iL2RlZmF1bHRyb290LyIpIHx8IChoZWFkZXI9Ik9BU0VTU0lPTklEIiAmJiBoZWFkZXI9Ii9kZWZhdWx0cm9vdC8iKXx8Ym9keT0iL2RlZmF1bHRyb290L3RoZW1lcy9jb21tb24vY29tbW9uLmNzcyJ8fGJvZHk9ImV6b2ZmaWNlRG9tYWluQWNjb3VudCJ8fHRpdGxlPSJXYW5odSBlek9GRklDRSIgfHwgdGl0bGU9IuS4h%2BaIt2V6T0ZGSUNFIg%3D%3D) |
+| **Number of assets affected**  | 4715 |
+| **Description**  | ezOFFICE OA is a FlexOffice independent security cooperative office platform for government organizations, enterprises and institutions. ezOFFICE OA OfficeServer There is an arbitrary file upload vulnerability in jsp, through which an attacker can upload arbitrary files to control the entire server. |
+| **Impact** | File upload vulnerabilities are usually caused by the lax filtering of files uploaded by the file upload function in the code or the unrepaired parsing vulnerabilities related to the web server. Attackers can upload arbitrary files through the file upload point, including the website backdoor file (webshell), to control the entire website. |
+
+![](https://s3.bmp.ovh/imgs/2023/04/27/4287e0695068b5fe.gif)
+
+## seaflysoft ERP getylist_login.do SQL Injection
+
+|   **Vulnerability**  | **seaflysoft ERP getylist_login.do SQL Injection**  |
+| :----:   | :-----|
+|  **Chinese name**  | 海翔云平台 getylist_login.do SQL 注入漏洞 |
+| **CVSS core**  | 8.0 |
+| **FOFA Query**  (click to view the results directly)| [body=\"checkMacWaitingSecond\"](https://en.fofa.info/result?qbase64=Ym9keT0iY2hlY2tNYWNXYWl0aW5nU2Vjb25kIg%3D%3D) |
+| **Number of assets affected**  | 773 |
+| **Description**  | seaflysoft cloud platform one-stop overall solution provider, business covers wholesale, chain, retail industry ERP solutions, wms warehousing solutions, e-commerce, field work, mobile terminal (PDA, APP, small program) solutions. There is a SQL injection vulnerability in the system getylist_login.do, through which an attacker can obtain database permissions |
+| **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+## MCMS list Interface sqlWhere Sql Injection Vulnerability
+
+|   **Vulnerability**  | **MCMS list Interface sqlWhere Sql Injection Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 铭飞 CMS list 接口 sqlWhere 参数 sql 注入漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body=\"铭飞MCMS\" \|\| body=\"/mdiy/formData/save.do\" \|\| body=\"static/plugins/ms/1.0.0/ms.js\"](https://en.fofa.info/result?qbase64=Ym9keT0i6ZOt6aOeTUNNUyIgfHwgYm9keT0iL21kaXkvZm9ybURhdGEvc2F2ZS5kbyIgfHwgYm9keT0ic3RhdGljL3BsdWdpbnMvbXMvMS4wLjAvbXMuanMi) |
+| **Number of assets affected**  | 3091 |
+| **Description**  | MCMS is a set of lightweight open source content management system developed based on java. It is simple, safe, open source and free. It can run on Linux, Windows, MacOSX, Solaris and other platforms. The system has an sql injection vulnerability before the 5.2.10 version. You can use this vulnerability to obtain sensitive information |
+| **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+## WordPress booking-calendar admin-ajax.php File Upload (CVE-2022-3982)
+
+|   **Vulnerability**  | **WordPress booking-calendar admin-ajax.php File Upload (CVE-2022-3982)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress booking-calendar 插件 admin-ajax.php 任意文件上传漏洞（CVE-2022-3982） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body=\"wp-content/plugins/booking-calendar/\"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2Jvb2tpbmctY2FsZW5kYXIvIg%3D%3D) |
+| **Number of assets affected**  | 1074 |
+| **Description**  | WordPress booking-calendar is a plugin for creating booking system scheduling calendars for WordPress sites. WordPress Plugin Booking Calendar versions before 3.2.2 have a code problem vulnerability. The vulnerability stems from the fact that the plugin does not verify uploaded files and allows unauthenticated users to upload arbitrary files. Attackers can exploit this vulnerability to achieve RCE. |
+| **Impact** | WordPress Plugin Booking Calendar versions before 3.2.2 have a code problem vulnerability. The vulnerability stems from the fact that the plugin does not verify uploaded files and allows unauthenticated users to upload arbitrary files. Attackers can exploit this vulnerability to achieve RCE. |
 
 ## Weblogic ForeignOpaqueReference Remote Code Execution Vulnerability (CVE-2023-21979)
 
