@@ -1,7 +1,108 @@
-# Goby History Update Vulnerability Total Document (Continuously Update) 
+[# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: April 27, 2023** 
+**Updated document date: May 11, 2023** 
+
+## Telesquare TLR-2005Ksh setSyncTimeHost RCE
+
+|   **Vulnerability**  | **Telesquare TLR-2005Ksh setSyncTimeHost RCE**  |
+| :----:   | :-----|
+|  **Chinese name**  | Telesquare TLR-2005Ksh 路由器 setSyncTimeHost 命令执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title=\"TLR-2005KSH\" \|\| banner=\"TLR-2005KSH login:\"](https://en.fofa.info/result?qbase64=dGl0bGU9IlRMUi0yMDA1S1NIIiB8fCBiYW5uZXI9IlRMUi0yMDA1S1NIIGxvZ2luOiI%3D) |
+| **Number of assets affected**  | 25826 |
+| **Description**  | Telesquare Tlr-2005Ksh is a Sk Telecom LTE router produced by Telesquare Korea. There is a security vulnerability in Telesquare TLR-2005Ksh, attackers can execute arbitrary commands through setSyncTimeHost to obtain server privileges. |
+| **Impact** | There is a security vulnerability in Telesquare TLR-2005Ksh, attackers can execute arbitrary commands through setSyncTimeHost to obtain server privileges. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/11/99ee97cd77ca8767.gif)
+
+## Telesquare TLR-2005Ksh getUsernamePassword Information Disclosure
+
+|   **Vulnerability**  | **Telesquare TLR-2005Ksh getUsernamePassword Information Disclosure**  |
+| :----:   | :-----|
+|  **Chinese name**  | Telesquare TLR-2005Ksh 路由器 getUsernamePassword 信息泄露漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [title=\"TLR-2005KSH\" \|\| banner=\"TLR-2005KSH login:\"](https://en.fofa.info/result?qbase64=dGl0bGU9IlRMUi0yMDA1S1NIIiB8fCBiYW5uZXI9IlRMUi0yMDA1S1NIIGxvZ2luOiI%3D) |
+| **Number of assets affected**  | 25826 |
+| **Description**  | Telesquare Tlr-2005Ksh is a Sk Telecom LTE router produced by Telesquare Korea. There is a security hole in Telesquare TLR-2005Ksh. Attackers can obtain sensitive information such as username and password through getUsernamePassword. |
+| **Impact** | There is a security hole in Telesquare TLR-2005Ksh. Attackers can obtain sensitive information such as username and password through getUsernamePassword. |
+
+## Telesquare TLR-2005Ksh ExportSettings.sh file download (CVE-2021-46423)
+
+|   **Vulnerability**  | **Telesquare TLR-2005Ksh ExportSettings.sh file download (CVE-2021-46423)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Telesquare TLR-2005Ksh 路由器 ExportSettings.sh 文件下载漏洞（CVE-2021-46423） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=\"TLR-2005KSH\" \|\| banner=\"TLR-2005KSH login:\"](https://en.fofa.info/result?qbase64=dGl0bGU9IlRMUi0yMDA1S1NIIiB8fCBiYW5uZXI9IlRMUi0yMDA1S1NIIGxvZ2luOiI%3D) |
+| **Number of assets affected**  | 25826 |
+| **Description**  | Telesquare Tlr-2005K and so on are the Sk Telecom Lte routers of Korea Telesquare Company. There are security vulnerabilities in Telesquare TLR-2005Ksh, etc., which originate from unauthenticated file downloads. A remote attacker could exploit this vulnerability to download a complete configuration file. |
+| **Impact** | There are security vulnerabilities in Telesquare TLR-2005Ksh, etc., which originate from unauthenticated file downloads. A remote attacker could exploit this vulnerability to download a complete configuration file. |
+
+## Sinovision Cloud CDN live default passwd
+
+|   **Vulnerability**  | **Sinovision Cloud CDN live default passwd**  |
+| :----:   | :-----|
+|  **Chinese name**  | 华视私云-CDN直播加速服务器默认口令漏洞 |
+| **CVSS core**  | 6.5 |
+| **FOFA Query**  (click to view the results directly)| [body=\"src=\\\"img/dl.gif\\\"\" && title=\"系统登录\" && body=\"华视美达\"](https://en.fofa.info/result?qbase64=Ym9keT0ic3JjPVwiaW1nL2RsLmdpZlwiIiAmJiB0aXRsZT0i57O757uf55m75b2VIiAmJiBib2R5PSLljY7op4bnvo7ovr4i) |
+| **Number of assets affected**  | 737 |
+| **Description**  | CDN Live Broadcast Acceleration Server is a server for CDN live broadcast acceleration. The weak password vulnerability exists in the CDN Live broadcast acceleration server. The attacker can use the default password admin/admin to log in to the system background and obtain the background administrator permission. |
+| **Impact** | attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions. |
+
+## WordPress plugin Welcart e-Commerce content-log.php logfile File Read Vulnerability
+
+|   **Vulnerability**  | **WordPress plugin Welcart e-Commerce content-log.php logfile File Read Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Welcart e-Commerce 插件 content-log.php 文件 logfile 参数文件读取漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body=\"wp-content/plugins/usc-e-shop\"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3VzYy1lLXNob3Ai) |
+| **Number of assets affected**  | 5453 |
+| **Description**  | Welcart is a free e-commerce plugin for WordPress with top market share in Japan.An arbitrary file read vulnerability exists in Welcart e-Commerce < 2.8.5, and attackers can exploit this vulnerability to obtain sensitive files. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+## secnet Intelligent Router actpt_5g.data Infoleakage
+
+|   **Vulnerability**  | **secnet Intelligent Router actpt_5g.data Infoleakage**  |
+| :----:   | :-----|
+|  **Chinese name**  | secnet-智能路由系统 actpt_5g.data 信息泄露 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=\"安网-智能路由系统\" \|\| title==\"智能路由系统\" \|\| title=\"安网科技-智能路由系统\" \|\| banner=\"HTTPD_ac 1.0\" \|\| header=\"HTTPD_ac 1.0\"](https://en.fofa.info/result?qbase64=dGl0bGU9IuWuiee9kS3mmbrog73ot6%2FnlLHns7vnu58iIHx8IHRpdGxlPT0i5pm66IO96Lev55Sx57O757ufIiB8fCB0aXRsZT0i5a6J572R56eR5oqALeaZuuiDvei3r%2BeUseezu%2Be7nyIgfHwgYmFubmVyPSJIVFRQRF9hYyAxLjAiIHx8IGhlYWRlcj0iSFRUUERfYWMgMS4wIg%3D%3D) |
+| **Number of assets affected**  | 71768 |
+| **Description**  | secnet Intelligent AC management system is the wireless AP management system of Guangzhou Secure Network Communication Technology Co., LTD. (" Secure Network Communication "for short). The secnet intelligent AC management system has information vulnerabilities, which can be used by attackers to obtain sensitive information. |
+| **Impact** | An attacker can use this vulnerability to obtain the WEB login account and password of the AC intelligent routing system and obtain the WEB administrator permission. As a result, sensitive information is leaked. |
+
+## SQL injection exists on Lotus ERP DictionaryEdit.aspx pag
+
+|   **Vulnerability**  | **SQL injection exists on Lotus ERP DictionaryEdit.aspx pag**  |
+| :----:   | :-----|
+|  **Chinese name**  | 商混ERP系统 DictionaryEdit.aspx 页面存在SQL注入 |
+| **CVSS core**  | 8.5 |
+| **FOFA Query**  (click to view the results directly)| [title="商混ERP系统"](https://en.fofa.info/result?qbase64=dGl0bGU9IuWVhua3t0VSUOezu%2Be7nyI%3D) |
+| **Number of assets affected**  | 616 |
+| **Description**  | Hangzhou Lotus Software Co., Ltd. developed the commercial ERP system. This system mainly deals with the management of the mixing station of the construction company or various projects, including the sales module, production management module, laboratory module, personnel management, etc. The company's commercial concrete ERP system/Sys/DictionaryEdit dict at aspx_ SQL error injection vulnerability exists in the key parameter, which allows attackers to obtain database permissions. |
+| **Impact** | In addition to taking advantage of SQL injection vulnerabilities to obtain information in the database (for example, administrator background password, site user personal information), attackers can even write Trojan horses to the server under high permissions to further obtain server system permissions. |
+
+## V2Board admin.php Permission Bypass Vulnerability
+
+|   **Vulnerability**  | **V2Board admin.php Permission Bypass Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | V2Board admin.php 越权访问漏洞 |
+| **CVSS core**  | 8.0 |
+| **FOFA Query**  (click to view the results directly)| [body="/theme/v2board/assets/umi.js"](https://en.fofa.info/result?qbase64=Ym9keT0iL3RoZW1lL3YyYm9hcmQvYXNzZXRzL3VtaS5qcyI%3D) |
+| **Number of assets affected**  | 13299 |
+| **Description**  | V2Board is a stable, simple, fast and easy to use multi-agent protocol management system.bV2Board v1.6.1 has an unauthorized access vulnerability. The authentication method is changed to obtain the cache from Redis to determine whether there is an interface that can be called. As a result, any user can call the interface with administrator privileges to obtain background privileges.  |
+| **Impact** | Due to the lack of strict checks and restrictions on the user's access to the role, the current account can perform related operations on other accounts, such as viewing and modifying. |
+
+## ZyXEL routers Export_Log arbitrary file read
+
+|   **Vulnerability**  | **ZyXEL routers Export_Log arbitrary file read**  |
+| :----:   | :-----|
+|  **Chinese name**  | ZyXEL 路由器 Export_Log 任意文件读取 |
+| **CVSS core**  | 8.0 |
+| **FOFA Query**  (click to view the results directly)| [(title=".:: Welcome to the Web-Based Configuration::." && body="ZyXEL") \|\| (title="Welcome to the Web-Based Configurator" && (body="/zycss.css" \|\| body="zyxel")) \|\| title="do Router ZyXEL" \|\| title="Welcome to ZyROUTER" \|\| title="ZyXEL Router" \|\| body="\<friendlyName>ZyXEL Router\</friendlyName>" \|\| banner="ZyXEL-router"](https://en.fofa.info/result?qbase64=KHRpdGxlPSIuOjogV2VsY29tZSB0byB0aGUgV2ViLUJhc2VkIENvbmZpZ3VyYXRpb246Oi4iICYmIGJvZHk9Ilp5WEVMIikgfHwgKHRpdGxlPSJXZWxjb21lIHRvIHRoZSBXZWItQmFzZWQgQ29uZmlndXJhdG9yIiAmJiAoYm9keT0iL3p5Y3NzLmNzcyIgfHwgYm9keT0ienl4ZWwiKSkgfHwgdGl0bGU9ImRvIFJvdXRlciBaeVhFTCIgfHwgdGl0bGU9IldlbGNvbWUgdG8gWnlST1VURVIiIHx8IHRpdGxlPSJaeVhFTCBSb3V0ZXIiIHx8IGJvZHk9IjxmcmllbmRseU5hbWU%2BWnlYRUwgUm91dGVyPC9mcmllbmRseU5hbWU%2BIiB8fCBiYW5uZXI9Ilp5WEVMLXJvdXRlciIK) |
+| **Number of assets affected**  | 733803 |
+| **Description**  | ZyXEL routers are various router products of ZyXEL company. Several ZyXEL routers have an arbitrary file read vulnerability in /Export_Log. |
+| **Impact** | Several ZyXEL routers have an arbitrary file read vulnerability in /Export_Log. |
 
 ## ZXHN H108NS Router tools_admin.asp Permission Bypass Vulnerability
 
@@ -893,3 +994,4 @@ WordPress plugin BackupBuddy versions 8.5.8.0 to 8.7.4.1 have an information dis
 There is a file inclusion vulnerability in WP Live Chat Support <= 9.4.2.Attackers can exploit this vulnerability to obtain sensitive files.
 
 **Impact** : Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website.
+](https://fofa.info/result?qbase64=KHRpdGxlPSIuOjogV2VsY29tZSB0byB0aGUgV2ViLUJhc2VkIENvbmZpZ3VyYXRpb246Oi4iICYmIGJvZHk9Ilp5WEVMIikgfHwgKHRpdGxlPSJXZWxjb21lIHRvIHRoZSBXZWItQmFzZWQgQ29uZmlndXJhdG9yIiAmJiAoYm9keT0iL3p5Y3NzLmNzcyIgfHwgYm9keT0ienl4ZWwiKSkgfHwgdGl0bGU9ImRvIFJvdXRlciBaeVhFTCIgfHwgdGl0bGU9IldlbGNvbWUgdG8gWnlST1VURVIiIHx8IHRpdGxlPSJaeVhFTCBSb3V0ZXIiIHx8IGJvZHk9IjxmcmllbmRseU5hbWU%2BWnlYRUwgUm91dGVyPC9mcmllbmRseU5hbWU%2BIiB8fCBiYW5uZXI9Ilp5WEVMLXJvdXRlciIK)
