@@ -27,6 +27,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Telesquare Tlr-2005Ksh is a Sk Telecom LTE router produced by Telesquare Korea. There is a security hole in Telesquare TLR-2005Ksh. Attackers can obtain sensitive information such as username and password through getUsernamePassword. |
 | **Impact** | There is a security hole in Telesquare TLR-2005Ksh. Attackers can obtain sensitive information such as username and password through getUsernamePassword. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/12/de09634d3b12cc18.gif)
+
 ## Telesquare TLR-2005Ksh ExportSettings.sh file download (CVE-2021-46423)
 
 |   **Vulnerability**  | **Telesquare TLR-2005Ksh ExportSettings.sh file download (CVE-2021-46423)**  |
@@ -37,6 +39,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 25826 |
 | **Description**  | Telesquare Tlr-2005K and so on are the Sk Telecom Lte routers of Korea Telesquare Company. There are security vulnerabilities in Telesquare TLR-2005Ksh, etc., which originate from unauthenticated file downloads. A remote attacker could exploit this vulnerability to download a complete configuration file. |
 | **Impact** | There are security vulnerabilities in Telesquare TLR-2005Ksh, etc., which originate from unauthenticated file downloads. A remote attacker could exploit this vulnerability to download a complete configuration file. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/12/076acaa0dba4f960.gif)
 
 ## Sinovision Cloud CDN live default passwd
 
@@ -49,6 +53,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | CDN Live Broadcast Acceleration Server is a server for CDN live broadcast acceleration. The weak password vulnerability exists in the CDN Live broadcast acceleration server. The attacker can use the default password admin/admin to log in to the system background and obtain the background administrator permission. |
 | **Impact** | attackers can control the entire platform through default password vulnerabilities and use administrator privileges to operate core functions. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/12/2d290c42299026fa.gif)
+
 ## WordPress plugin Welcart e-Commerce content-log.php logfile File Read Vulnerability
 
 |   **Vulnerability**  | **WordPress plugin Welcart e-Commerce content-log.php logfile File Read Vulnerability**  |
@@ -59,6 +65,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 5453 |
 | **Description**  | Welcart is a free e-commerce plugin for WordPress with top market share in Japan.An arbitrary file read vulnerability exists in Welcart e-Commerce < 2.8.5, and attackers can exploit this vulnerability to obtain sensitive files. |
 | **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/12/2474ac119a44c003.gif)
 
 ## secnet Intelligent Router actpt_5g.data Infoleakage
 
@@ -71,6 +79,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | secnet Intelligent AC management system is the wireless AP management system of Guangzhou Secure Network Communication Technology Co., LTD. (" Secure Network Communication "for short). The secnet intelligent AC management system has information vulnerabilities, which can be used by attackers to obtain sensitive information. |
 | **Impact** | An attacker can use this vulnerability to obtain the WEB login account and password of the AC intelligent routing system and obtain the WEB administrator permission. As a result, sensitive information is leaked. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/12/f8eebf0ce38f975b.gif)
+
 ## SQL injection exists on Lotus ERP DictionaryEdit.aspx pag
 
 |   **Vulnerability**  | **SQL injection exists on Lotus ERP DictionaryEdit.aspx pag**  |
@@ -81,6 +91,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 616 |
 | **Description**  | Hangzhou Lotus Software Co., Ltd. developed the commercial ERP system. This system mainly deals with the management of the mixing station of the construction company or various projects, including the sales module, production management module, laboratory module, personnel management, etc. The company's commercial concrete ERP system/Sys/DictionaryEdit dict at aspx_ SQL error injection vulnerability exists in the key parameter, which allows attackers to obtain database permissions. |
 | **Impact** | In addition to taking advantage of SQL injection vulnerabilities to obtain information in the database (for example, administrator background password, site user personal information), attackers can even write Trojan horses to the server under high permissions to further obtain server system permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/12/7fe36b3b6ee2d967.gif)
 
 ## V2Board admin.php Permission Bypass Vulnerability
 
@@ -103,6 +115,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 733803 |
 | **Description**  | ZyXEL routers are various router products of ZyXEL company. Several ZyXEL routers have an arbitrary file read vulnerability in /Export_Log. |
 | **Impact** | Several ZyXEL routers have an arbitrary file read vulnerability in /Export_Log. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/12/3909e1c09af8eb25.gif)
 
 ## ZXHN H108NS Router tools_admin.asp Permission Bypass Vulnerability
 
@@ -141,6 +155,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | seaflysoft cloud platform one-stop overall solution provider, business covers wholesale, chain, retail industry ERP solutions, wms warehousing solutions, e-commerce, field work, mobile terminal (PDA, APP, small program) solutions. There is a SQL injection vulnerability in the system getylist_login.do, through which an attacker can obtain database permissions |
 | **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/12/416d432cd922426c.gif)
+
 ## MCMS list Interface sqlWhere Sql Injection Vulnerability
 
 |   **Vulnerability**  | **MCMS list Interface sqlWhere Sql Injection Vulnerability**  |
@@ -151,6 +167,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 3091 |
 | **Description**  | MCMS is a set of lightweight open source content management system developed based on java. It is simple, safe, open source and free. It can run on Linux, Windows, MacOSX, Solaris and other platforms. The system has an sql injection vulnerability before the 5.2.10 version. You can use this vulnerability to obtain sensitive information |
 | **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/04/9119224cdf0a37f4.gif)
 
 ## WordPress booking-calendar admin-ajax.php File Upload (CVE-2022-3982)
 
