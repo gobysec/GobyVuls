@@ -1,7 +1,76 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: May 11, 2023** 
+**Updated document date: May 12, 2023** 
+
+## Weblogic Commons Collections serialization code execution vulnerability (CVE-2015-4852)
+
+|   **Vulnerability**  | **Weblogic Commons Collections serialization code execution vulnerability (CVE-2015-4852)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Weblogic Commons Collections 序列化代码执行漏洞（CVE-2015-4852） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [(body=\"Welcome to WebLogic Server\") \|\| (title==\"Error 404--Not Found\") \|\| (((body=\"\<h1\>BEA WebLogic Server\" \|\| server=\"Weblogic\" \|\| body=\"content=\\\"WebLogic Server\" \|\| body=\"\<h1\>Welcome to Weblogic Application\" \|\| body=\"\<h1\>BEA WebLogic Server\") && header!=\"couchdb\" && header!=\"boa\" && header!=\"RouterOS\" && header!=\"X-Generator: Drupal\") \|\| (banner=\"Weblogic\" && banner!=\"couchdb\" && banner!=\"drupal\" && banner!=\" Apache,Tomcat,Jboss\" && banner!=\"ReeCam IP Camera\" && banner!=\"\<h2\>Blog Comments\</h2\>\")) \|\| (port=\"7001\" && protocol==\"weblogic\")](https://en.fofa.info/result?qbase64=KGJvZHk9IldlbGNvbWUgdG8gV2ViTG9naWMgU2VydmVyIikgfHwgKHRpdGxlPT0iRXJyb3IgNDA0LS1Ob3QgRm91bmQiKSB8fCAoKChib2R5PSI8aDE%2BQkVBIFdlYkxvZ2ljIFNlcnZlciIgfHwgc2VydmVyPSJXZWJsb2dpYyIgfHwgYm9keT0iY29udGVudD1cIldlYkxvZ2ljIFNlcnZlciIgfHwgYm9keT0iPGgxPldlbGNvbWUgdG8gV2VibG9naWMgQXBwbGljYXRpb24iIHx8IGJvZHk9IjxoMT5CRUEgV2ViTG9naWMgU2VydmVyIikgJiYgaGVhZGVyIT0iY291Y2hkYiIgJiYgaGVhZGVyIT0iYm9hIiAmJiBoZWFkZXIhPSJSb3V0ZXJPUyIgJiYgaGVhZGVyIT0iWC1HZW5lcmF0b3I6IERydXBhbCIpIHx8IChiYW5uZXI9IldlYmxvZ2ljIiAmJiBiYW5uZXIhPSJjb3VjaGRiIiAmJiBiYW5uZXIhPSJkcnVwYWwiICYmIGJhbm5lciE9IiBBcGFjaGUsVG9tY2F0LEpib3NzIiAmJiBiYW5uZXIhPSJSZWVDYW0gSVAgQ2FtZXJhIiAmJiBiYW5uZXIhPSI8aDI%2BQmxvZyBDb21tZW50czwvaDI%2BIikpIHx8IChwb3J0PSI3MDAxIiAmJiBwcm90b2NvbD09IndlYmxvZ2ljIik%3D) |
+| **Number of assets affected**  | 127703 |
+| **Description**  | WebLogic Server is an application server component suitable for both cloud and traditional environments. The WebLogic Commons Collections component has a remote code execution vulnerability that allows unauthenticated attackers to access vulnerable WebLogic Servers through the IIOP protocol and compromise them. Successful exploitation of the vulnerability can lead to the attacker taking over the WebLogic Server, resulting in remote code execution. |
+| **Impact** | The WebLogic Commons Collections component has a remote code execution vulnerability that allows unauthenticated attackers to access vulnerable WebLogic Servers through the IIOP protocol and compromise them. Successful exploitation of the vulnerability can lead to the attacker taking over the WebLogic Server, resulting in remote code execution. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/13/a5c75ddf8c43c69e.gif)
+
+## PowerJob /job/list api unauthorized access vulnerability
+
+|   **Vulnerability**  | **PowerJob /job/list api unauthorized access vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | PowerJob /job/list 接口未授权访问漏洞 |
+| **CVSS core**  | 7.3 |
+| **FOFA Query**  (click to view the results directly)| [(title=\"PowerJob\" && body=\"We're sorry but oms-console\") \|\| (banner=\"Content-Length: 1222\" \|\| banner=\"Content-Length: 1260\") && banner=\"Vary: Origin\" && banner=\"Vary: Access-Control-Request-Headers\" && banner!=\"X-Content-Type-Options: nosniff\"](https://en.fofa.info/result?qbase64=KHRpdGxlPSJQb3dlckpvYiIgJiYgYm9keT0iV2UncmUgc29ycnkgYnV0IG9tcy1jb25zb2xlIikgfHwgKGJhbm5lcj0iQ29udGVudC1MZW5ndGg6IDEyMjIiIHx8IGJhbm5lcj0iQ29udGVudC1MZW5ndGg6IDEyNjAiKSAmJiBiYW5uZXI9IlZhcnk6IE9yaWdpbiIgJiYgYmFubmVyPSJWYXJ5OiBBY2Nlc3MtQ29udHJvbC1SZXF1ZXN0LUhlYWRlcnMiICYmIGJhbm5lciE9IlgtQ29udGVudC1UeXBlLU9wdGlvbnM6IG5vc25pZmYi) |
+| **Number of assets affected**  | 656 |
+| **Description**  | PowerJob (formerly OhMyScheduler) is a new generation of distributed scheduling and computing framework that allows you to easily complete job scheduling and distributed computing of complex tasks. Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
+| **Impact** | Attackers can exploit an unauthorized access vulnerability in /job/list to obtain task information for the entire system, which could ultimately result in the system being in an extremely insecure state. |
+
+## nginxWebUI runCmd file remote command execution vulnerability
+
+|   **Vulnerability**  | **nginxWebUI runCmd file remote command execution vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | nginxWebUI runCmd 文件命令执行漏洞 |
+| **CVSS core**  | 9.2 |
+| **FOFA Query**  (click to view the results directly)| [title=\"nginxWebUI\" && body=\"refreshCode('codeImg')\"](https://en.fofa.info/result?qbase64=dGl0bGU9Im5naW54V2ViVUkiICYmIGJvZHk9InJlZnJlc2hDb2RlKCdjb2RlSW1nJyki) |
+| **Number of assets affected**  | 5856 |
+| **Description**  | NginxWebUI is a tool for graphical management of nginx configuration. You can use web pages to quickly configure various functions of nginx, including http protocol forwarding, tcp protocol forwarding, reverse proxy, load balancing, static html server, automatic application, renewal and configuration of ssl certificates. After configuration, you can create nginx. conf file, and control nginx to use this file to start and reload, completing the graphical control loop of nginx. Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+## Yun-Box authService fastjson serialization code execution vulnerability
+
+|   **Vulnerability**  | **Yun-Box authService fastjson serialization code execution vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 云匣子 authService fastjson 序列化代码执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [(body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\") && (cert=\"Domain Control Validated\" \|\| cert=\"云匣子\")](https://en.fofa.info/result?qbase64=KGJvZHk9ImlkPW1Ub2tlblBsdWdpbiB3aWR0aD0wIGhlaWdodD0wIHN0eWxlPVwicG9zaXRpb246IGFic29sdXRlO0xFRlQ6IDBweDsgVE9QOiAwcHhcIiIgJiYgYm9keT0idHlwZT1hcHBsaWNhdGlvbi94LXh0eC1heGhvc3QiKSAmJiAoY2VydD0iRG9tYWluIENvbnRyb2wgVmFsaWRhdGVkIiB8fCBjZXJ0PSLkupHljKPlrZAiKQ%3D%3D) |
+| **Number of assets affected**  | 620 |
+| **Description**  | Yun-Box is a secure management tool developed by Yunanbao for tenants to connect to cloud resources, which can help cloud tenants manage virtual machines, databases, and other resources on the cloud in a more secure and precise manner. With years of experience in operations and security, Yun-Box combines operations and security on the cloud to achieve pre-planned operations, in-process control, and post-audit. Additionally, Yun-Box integrates features such as automated operations, asset topology discovery, and account security to provide comprehensive and reliable cloud security management services. |
+| **Impact** | Yun-Box uses the vulnerable fastjson component, and hackers can launch attacks on Yun-Box by exploiting the fastjson serialization vulnerability to gain server privileges. |
+
+## Realor Tianyi AVS ConsoleExternalApi.XGI file SQL Injection vulnerability
+
+|   **Vulnerability**  | **Realor Tianyi AVS ConsoleExternalApi.XGI file SQL Injection vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 瑞友天翼应用虚拟化系统 ConsoleExternalApi.XGI 文件 iDisplayStart 参数 SQL 注入漏洞 |
+| **CVSS core**  | 9.2 |
+| **FOFA Query**  (click to view the results directly)| [title=\"瑞友天翼－应用虚拟化系统\" \|\| title=\"瑞友应用虚拟化系统\"](https://en.fofa.info/result?qbase64=dGl0bGU9IueRnuWPi%2BWkqee%2FvO%2B8jeW6lOeUqOiZmuaLn%2BWMluezu%2Be7nyIgfHwgdGl0bGU9IueRnuWPi%2BW6lOeUqOiZmuaLn%2BWMluezu%2Be7nyI%3D) |
+| **Number of assets affected**  | 55178 |
+| **Description**  | Realor Tianyi Application Virtualization System is an application virtualization platform based on server computing architecture. It centrally deploys various user application software to the Ruiyou Tianyi service cluster, and clients can access authorized application software on the server through the WEB, achieving centralized application, remote access, collaborative office, and more. In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+| **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+## Realor Tianyi AVS ConsoleExternalApi.XGI file account param sql injection vulnerability
+
+|   **Vulnerability**  | **Realor Tianyi AVS ConsoleExternalApi.XGI file account param sql injection vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 瑞友天翼应用虚拟化系统 ConsoleExternalApi.XGI account 参数 SQL 注入漏洞 |
+| **CVSS core**  | 9.2 |
+| **FOFA Query**  (click to view the results directly)| [title=\"瑞友天翼－应用虚拟化系统\" \|\| title=\"瑞友应用虚拟化系统\"](https://en.fofa.info/result?qbase64=dGl0bGU9IueRnuWPi%2BWkqee%2FvO%2B8jeW6lOeUqOiZmuaLn%2BWMluezu%2Be7nyIgfHwgdGl0bGU9IueRnuWPi%2BW6lOeUqOiZmuaLn%2BWMluezu%2Be7nyI%3D) |
+| **Number of assets affected**  | 55178 |
+| **Description**  | Realor Tianyi Application Virtualization System is an application virtualization platform based on server computing architecture. It centrally deploys various user application software to the Ruiyou Tianyi service cluster, and clients can access authorized application software on the server through the WEB, achieving centralized application, remote access, collaborative office, and more. Attackers can use this sql injection vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+| **Impact** | Attackers can use this sql injection vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
 
 ## Telesquare TLR-2005Ksh setSyncTimeHost RCE
 
