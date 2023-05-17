@@ -1,7 +1,20 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: May 12, 2023** 
+**Updated document date: May 17, 2023** 
+
+## Weaver e-cology ofsLogin.jsp User Login Bypass Vulnerability
+
+|   **Vulnerability**  | **Weaver e-cology ofsLogin.jsp User Login Bypass Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | Weaver e-cology ofsLogin.jsp 用户登陆绕过漏洞 |
+| **CVSS core**  | 9.3 |
+| **FOFA Query**  (click to view the results directly)| [body="/wui/common/" \|\| body="/wui/index.html"](https://en.fofa.info/result?qbase64=Ym9keT0iL3d1aS9jb21tb24vInx8Ym9keT0iL3d1aS9pbmRleC5odG1sIg%3D%3D) |
+| **Number of assets affected**  | 92980 |
+| **Description**  | The Weaver management application platform (e-cology) is a comprehensive enterprise management platform. It has diversified functions, including enterprise information portal, knowledge document management, work process management, human resource management, customer relationship management, project management, financial management, asset management, supply chain management and data center. This platform helps enterprises integrate various resources, including management, marketing, sales, research and development, personnel, and administrative fields. Through e-cology, these resources can be integrated on a unified platform and provide users with a unified interface for easy operation and information retrieval&nbsp;. The Weaver management application platform (e-cology) has a privilege bypass vulnerability, which allows attackers to bypass system privileges and log in to the system to perform malicious operations |
+| **Impact** | The Weaver management application platform (e-cology) has a privilege bypass vulnerability, which allows attackers to bypass system privileges and log in to the system to perform malicious operations. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/17/b2f501929dc9ba6c.gif)
 
 ## Weblogic Commons Collections serialization code execution vulnerability (CVE-2015-4852)
 
