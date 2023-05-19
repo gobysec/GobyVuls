@@ -16,6 +16,19 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 ![](https://s3.bmp.ovh/imgs/2023/05/19/cd6e4b533cae79ff.gif)
 
+## WordPress Plugin InPost Gallery popup_shortcode_attributes File Inclusion Vulnerability(CVE-2022-4063)
+
+|   **Vulnerability**  | **WordPress Plugin InPost Gallery popup_shortcode_attributes File Inclusion Vulnerability(CVE-2022-4063)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress InPost Gallery 插件 popup_shortcode_attributes 参数文件包含漏洞（CVE-2022-4063） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/inpost-gallery"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2lucG9zdC1nYWxsZXJ5Ig%3D%3D) |
+| **Number of assets affected**  | 556 |
+| **Description**  | InPost Gallery is a powerful and very pleasing photo gallery plugin for working with images in WordPress.There is a file inclusion vulnerability in InPost Gallery < 2.1.4.1. Attackers can exploit this vulnerability to obtain sensitive files. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/19/e7c2e191cff78bbd.gif)
+
 ## SOPHOS-Netgenie  Default Password
 
 |   **Vulnerability**  | **SOPHOS-Netgenie  Default Password**  |
@@ -60,17 +73,6 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Telos Alliance Omnia MPX Node is a special hardware codec of Telos Alliance of the United States. Ability to leverage Omnia μ The MPXTM algorithm sends or receives complete FM signals at data rates as low as 320 kbps, making it ideal for networks with limited capacity, including IP radios. There is a security vulnerability in Telos Alliance Omnia MPX Node 1.5.0+r1 and earlier versions, which originates from the local file disclosure vulnerability in/appConfig/userDB.json. An attacker uses this vulnerability to elevate privileges to root and execute arbitrary commands. |
 | **Impact** | There is a security vulnerability in Telos Alliance Omnia MPX Node 1.5.0+r1 and earlier versions, which originates from the local file disclosure vulnerability in/appConfig/userDB.json. An attacker uses this vulnerability to elevate privileges to root and execute arbitrary commands. |
 
-## WordPress Plugin InPost Gallery popup_shortcode_attributes File Inclusion Vulnerability(CVE-2022-4063)
-
-|   **Vulnerability**  | **WordPress Plugin InPost Gallery popup_shortcode_attributes File Inclusion Vulnerability(CVE-2022-4063)**  |
-| :----:   | :-----|
-|  **Chinese name**  | WordPress InPost Gallery 插件 popup_shortcode_attributes 参数文件包含漏洞（CVE-2022-4063） |
-| **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/inpost-gallery"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2lucG9zdC1nYWxsZXJ5Ig%3D%3D) |
-| **Number of assets affected**  | 556 |
-| **Description**  | InPost Gallery is a powerful and very pleasing photo gallery plugin for working with images in WordPress.There is a file inclusion vulnerability in InPost Gallery < 2.1.4.1. Attackers can exploit this vulnerability to obtain sensitive files. |
-| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
-
 ## TamronOS IPTV backup file down vulnerability
 
 |   **Vulnerability**  | **TamronOS IPTV backup file down vulnerability**  |
@@ -92,6 +94,28 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 735 |
 | **Description**  | The Hikvision NCG Networking Gateway  of Hikvision is a carrier level network gateway device integrating signaling gateway service, media gateway service, security authentication, authority management, log management and network management functions. An attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc. through this vulnerability, causing the website to be in an extremely insecure state. |
 | **Impact** | An attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc. through this vulnerability, causing the website to be in an extremely insecure state. |
+
+## Wordpress wpjobboard plugin wpjobboard directory traversal vulnerability (CVE-2022-2544)
+
+|   **Vulnerability**  | **Wordpress wpjobboard plugin wpjobboard directory traversal vulnerability (CVE-2022-2544)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Wordpress wpjobboard 插件 wpjobboard 页面目录遍历漏洞（CVE-2022-2544） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/wpjobboard"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3dwam9iYm9hcmQi) |
+| **Number of assets affected**  | 1201 |
+| **Description**  | Wpjobboard is a plugin of Wordpress. The Wpjobboard plug-in allows website owners to embed payment forms and make payments via Visa, American Express, Discover and Mastercard through their Click&amp;Lead merchant accounts.The Wpjobboard plug-in has a directory traversal vulnerability, through which an attacker can view sensitive directories and files in the server, control the entire system, and finally cause the system to be in an extremely insecure state. |
+| **Impact** | 	The Wpjobboard plug-in has a directory traversal vulnerability, through which an attacker can view sensitive directories and files in the server, control the entire system, and finally cause the system to be in an extremely insecure state. |
+
+## Telrad-WLTMS-110 Default Password
+
+|   **Vulnerability**  | **Telrad-WLTMS-110 Default Password**  |
+| :----:   | :-----|
+|  **Chinese name**  | Telrad-WLTMS-110 默认口令 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [(body="WLTMS-110 Telrad" && body="frameRtoLControl.js") \|\| body="var multipleParameters = \" WLTMS-110"](https://en.fofa.info/result?qbase64=KGJvZHk9IldMVE1TLTExMCBUZWxyYWQiICYmIGJvZHk9ImZyYW1lUnRvTENvbnRyb2wuanMiKSB8fCBib2R5PSJ2YXIgbXVsdGlwbGVQYXJhbWV0ZXJzID0gXCIgV0xUTVMtMTEwIg%3D%3D) |
+| **Number of assets affected**  | 1201 |
+| **Description**  | The Telrad-WLTMS-110 offers deployment flexibility. The high throughput and transmit power of the CPEs combine with the small tower footprint and high capacity of our flagship BreezeCOMPACT base stations - reducing the density of base stations in a network and enabling faster, more affordable LTE deployments.The command center of this series of printers has admin/admin default password. |
+| **Impact** | 	Telrad-WLTMS-110&nbsp; have default passwords. Attackers can use the default password admin/admin to log in to the system background without authorization, perform other sensitive operations, and obtain more sensitive information. |
 
 ## Weaver e-cology ofsLogin.jsp User Login Bypass Vulnerability
 
