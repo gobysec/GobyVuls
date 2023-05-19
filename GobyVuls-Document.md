@@ -1,7 +1,97 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: May 17, 2023** 
+**Updated document date: May 19, 2023** 
+
+## Apache Archiva RepositoryServlet internal Arbitrary File Read (CVE-2022-40308)
+
+|   **Vulnerability**  | **Apache Archiva RepositoryServlet internal Arbitrary File Read (CVE-2022-40308)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Apache Archiva RepositoryServlet 代理功能 internal 文件任意文件读取漏洞（CVE-2022-40308） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title="Apache Archiva" \|\| body="/archiva.js" \|\| body="/archiva.css"](https://en.fofa.info/result?qbase64=dGl0bGU9IkFwYWNoZSBBcmNoaXZhIiB8fCBib2R5PSIvYXJjaGl2YS5qcyIgfHwgYm9keT0iL2FyY2hpdmEuY3NzIg%3D%3D) |
+| **Number of assets affected**  | 910 |
+| **Description**  | Apache Archiva is a set of software used by the Apache Foundation of the United States to manage one or more remote storages. The software provides features such as remote Repository agents, secure role-based access management, and usage reporting. Versions prior to Apache Archiva 2.2.9 have a security vulnerability, which stems from the ability to read database files directly without logging in if anonymous reading is enabled. |
+| **Impact** | Versions prior to Apache Archiva 2.2.9 have a security vulnerability, which stems from the ability to read database files directly without logging in if anonymous reading is enabled. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/19/cd6e4b533cae79ff.gif)
+
+## SOPHOS-Netgenie  Default Password
+
+|   **Vulnerability**  | **SOPHOS-Netgenie  Default Password**  |
+| :----:   | :-----|
+|  **Chinese name**  | SOPHOS-Netgenie 默认口令 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [header="Server: Netgenie" \|\| banner="Server: Netgenie"](https://en.fofa.info/result?qbase64=aGVhZGVyPSJTZXJ2ZXI6IE5ldGdlbmllIiB8fCBiYW5uZXI9IlNlcnZlcjogTmV0Z2VuaWUi) |
+| **Number of assets affected**  | 1566 |
+| **Description**  | With NetGenie, get support for all types of Internet connectivity, viz. VDSL2, ADSL2+, Cable Internet and 3G connection, along with excellent wireless range, high performance, Gigabit port and threat-free Wi-Fi over multiple devices. Get Internet activity reports of children at home along with security reports of your home network.The command center of this series of printers has admin/admin default password. |
+| **Impact** | SOPHOS-Netgenie  have default passwords. Attackers can use the default password admin/admin to log in to the system background without authorization, perform other sensitive operations, and obtain more sensitive information. |
+
+## WAVLINK WN535 G3 router live_ Check.shtml file information disclosure vulnerability (CVE-2022-31845)
+
+|   **Vulnerability**  | **WAVLINK WN535 G3 router live_ Check.shtml file information disclosure vulnerability (CVE-2022-31845)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WAVLINK WN535 G3 路由器 live_check.shtml 文件信息泄露漏洞（CVE-2022-31845） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="firstFlage"](https://en.fofa.info/result?qbase64=Ym9keT0iZmlyc3RGbGFnZSI%3D) |
+| **Number of assets affected**  | 3001 |
+| **Description**  | WAVLINK WN535 is a dual band 4G LTE intelligent router. There is a security vulnerability in WAVLINK WN535 G3 M35G3R.V5030.180927, which originates in live_ There is a vulnerability in check.shtml. Attackers can use this vulnerability to obtain sensitive router information by executing exec cmd functions. |
+| **Impact** | There is a security vulnerability in WAVLINK WN535 G3 M35G3R.V5030.180927, which originates in live_ There is a vulnerability in check.shtml. Attackers can use this vulnerability to obtain sensitive router information by executing exec cmd functions. |
+
+## I3Geo codemirror.php file pagina parameter file read vulnerability (CVE-2022-32409)
+
+|   **Vulnerability**  | **I3Geo codemirror.php file pagina parameter file read vulnerability (CVE-2022-32409)**  |
+| :----:   | :-----|
+|  **Chinese name**  | i3Geo codemirror.php 文件 pagina 参数文件读取漏洞（CVE-2022-32409） |
+| **CVSS core**  | 7.6 |
+| **FOFA Query**  (click to view the results directly)| [body="i3geo"](https://en.fofa.info/result?qbase64=Ym9keT0iaTNnZW8i) |
+| **Number of assets affected**  | 88 |
+| **Description**  | I3geo is an open source application of salade situacao for developing interactive network maps. I3Geo has a file reading vulnerability, through which an attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely insecure state. |
+| **Impact** | I3Geo has a file reading vulnerability, through which an attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely insecure state. |
+
+## Telos Alliance Omnia MPX Node downloadMainLog fnameFile Reading Vulnerability(CVE-2022-36642)
+
+|   **Vulnerability**  | **Telos Alliance Omnia MPX Node downloadMainLog fnameFile Reading Vulnerability(CVE-2022-36642)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Telos Alliance Omnia MPX Node 硬件编解码器 downloadMainLog 文件 fname 参数文件读取漏洞（CVE-2022-36642） |
+| **CVSS core**  | 7.6 |
+| **FOFA Query**  (click to view the results directly)| [body="Omnia MPX"](https://en.fofa.info/result?qbase64=Ym9keT0iT21uaWEgTVBYIg%3D%3D) |
+| **Number of assets affected**  | 49 |
+| **Description**  | Telos Alliance Omnia MPX Node is a special hardware codec of Telos Alliance of the United States. Ability to leverage Omnia μ The MPXTM algorithm sends or receives complete FM signals at data rates as low as 320 kbps, making it ideal for networks with limited capacity, including IP radios. There is a security vulnerability in Telos Alliance Omnia MPX Node 1.5.0+r1 and earlier versions, which originates from the local file disclosure vulnerability in/appConfig/userDB.json. An attacker uses this vulnerability to elevate privileges to root and execute arbitrary commands. |
+| **Impact** | There is a security vulnerability in Telos Alliance Omnia MPX Node 1.5.0+r1 and earlier versions, which originates from the local file disclosure vulnerability in/appConfig/userDB.json. An attacker uses this vulnerability to elevate privileges to root and execute arbitrary commands. |
+
+## WordPress Plugin InPost Gallery popup_shortcode_attributes File Inclusion Vulnerability(CVE-2022-4063)
+
+|   **Vulnerability**  | **WordPress Plugin InPost Gallery popup_shortcode_attributes File Inclusion Vulnerability(CVE-2022-4063)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress InPost Gallery 插件 popup_shortcode_attributes 参数文件包含漏洞（CVE-2022-4063） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/inpost-gallery"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2lucG9zdC1nYWxsZXJ5Ig%3D%3D) |
+| **Number of assets affected**  | 556 |
+| **Description**  | InPost Gallery is a powerful and very pleasing photo gallery plugin for working with images in WordPress.There is a file inclusion vulnerability in InPost Gallery < 2.1.4.1. Attackers can exploit this vulnerability to obtain sensitive files. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+## TamronOS IPTV backup file down vulnerability
+
+|   **Vulnerability**  | **TamronOS IPTV backup file down vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | TamronOS IPTV 系统 backup 任意文件下载漏洞 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [title="TamronOS IPTV系统"](https://en.fofa.info/result?qbase64=dGl0bGU9IlRhbXJvbk9TIElQVFbns7vnu58i) |
+| **Number of assets affected**  | 472 |
+| **Description**  | TamronOS IPTV system is an intelligent TV management system. The system has an arbitrary file download vulnerability, through which an attacker can read system files and obtain sensitive information. |
+| **Impact** | an attacker can read system files and obtain sensitive information. |
+
+## Hikvision NCG Networking Gateway login.php Directory traversal Vulnerability
+
+|   **Vulnerability**  | **Hikvision NCG Networking Gateway login.php Directory traversal Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 海康威视 NCG 联网网关 login.php 文件目录遍历漏洞 |
+| **CVSS core**  | 7.8 |
+| **FOFA Query**  (click to view the results directly)| [body="data/login.php"](https://en.fofa.info/result?qbase64=Ym9keT0iZGF0YS9sb2dpbi5waHAi) |
+| **Number of assets affected**  | 735 |
+| **Description**  | The Hikvision NCG Networking Gateway  of Hikvision is a carrier level network gateway device integrating signaling gateway service, media gateway service, security authentication, authority management, log management and network management functions. An attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc. through this vulnerability, causing the website to be in an extremely insecure state. |
+| **Impact** | An attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc. through this vulnerability, causing the website to be in an extremely insecure state. |
 
 ## Weaver e-cology ofsLogin.jsp User Login Bypass Vulnerability
 
