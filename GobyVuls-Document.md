@@ -1,7 +1,7 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: May 22, 2023** 
+**Updated document date: May 23, 2023** 
 
 ## Apache Superset Permission Bypass Vulnerability (CVE-2023-27524)
 
@@ -42,7 +42,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 ![](https://s3.bmp.ovh/imgs/2023/05/19/e7c2e191cff78bbd.gif)
 
-## SOPHOS-Netgenie  Default Password
+## SOPHOS-Netgenie Default Password
 
 |   **Vulnerability**  | **SOPHOS-Netgenie  Default Password**  |
 | :----:   | :-----|
@@ -52,6 +52,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 1566 |
 | **Description**  | With NetGenie, get support for all types of Internet connectivity, viz. VDSL2, ADSL2+, Cable Internet and 3G connection, along with excellent wireless range, high performance, Gigabit port and threat-free Wi-Fi over multiple devices. Get Internet activity reports of children at home along with security reports of your home network.The command center of this series of printers has admin/admin default password. |
 | **Impact** | SOPHOS-Netgenie  have default passwords. Attackers can use the default password admin/admin to log in to the system background without authorization, perform other sensitive operations, and obtain more sensitive information. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/23/a7c7faa7524301b1.gif)
 
 ## WAVLINK WN535 G3 router live_ Check.shtml file information disclosure vulnerability (CVE-2022-31845)
 
@@ -64,6 +66,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | WAVLINK WN535 is a dual band 4G LTE intelligent router. There is a security vulnerability in WAVLINK WN535 G3 M35G3R.V5030.180927, which originates in live_ There is a vulnerability in check.shtml. Attackers can use this vulnerability to obtain sensitive router information by executing exec cmd functions. |
 | **Impact** | There is a security vulnerability in WAVLINK WN535 G3 M35G3R.V5030.180927, which originates in live_ There is a vulnerability in check.shtml. Attackers can use this vulnerability to obtain sensitive router information by executing exec cmd functions. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/23/5ac982d1b5b0c5b4.gif)
+
 ## I3Geo codemirror.php file pagina parameter file read vulnerability (CVE-2022-32409)
 
 |   **Vulnerability**  | **I3Geo codemirror.php file pagina parameter file read vulnerability (CVE-2022-32409)**  |
@@ -74,6 +78,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 88 |
 | **Description**  | I3geo is an open source application of salade situacao for developing interactive network maps. I3Geo has a file reading vulnerability, through which an attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely insecure state. |
 | **Impact** | I3Geo has a file reading vulnerability, through which an attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely insecure state. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/23/17685ef4dce000de.gif)
 
 ## Telos Alliance Omnia MPX Node downloadMainLog fnameFile Reading Vulnerability(CVE-2022-36642)
 
@@ -86,6 +92,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Telos Alliance Omnia MPX Node is a special hardware codec of Telos Alliance of the United States. Ability to leverage Omnia μ The MPXTM algorithm sends or receives complete FM signals at data rates as low as 320 kbps, making it ideal for networks with limited capacity, including IP radios. There is a security vulnerability in Telos Alliance Omnia MPX Node 1.5.0+r1 and earlier versions, which originates from the local file disclosure vulnerability in/appConfig/userDB.json. An attacker uses this vulnerability to elevate privileges to root and execute arbitrary commands. |
 | **Impact** | There is a security vulnerability in Telos Alliance Omnia MPX Node 1.5.0+r1 and earlier versions, which originates from the local file disclosure vulnerability in/appConfig/userDB.json. An attacker uses this vulnerability to elevate privileges to root and execute arbitrary commands. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/23/e024d90bde2b5088.gif)
+
 ## TamronOS IPTV backup file down vulnerability
 
 |   **Vulnerability**  | **TamronOS IPTV backup file down vulnerability**  |
@@ -96,6 +104,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 472 |
 | **Description**  | TamronOS IPTV system is an intelligent TV management system. The system has an arbitrary file download vulnerability, through which an attacker can read system files and obtain sensitive information. |
 | **Impact** | an attacker can read system files and obtain sensitive information. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/23/701178b7dafee00c.gif)
 
 ## Hikvision NCG Networking Gateway login.php Directory traversal Vulnerability
 
@@ -108,6 +118,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | The Hikvision NCG Networking Gateway  of Hikvision is a carrier level network gateway device integrating signaling gateway service, media gateway service, security authentication, authority management, log management and network management functions. An attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc. through this vulnerability, causing the website to be in an extremely insecure state. |
 | **Impact** | An attacker can read important system files (such as database configuration files, system configuration files), database configuration files, etc. through this vulnerability, causing the website to be in an extremely insecure state. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/23/a4a531adf15cb89f.gif)
+
 ## Wordpress wpjobboard plugin wpjobboard directory traversal vulnerability (CVE-2022-2544)
 
 |   **Vulnerability**  | **Wordpress wpjobboard plugin wpjobboard directory traversal vulnerability (CVE-2022-2544)**  |
@@ -118,6 +130,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 1201 |
 | **Description**  | Wpjobboard is a plugin of Wordpress. The Wpjobboard plug-in allows website owners to embed payment forms and make payments via Visa, American Express, Discover and Mastercard through their Click&amp;Lead merchant accounts.The Wpjobboard plug-in has a directory traversal vulnerability, through which an attacker can view sensitive directories and files in the server, control the entire system, and finally cause the system to be in an extremely insecure state. |
 | **Impact** | 	The Wpjobboard plug-in has a directory traversal vulnerability, through which an attacker can view sensitive directories and files in the server, control the entire system, and finally cause the system to be in an extremely insecure state. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/23/4ddb35a567453502.gif)
 
 ## Telrad-WLTMS-110 Default Password
 
@@ -167,6 +181,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | PowerJob (formerly OhMyScheduler) is a new generation of distributed scheduling and computing framework that allows you to easily complete job scheduling and distributed computing of complex tasks. Attackers can control the entire system through unauthorized access vulnerabilities, and ultimately lead to an extremely insecure state of the system. |
 | **Impact** | Attackers can exploit an unauthorized access vulnerability in /job/list to obtain task information for the entire system, which could ultimately result in the system being in an extremely insecure state. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/23/0eba0b14510d1610.gif)
+
 ## nginxWebUI runCmd file remote command execution vulnerability
 
 |   **Vulnerability**  | **nginxWebUI runCmd file remote command execution vulnerability**  |
@@ -178,6 +194,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | NginxWebUI is a tool for graphical management of nginx configuration. You can use web pages to quickly configure various functions of nginx, including http protocol forwarding, tcp protocol forwarding, reverse proxy, load balancing, static html server, automatic application, renewal and configuration of ssl certificates. After configuration, you can create nginx. conf file, and control nginx to use this file to start and reload, completing the graphical control loop of nginx. Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 | **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 
+![](https://s3.bmp.ovh/imgs/2023/05/23/a77433ad12687464.gif)
+
 ## Yun-Box authService fastjson serialization code execution vulnerability
 
 |   **Vulnerability**  | **Yun-Box authService fastjson serialization code execution vulnerability**  |
@@ -188,6 +206,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 620 |
 | **Description**  | Yun-Box is a secure management tool developed by Yunanbao for tenants to connect to cloud resources, which can help cloud tenants manage virtual machines, databases, and other resources on the cloud in a more secure and precise manner. With years of experience in operations and security, Yun-Box combines operations and security on the cloud to achieve pre-planned operations, in-process control, and post-audit. Additionally, Yun-Box integrates features such as automated operations, asset topology discovery, and account security to provide comprehensive and reliable cloud security management services. |
 | **Impact** | Yun-Box uses the vulnerable fastjson component, and hackers can launch attacks on Yun-Box by exploiting the fastjson serialization vulnerability to gain server privileges. |
+
+![](https://s3.bmp.ovh/imgs/2023/05/23/7853202174123e25.gif)
 
 ## Realor Tianyi AVS ConsoleExternalApi.XGI file SQL Injection vulnerability
 
