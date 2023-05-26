@@ -1,7 +1,77 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: May 23, 2023** 
+**Updated document date: May 26, 2023** 
+
+## Ruijie NBR Router webgl.data information
+
+|   **Vulnerability**  | **Ruijie NBR Router webgl.data information**  |
+| :----:   | :-----|
+|  **Chinese name**  | 锐捷网络 NBR路由器 webgl.data 信息泄露漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [(body="Ruijie - NBR" \|\| (body="support.ruijie.com.cn" && body="\<p>系统负荷过高，导致网络拥塞，建议降低系统负荷或重启路由器") \|\| body="class=\"line resource\" id=\"nbr_1\"" \|\| title="锐捷网络 --NBR路由器--登录界面" \|\| title=="锐捷网络") && body!="Server: couchdb"](https://en.fofa.info/result?qbase64=KGJvZHk9IlJ1aWppZSAtIE5CUiIgfHwgKGJvZHk9InN1cHBvcnQucnVpamllLmNvbS5jbiIgJiYgYm9keT0iPHA%2B57O757uf6LSf6I236L%2BH6auY77yM5a%2B86Ie0572R57uc5oul5aGe77yM5bu66K6u6ZmN5L2O57O757uf6LSf6I235oiW6YeN5ZCv6Lev55Sx5ZmoIikgfHwgYm9keT0iY2xhc3M9XCJsaW5lIHJlc291cmNlXCIgaWQ9XCJuYnJfMVwiIiB8fCB0aXRsZT0i6ZSQ5o23572R57ucIC0tTkJS6Lev55Sx5ZmoLS3nmbvlvZXnlYzpnaIiIHx8IHRpdGxlPT0i6ZSQ5o23572R57ucIikgJiYgYm9keSE9IlNlcnZlcjogY291Y2hkYiI%3D) |
+| **Number of assets affected**  | 204290 |
+| **Description**  | Ruijie Network NBR700G router is a wireless routing equipment of Ruijie Network Co., LTD. The NBR700G router of Ruijie Network has information vulnerability, which can be used by attackers to obtain sensitive information. |
+| **Impact** | Attackers can use this vulnerability to obtain Ruijie network NBR700G router account and password, resulting in sensitive information leakage.|
+
+![](https://s3.bmp.ovh/imgs/2023/05/26/f90351322821464c.gif)
+
+## Gemtek Modem Configuration Interface Default password vulnerability
+
+|   **Vulnerability**  | **Gemtek Modem Configuration Interface Default password vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 中保無限Modem Configuration Interface 默认口令漏洞 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [(title="Modem configuration interface" && body="status_device_status.asp" && body!="Huawei") && header!="Couchdb" && header!="JoomlaWor"](https://en.fofa.info/result?qbase64=KHRpdGxlPSJNb2RlbSBjb25maWd1cmF0aW9uIGludGVyZmFjZSIgJiYgYm9keT0ic3RhdHVzX2RldmljZV9zdGF0dXMuYXNwIiAmJiBib2R5IT0iSHVhd2VpIikgJiYgaGVhZGVyIT0iQ291Y2hkYiIgJiYgaGVhZGVyIT0iSm9vbWxhV29yIg%3D%3D) |
+| **Number of assets affected**  | 4521 |
+| **Description**  | Modem Configuration Interface is an unlimited router management system of China Insurance Corporation. There is a default password in the system. An attacker can control the entire platform through the default password (sigmu/secom) and operate the core functions with administrator privileges. |
+| **Impact** | attackers can control the entire platform through the default password(sigmu/secom) vulnerability, and use administrator privileges to operate core functions. |
+  
+![](https://s3.bmp.ovh/imgs/2023/05/26/fc6fd428ce123e79.gif)
+
+## Weaver e-cology CheckServer.jsp file sql injection vulnerability
+
+|   **Vulnerability**  | **Weaver e-cology CheckServer.jsp file sql injection vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 泛微 e-cology CheckServer.jsp 文件 SQL 注入漏洞 |
+| **CVSS core**  | 7.8 |
+| **FOFA Query**  (click to view the results directly)| [((body="szFeatures" && body="redirectUrl") \|\| (body="rndData" && body="isdx") \|\| (body="typeof poppedWindow" && body="client/jquery.client_wev8.js") \|\| body="/theme/ecology8/jquery/js/zDialog_wev8.js" \|\| body="ecology8/lang/weaver_lang_7_wev8.js" \|\| body="src=\"/js/jquery/jquery_wev8.js" \|\| (header="Server: WVS" && (title!="404 Not Found" && header!="404 Not Found"))) && header!="testBanCookie" && header!="Couchdb" && header!="JoomlaWor" && body!="\<title>28ZE\</title>"](https://en.fofa.info/result?qbase64=KChib2R5PSJzekZlYXR1cmVzIiAmJiBib2R5PSJyZWRpcmVjdFVybCIpIHx8IChib2R5PSJybmREYXRhIiAmJiBib2R5PSJpc2R4IikgfHwgKGJvZHk9InR5cGVvZiBwb3BwZWRXaW5kb3ciICYmIGJvZHk9ImNsaWVudC9qcXVlcnkuY2xpZW50X3dldjguanMiKSB8fCBib2R5PSIvdGhlbWUvZWNvbG9neTgvanF1ZXJ5L2pzL3pEaWFsb2dfd2V2OC5qcyIgfHwgYm9keT0iZWNvbG9neTgvbGFuZy93ZWF2ZXJfbGFuZ183X3dldjguanMiIHx8IGJvZHk9InNyYz1cIi9qcy9qcXVlcnkvanF1ZXJ5X3dldjguanMiIHx8IChoZWFkZXI9IlNlcnZlcjogV1ZTIiAmJiAodGl0bGUhPSI0MDQgTm90IEZvdW5kIiAmJiBoZWFkZXIhPSI0MDQgTm90IEZvdW5kIikpKSAmJiBoZWFkZXIhPSJ0ZXN0QmFuQ29va2llIiAmJiBoZWFkZXIhPSJDb3VjaGRiIiAmJiBoZWFkZXIhPSJKb29tbGFXb3IiICYmIGJvZHkhPSI8dGl0bGU%2BMjhaRTwvdGl0bGU%2BIg%3D%3D) |
+| **Number of assets affected**  | 		105760 |
+| **Description**  | Weaver e-cology OA is a high-quality OA office system built on the principles of simplicity, applicability, and efficiency. The software is equipped with over 20 functional modules for processes, portals, knowledge, personnel, and communication, and adopts an intelligent voice interaction office mode. It can perfectly meet the actual needs of enterprises and provide them with full digital management.Weaver e-cology OA has an SQL injection vulnerability, which allows attackers to not only obtain information from the database (such as administrator background passwords, user personal information of the site) through SQL injection vulnerabilities, but also write Trojan horses to the server under high privileges to further gain server system privileges. |
+| **Impact** | Weavere-cology OA has an SQL injection vulnerability, which allows attackers to not only obtain information from the database (such as administrator background passwords, user personal information of the site) through SQL injection vulnerabilities, but also write Trojan horses to the server under high privileges to further gain server system privileges.|
+
+## Command Execution in Multiple TP-LINK Routers (CVE-2020-9374)
+
+|   **Vulnerability**  | **Command Execution in Multiple TP-LINK Routers (CVE-2020-9374)**  |
+| :----:   | :-----|
+|  **Chinese name**  | TP_LINK 多款路由器命令执行（CVE-2020-9374） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="tplinkwifi.net" && body="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="](https://en.fofa.info/result?qbase64=Ym9keT0idHBsaW5rd2lmaS5uZXQiICYmIGJvZHk9IkFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU2Nzg5Ky89Ig%3D%3D) |
+| **Number of assets affected**  | 	378381 |
+| **Description**  | Multiple models of TP-Link routers from TP-Link Technologies Co., Ltd., including TL-WR841N, TL-WR840N, Archer C20, TL-WR849N, Archer C55, Archer C50, TL-WA801ND, TL-WR841HP, TL-WR845N, Archer C20i, Archer C2, are vulnerable to a command execution flaw. Attackers can exploit this vulnerability to execute arbitrary code, inject backdoors, gain server privileges, and ultimately take control of the entire web server. |
+| **Impact** | An attacker can exploit this vulnerability by sending shell metacharacters through the routing trace feature of the dashboard, allowing them to execute arbitrary commands, inject backdoors, gain server privileges, and ultimately take control of the entire web server.|
+
+## WebLogic JtaTransactionManager Remote Code Execution Vulnerability (CVE-2020-2551)
+
+|   **Vulnerability**  | **WebLogic JtaTransactionManager Remote Code Execution Vulnerability (CVE-2020-2551)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Weblogic JtaTransactionManager 反序列化远程代码执行漏洞（CVE-2020-2551） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [(body="Welcome to WebLogic Server")\|\|(title=="Error 404--Not Found") \|\| (((body="\<h1>BEA WebLogic Server" \|\| server="Weblogic" \|\| body="content=\"WebLogic Server" \|\| body="\<h1>Welcome to Weblogic Application" \|\| body="\<h1>BEA WebLogic Server") && header!="couchdb" && header!="boa" && header!="RouterOS" && header!="X-Generator: Drupal") \|\| (banner="Weblogic" && banner!="couchdb" && banner!="drupal" && banner!=" Apache,Tomcat,Jboss" && banner!="ReeCam IP Camera" && banner!="\<h2>Blog Comments\</h2>")) \|\| (port="7001" && protocol=="weblogic")](https://en.fofa.info/result?qbase64=KGJvZHk9IldlbGNvbWUgdG8gV2ViTG9naWMgU2VydmVyIil8fCh0aXRsZT09IkVycm9yIDQwNC0tTm90IEZvdW5kIikgfHwgKCgoYm9keT0iPGgxPkJFQSBXZWJMb2dpYyBTZXJ2ZXIiIHx8IHNlcnZlcj0iV2VibG9naWMiIHx8IGJvZHk9ImNvbnRlbnQ9XCJXZWJMb2dpYyBTZXJ2ZXIiIHx8IGJvZHk9IjxoMT5XZWxjb21lIHRvIFdlYmxvZ2ljIEFwcGxpY2F0aW9uIiB8fCBib2R5PSI8aDE%2BQkVBIFdlYkxvZ2ljIFNlcnZlciIpICYmIGhlYWRlciE9ImNvdWNoZGIiICYmIGhlYWRlciE9ImJvYSIgJiYgaGVhZGVyIT0iUm91dGVyT1MiICYmIGhlYWRlciE9IlgtR2VuZXJhdG9yOiBEcnVwYWwiKSB8fCAoYmFubmVyPSJXZWJsb2dpYyIgJiYgYmFubmVyIT0iY291Y2hkYiIgJiYgYmFubmVyIT0iZHJ1cGFsIiAmJiBiYW5uZXIhPSIgQXBhY2hlLFRvbWNhdCxKYm9zcyIgJiYgYmFubmVyIT0iUmVlQ2FtIElQIENhbWVyYSIgJiYgYmFubmVyIT0iPGgyPkJsb2cgQ29tbWVudHM8L2gyPiIpKSB8fCAocG9ydD0iNzAwMSIgJiYgcHJvdG9jb2w9PSJ3ZWJsb2dpYyIp) |
+| **Number of assets affected**  | 	127541 |
+| **Description**  | WebLogic Server is one of the application server components applicable to cloud and traditional environments. WebLogic has a remote code execution vulnerability, which allows an unauthenticated attacker to access and destroy the vulnerable WebLogic Server through the IIOP protocol network. A successful exploitation of the vulnerability can cause the WebLogic Server to be taken over by the attacker, resulting in remote code execution. |
+| **Impact** | WebLogic has a remote code execution vulnerability, which allows an unauthenticated attacker to access and destroy the vulnerable WebLogic Server through the IIOP protocol network. A successful exploitation of the vulnerability can cause the WebLogic Server to be taken over by the attacker, resulting in remote code execution. |
+
+## ActiveMQ Arbitrary File Write Vulnerability (CVE-2016-3088)
+
+|   **Vulnerability**  | **ActiveMQ Arbitrary File Write Vulnerability (CVE-2016-3088)**  |
+| :----:   | :-----|
+|  **Chinese name**  | ActiveMQ 消息代理系统 fileserver 文件上传漏洞（CVE-2016-3088） |
+| **CVSS core**  | 9.6 |
+| **FOFA Query**  (click to view the results directly)| [((((title="Apache ActiveMQ" \|\| (port="8161" && header="Server: Jetty") \|\| header="realm=\"ActiveMQRealm") && header!="couchdb" && header!="drupal" && body!="Server: couchdb") \|\| (banner="server:ActiveMQ" \|\| banner="Magic:ActiveMQ" \|\| banner="realm=\"ActiveMQRealm") \|\| banner="Apache ActiveMQ") \|\| (((title="Apache ActiveMQ" \|\| (port="8161" && header="Server: Jetty") \|\| header="realm=\"ActiveMQRealm") && header!="couchdb" && header!="drupal" && body!="Server: couchdb") \|\| (banner="server:ActiveMQ" \|\| banner="Magic:ActiveMQ" \|\| banner="realm=\"ActiveMQRealm") \|\| banner="Apache ActiveMQ")) && protocol!="activemq" && protocol!="stomp"](https://en.fofa.info/result?qbase64=KCgoKHRpdGxlPSJBcGFjaGUgQWN0aXZlTVEiIHx8IChwb3J0PSI4MTYxIiAmJiBoZWFkZXI9IlNlcnZlcjogSmV0dHkiKSB8fCBoZWFkZXI9InJlYWxtPVwiQWN0aXZlTVFSZWFsbSIpICYmIGhlYWRlciE9ImNvdWNoZGIiICYmIGhlYWRlciE9ImRydXBhbCIgJiYgYm9keSE9IlNlcnZlcjogY291Y2hkYiIpIHx8IChiYW5uZXI9InNlcnZlcjpBY3RpdmVNUSIgfHwgYmFubmVyPSJNYWdpYzpBY3RpdmVNUSIgfHwgYmFubmVyPSJyZWFsbT1cIkFjdGl2ZU1RUmVhbG0iKSB8fCBiYW5uZXI9IkFwYWNoZSBBY3RpdmVNUSIpIHx8ICgoKHRpdGxlPSJBcGFjaGUgQWN0aXZlTVEiIHx8IChwb3J0PSI4MTYxIiAmJiBoZWFkZXI9IlNlcnZlcjogSmV0dHkiKSB8fCBoZWFkZXI9InJlYWxtPVwiQWN0aXZlTVFSZWFsbSIpICYmIGhlYWRlciE9ImNvdWNoZGIiICYmIGhlYWRlciE9ImRydXBhbCIgJiYgYm9keSE9IlNlcnZlcjogY291Y2hkYiIpIHx8IChiYW5uZXI9InNlcnZlcjpBY3RpdmVNUSIgfHwgYmFubmVyPSJNYWdpYzpBY3RpdmVNUSIgfHwgYmFubmVyPSJyZWFsbT1cIkFjdGl2ZU1RUmVhbG0iKSB8fCBiYW5uZXI9IkFwYWNoZSBBY3RpdmVNUSIpKSAmJiBwcm90b2NvbCE9ImFjdGl2ZW1xIiAmJiBwcm90b2NvbCE9InN0b21wIg%3D%3D) |
+| **Number of assets affected**  | 42641 |
+| **Description**  | Apache ActiveMQ is the most popular open source, multi-protocol, Java-based message broker.</p><p>The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request. |
+| **Impact** | The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request. |
 
 ## Apache Superset Permission Bypass Vulnerability (CVE-2023-27524)
 
