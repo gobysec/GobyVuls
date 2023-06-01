@@ -1,8 +1,91 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: May 26, 2023** 
+**Updated document date: June 1, 2023** 
 
+## WordPress Plugin IWS SQL Injection Vulnerability (CVE-2022-4117)
+
+|   **Vulnerability**  | **WordPress Plugin IWS SQL Injection Vulnerability (CVE-2022-4117)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Plugin IWS SQL注入漏洞（CVE-2022-4117） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/iws-geo-form-fields"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2l3cy1nZW8tZm9ybS1maWVsZHMi) |
+| **Number of assets affected**  | 2186 |
+| **Description**  | iws-geo-form-fields is a easy to use WordPress plugin, It uses Ajax to dynamically populate Select fields in your form,It can add Country - State - City select field in your WordPress website. Has an unauthorized SQL injection vulnerability. |
+| **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/01/a686613b77d15f5c.gif)
+
+## Netgod SecGate 3600 Firewall File Upload Vulnerability
+
+|   **Vulnerability**  | **Netgod SecGate 3600 Firewall File Upload Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 网神SecGate 3600防火墙 文件上传漏洞 |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [title="网神SecGate 3600防火墙"](https://en.fofa.info/result?qbase64=dGl0bGU9Iue9keelnlNlY0dhdGUgMzYwMOmYsueBq%2BWimSI%3D) |
+| **Number of assets affected**  | 747 |
+| **Description**  | Netgod SecGate 3600 firewall is a composite hardware firewall based on status detection packet filtering and application level agents. It is a new generation of professional firewall equipment specially developed for large and medium-sized enterprises, governments, military, universities and other users. It supports external attack prevention, internal network security, network access control, network traffic monitoring and bandwidth management, dynamic routing, web content filtering, email content filtering, IP conflict detection and other functions, It can effectively ensure the security of the network; The product provides flexible network routing/bridging capabilities, supports policy routing and multi outlet link aggregation; It provides a variety of intelligent analysis and management methods, supports email alarm, supports log audit, provides comprehensive network management monitoring, and assists network administrators in completing network security management. There is a file upload vulnerability in SecGate 3600 firewall, which allows attackers to gain server control permission |
+| **Impact** | There is a file upload vulnerability in SecGate 3600 firewall, which allows attackers to gain server control permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/01/25197f6a68da33df.gif)
+
+## Hangzhou new Zhongda NetcallServer management console default password
+
+|   **Vulnerability**  | **Hangzhou new Zhongda NetcallServer management console default password**  |
+| :----:   | :-----|
+|  **Chinese name**  | 杭州新中大 NetcallServer 管理控制台默认口令 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=="netcallServer 管理控制台"](https://en.fofa.info/result?qbase64=dGl0bGU9PSJuZXRjYWxsU2VydmVyIOeuoeeQhuaOp%2BWItuWPsCI%3D) |
+| **Number of assets affected**  | 567 |
+| **Description**  | Hangzhou New Zhongda NetcallServer Management console is an instant messaging software of Hangzhou New Zhongda Technology Co., LTD. There is a default password in the NetcallServer management console of Hangzhou New CUHK, which can be exploited by attackers to obtain sensitive information. |
+| **Impact** | The attacker can control the whole platform through the default password vulnerability and operate the core functions with the administrator rights. Cause sensitive information to leak. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/01/334aa827a0cbf890.gif)
+
+## D-Link DCS-960L HNAP LoginPassword Authentication Bypass Vulnerability
+
+|   **Vulnerability**  | **D-Link DCS-960L HNAP LoginPassword Authentication Bypass Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | D-Link DCS-960L HNAP LoginPassword 认证绕过漏洞 |
+| **CVSS core**  | 8.8 |
+| **FOFA Query**  (click to view the results directly)| [header="DCS-960L" \|\| banner="DCS-960L"](https://en.fofa.info/result?qbase64=aGVhZGVyPSJEQ1MtOTYwTCIgfHwgYmFubmVyPSJEQ1MtOTYwTCI%3D) |
+| **Number of assets affected**  | 16014 |
+| **Description**  | D-Link DCS-960L is a network camera product of China Taiwan D-Link Company.<br></p><p>When D-Link DCS-960L processes the HNAP login request, the processing logic of the parameter LoginPassword is wrong, and the attacker can construct a special login request to bypass the login verification. |
+| **Impact** | When D-Link DCS-960L processes the HNAP login request, the processing logic of the parameter LoginPassword is wrong, and the attacker can construct a special login request to bypass the login verification. |
+  
+## Array Networks AG/vxAG RCE (CVE-2022-42897)
+
+|   **Vulnerability**  | **Array Networks AG/vxAG RCE (CVE-2022-42897)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Array Networks AG/vxAG 远程代码执行漏洞（CVE-2022-42897） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [banner="/prx/000/http" \|\| header="/prx/000/http" \|\| body="an_util.js"](https://en.fofa.info/result?qbase64=YmFubmVyPSIvcHJ4LzAwMC9odHRwIiB8fCBoZWFkZXI9Ii9wcngvMDAwL2h0dHAiIHx8IGJvZHk9ImFuX3V0aWwuanMi) |
+| **Number of assets affected**  | 10117 |
+| **Description**  | Array Networks AG/vxAG is an Array SSL-VPN gateway product of Array Networks in the United States.<br></p><p>Array Networks AG/vxAG with ArrayOS AG prior to 9.4.0.469 has a security vulnerability that allows an unauthenticated attacker to achieve command injection, resulting in privilege escalation and control over the system. |
+| **Impact** | Array Networks AG/vxAG with ArrayOS AG prior to 9.4.0.469 has a security vulnerability that allows an unauthenticated attacker to achieve command injection, resulting in privilege escalation and control over the system. |
+
+## ASUS RT-AX56U Sensitive Information Disclosure Vulnerability
+
+|   **Vulnerability**  | **ASUS RT-AX56U Sensitive Information Disclosure Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | ASUS RT-AX56U 敏感信息泄漏漏洞 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [banner="ASUS RT-AX56U" \|\| (body="RT-AX56U" && title=="ASUS Login")](https://fofa.info/result?qbase64=YmFubmVyPSJBU1VTIFJULUFYNTZVIiB8fCAoYm9keT0iUlQtQVg1NlUiICYmIHRpdGxlPT0iQVNVUyBMb2dpbiIp) |
+| **Number of assets affected**  | 291164 |
+| **Description**  | The ASUS RT-AX56U is a WiFi6 dual band 1800M E-sports route that supports the WiFi6 (802.11ax) standard and 80MHz bandwidth to provide better network performance and efficiency. With Trend Micro ™ The supported AiProtection commercial level security protection function provides network security protection for all connected intelligent devices.</p><p>After the construction request is sent to the vulnerable device, the passwd or shadow file in the system can be read, causing the password information disclosure problem of the administrator user. |
+| **Impact** | After the construction request is sent to the vulnerable device, the passwd or shadow file in the system can be read, causing the password information disclosure problem of the administrator user. |
+  
+## kkFileView onlinePreview Arbitrary File Read
+
+|   **Vulnerability**  | **kkFileView onlinePreview Arbitrary File Read**  |
+| :----:   | :-----|
+|  **Chinese name**  | kkFileView onlinePreview 任意文件读取漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="/onlinePreview?url"](https://en.fofa.info/result?qbase64=Ym9keT0iL29ubGluZVByZXZpZXc%2FdXJsIg%3D%3D) |
+| **Number of assets affected**  | 2360 |
+| **Description**  | Keking kkFileView is a Spring-Boot online preview project for creating file documents of Keking Technology Co., Ltd. in China. here is a security vulnerability in Keking kkFileview, which stems from reading arbitrary files through directory traversal vulnerabilities, which may lead to the leakage of sensitive files on related hosts. |
+| **Impact** | There is a security vulnerability in Keking kkFileview, which stems from reading arbitrary files through directory traversal vulnerabilities, which may lead to the leakage of sensitive files on related hosts. |
+  
 ## Ruijie NBR Router webgl.data information
 
 |   **Vulnerability**  | **Ruijie NBR Router webgl.data information**  |
