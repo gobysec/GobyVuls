@@ -1,7 +1,20 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 1, 2023** 
+**Updated document date: June 2, 2023** 
+
+## Some Hikvision iVMS file upload vulnerabilities
+
+|   **Vulnerability**  | **Some Hikvision iVMS file upload vulnerabilities**  |
+| :----:   | :-----|
+|  **Chinese name**  | 海康威视部分iVMS系统存在文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [(body="class=\"enname\">iVMS-4200" && body="laRemPassword") \|\| (body="home/locationIndex.action?time=" && body="result.data.indexUrl;") \|\| (body="//caoshiyan modify 2015-06-30 中转页面" && body="/home/locationIndex.action?time=" \|\| body="home/licenseUpload.action") \|\| (body="class=\"out\">\<a href=\"download/iVMS-") \|\| ((body="tab-border code-iivms\">" \|\| body="login?service=" \|\| body="/eop/common/css/reset.css" \|\| header="/cms/web/gateway/"\|\| body="/cms/web/gateway/" \|\| header="/login?service=" \|\| title="iVMS") && header="Server: If you want know, you can ask me" && header!="404 Not Found") \|\| (body="var uuid = \"2b73083e-9b29-4005-a123-1d4ec47a36d5\"; // 用于检测VMS是否超时, chenliangyf1") \|\| (body="/cas/login" && body="js/login/login.service.js") \|\| (body="daysOflicenseDatedWarn" && body="/cas/login") \|\| (body="/ivms-ui/default/css/login.css") \|\| (server="Apache-Coyote/1.1" && body="/baseui/js/plugins/ui/jquery.placeholder.js") \|\| (body="/cas/static/js/jquery.placeholder.js") \|\| (body="IVMS.files/logo.gif") \|\| (body="license!getExpireDateOfDays.action" && body=" window.document.location = '/license!getExpireDateOfDays.action';") \|\| (body="iVMS-A100" && title="登录") \|\| (body="/error/browser.do" && body="/portal" && body="settings.skinStyle" && (body="src=\"/portal/common/js/commonVar.js" \|\| body="nginxService/v1/download/InstallRootCert.exe"))](https://en.fofa.info/result?qbase64=KGJvZHk9ImNsYXNzPVwiZW5uYW1lXCI%2BaVZNUy00MjAwIiAmJiBib2R5PSJsYVJlbVBhc3N3b3JkIikgfHwgKGJvZHk9ImhvbWUvbG9jYXRpb25JbmRleC5hY3Rpb24%2FdGltZT0iICYmIGJvZHk9InJlc3VsdC5kYXRhLmluZGV4VXJsOyIpIHx8IChib2R5PSIvL2Nhb3NoaXlhbiBtb2RpZnkgMjAxNS0wNi0zMCDkuK3ovazpobXpnaIiICYmIGJvZHk9Ii9ob21lL2xvY2F0aW9uSW5kZXguYWN0aW9uP3RpbWU9IiB8fCBib2R5PSJob21lL2xpY2Vuc2VVcGxvYWQuYWN0aW9uIikgfHwgKGJvZHk9ImNsYXNzPVwib3V0XCI%2BPGEgaHJlZj1cImRvd25sb2FkL2lWTVMtIikgfHwgKChib2R5PSJ0YWItYm9yZGVyIGNvZGUtaWl2bXNcIj4iIHx8IGJvZHk9ImxvZ2luP3NlcnZpY2U9IiB8fCBib2R5PSIvZW9wL2NvbW1vbi9jc3MvcmVzZXQuY3NzIiB8fCBoZWFkZXI9Ii9jbXMvd2ViL2dhdGV3YXkvInx8IGJvZHk9Ii9jbXMvd2ViL2dhdGV3YXkvIiB8fCBoZWFkZXI9Ii9sb2dpbj9zZXJ2aWNlPSIgfHwgdGl0bGU9ImlWTVMiKSAmJiBoZWFkZXI9IlNlcnZlcjogSWYgeW91IHdhbnQga25vdywgeW91IGNhbiBhc2sgbWUiICYmIGhlYWRlciE9IjQwNCBOb3QgRm91bmQiKSB8fCAoYm9keT0idmFyIHV1aWQgPSBcIjJiNzMwODNlLTliMjktNDAwNS1hMTIzLTFkNGVjNDdhMzZkNVwiOyAvLyDnlKjkuo7mo4DmtYtWTVPmmK%2FlkKbotoXml7YsIGNoZW5saWFuZ3lmMSIpIHx8IChib2R5PSIvY2FzL2xvZ2luIiAmJiBib2R5PSJqcy9sb2dpbi9sb2dpbi5zZXJ2aWNlLmpzIikgfHwgKGJvZHk9ImRheXNPZmxpY2Vuc2VEYXRlZFdhcm4iICYmIGJvZHk9Ii9jYXMvbG9naW4iKSB8fCAoYm9keT0iL2l2bXMtdWkvZGVmYXVsdC9jc3MvbG9naW4uY3NzIikgfHwgKHNlcnZlcj0iQXBhY2hlLUNveW90ZS8xLjEiICYmIGJvZHk9Ii9iYXNldWkvanMvcGx1Z2lucy91aS9qcXVlcnkucGxhY2Vob2xkZXIuanMiKSB8fCAoYm9keT0iL2Nhcy9zdGF0aWMvanMvanF1ZXJ5LnBsYWNlaG9sZGVyLmpzIikgfHwgKGJvZHk9IklWTVMuZmlsZXMvbG9nby5naWYiKSB8fCAoYm9keT0ibGljZW5zZSFnZXRFeHBpcmVEYXRlT2ZEYXlzLmFjdGlvbiIgJiYgYm9keT0iIHdpbmRvdy5kb2N1bWVudC5sb2NhdGlvbiA9ICcvbGljZW5zZSFnZXRFeHBpcmVEYXRlT2ZEYXlzLmFjdGlvbic7IikgfHwgKGJvZHk9ImlWTVMtQTEwMCIgJiYgdGl0bGU9IueZu%2BW9lSIpIHx8IChib2R5PSIvZXJyb3IvYnJvd3Nlci5kbyIgJiYgYm9keT0iL3BvcnRhbCIgJiYgYm9keT0ic2V0dGluZ3Muc2tpblN0eWxlIiAmJiAoYm9keT0ic3JjPVwiL3BvcnRhbC9jb21tb24vanMvY29tbW9uVmFyLmpzIiB8fCBib2R5PSJuZ2lueFNlcnZpY2UvdjEvZG93bmxvYWQvSW5zdGFsbFJvb3RDZXJ0LmV4ZSIpKQ%3D%3D) |
+| **Number of assets affected**  | 15294 |
+| **Description**  | Hikvision-iVMS comprehensive security management platform is an \"integrated\", \"digital\" and \"intelligent\" platform, including video, alarm, access control, visitor, elevator control, inspection, attendance, consumption, parking lot, Video intercom and other subsystems. The attacker constructs a token arbitrarily by obtaining the key, and requests an interface to upload files arbitrarily, resulting in obtaining the webshell permission of the server and executing malicious code remotely. |
+| **Impact** | Hikvision-iVMS comprehensive security management platform is an \"integrated\", \"digital\" and \"intelligent\" platform, including video, alarm, access control, visitor, elevator control, inspection, attendance, consumption, parking lot, Video intercom and other subsystems. The attacker constructs a token arbitrarily by obtaining the key, and requests an interface to upload files arbitrarily, resulting in obtaining the webshell permission of the server and executing malicious code remotely. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/02/48cbd695f8499d33.gif)
 
 ## WordPress Plugin IWS SQL Injection Vulnerability (CVE-2022-4117)
 
@@ -53,6 +66,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | D-Link DCS-960L is a network camera product of China Taiwan D-Link Company.<br></p><p>When D-Link DCS-960L processes the HNAP login request, the processing logic of the parameter LoginPassword is wrong, and the attacker can construct a special login request to bypass the login verification. |
 | **Impact** | When D-Link DCS-960L processes the HNAP login request, the processing logic of the parameter LoginPassword is wrong, and the attacker can construct a special login request to bypass the login verification. |
   
+![](https://s3.bmp.ovh/imgs/2023/06/02/78c7b86ddb23a225.gif)
+  
 ## Array Networks AG/vxAG RCE (CVE-2022-42897)
 
 |   **Vulnerability**  | **Array Networks AG/vxAG RCE (CVE-2022-42897)**  |
@@ -63,6 +78,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 10117 |
 | **Description**  | Array Networks AG/vxAG is an Array SSL-VPN gateway product of Array Networks in the United States.<br></p><p>Array Networks AG/vxAG with ArrayOS AG prior to 9.4.0.469 has a security vulnerability that allows an unauthenticated attacker to achieve command injection, resulting in privilege escalation and control over the system. |
 | **Impact** | Array Networks AG/vxAG with ArrayOS AG prior to 9.4.0.469 has a security vulnerability that allows an unauthenticated attacker to achieve command injection, resulting in privilege escalation and control over the system. |
+  
+![](https://s3.bmp.ovh/imgs/2023/06/02/15f9b0a6d6522815.gif)
 
 ## ASUS RT-AX56U Sensitive Information Disclosure Vulnerability
 
@@ -74,6 +91,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 291164 |
 | **Description**  | The ASUS RT-AX56U is a WiFi6 dual band 1800M E-sports route that supports the WiFi6 (802.11ax) standard and 80MHz bandwidth to provide better network performance and efficiency. With Trend Micro ™ The supported AiProtection commercial level security protection function provides network security protection for all connected intelligent devices.</p><p>After the construction request is sent to the vulnerable device, the passwd or shadow file in the system can be read, causing the password information disclosure problem of the administrator user. |
 | **Impact** | After the construction request is sent to the vulnerable device, the passwd or shadow file in the system can be read, causing the password information disclosure problem of the administrator user. |
+  
+![](https://s3.bmp.ovh/imgs/2023/06/02/ef698a4fd96bc55f.gif)
   
 ## kkFileView onlinePreview Arbitrary File Read
 
