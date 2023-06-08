@@ -1,7 +1,98 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 2, 2023** 
+**Updated document date: June 8, 2023** 
+
+## yongyou GRP-U8 U8AppProxy Arbitrary file upload vulnerability
+
+|   **Vulnerability**  | **yongyou GRP-U8 U8AppProxy Arbitrary file upload vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 用友GRP-U8 软件 U8AppProxy 任意文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="window.location.replace(\"login.jsp?up=1\")" \|\| body="GRP-U8"](https://en.fofa.info/result?qbase64=Ym9keT0id2luZG93LmxvY2F0aW9uLnJlcGxhY2UoXCJsb2dpbi5qc3A%2FdXA9MVwiKSIgfHwgYm9keT0iR1JQLVU4Ig%3D%3D) |
+| **Number of assets affected**  | 1308 |
+| **Description**  | Yonyou GRP-U8 management software is a new generation of products launched by UFIDA focusing on national e-government affairs and based on cloud computing technology. It is the most professional government financial management software in the field of administrative affairs and finance in my country. UFIDA GRP-U8 management software U8AppProxy has an arbitrary file upload vulnerability, an attacker can upload a webshell to obtain server permissions.|
+| **Impact** | UFIDA GRP-U8 management software U8AppProxy has an arbitrary file upload vulnerability, an attacker can upload a webshell to obtain server permissions. |
+  
+![](https://s3.bmp.ovh/imgs/2023/06/08/5cccc970d4c3d964.gif)
+
+## WordPress Plugin Events Made Easy SQL Injection Vulnerability(CVE-2022-10271)
+
+|   **Vulnerability**  | **WordPress Plugin Events Made Easy SQL Injection Vulnerability(CVE-2022-10271)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WebLogic CoordinatorPortType 远程代码执行漏洞（CVE-2017-10271） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [(body="Welcome to WebLogic Server") \|\| (title=="Error 404--Not Found") \|\| (((body="\<h1>BEA WebLogic Server" \|\| server="Weblogic" \|\| body="content=\"WebLogic Server" \|\| body="\<h1>Welcome to Weblogic Application" \|\| body="\<h1>BEA WebLogic Server") && header!="couchdb" && header!="boa" && header!="RouterOS" && header!="X-Generator: Drupal") \|\| (banner="Weblogic" && banner!="couchdb" && banner!="drupal" && banner!=" Apache,Tomcat,Jboss" && banner!="ReeCam IP Camera" && banner!="\<h2>Blog Comments\</h2>")) \|\| (port="7001" && protocol=="weblogic")](https://en.fofa.info/result?qbase64=KGJvZHk9IldlbGNvbWUgdG8gV2ViTG9naWMgU2VydmVyIikgfHwgKHRpdGxlPT0iRXJyb3IgNDA0LS1Ob3QgRm91bmQiKSB8fCAoKChib2R5PSI8aDE%2BQkVBIFdlYkxvZ2ljIFNlcnZlciIgfHwgc2VydmVyPSJXZWJsb2dpYyIgfHwgYm9keT0iY29udGVudD1cIldlYkxvZ2ljIFNlcnZlciIgfHwgYm9keT0iPGgxPldlbGNvbWUgdG8gV2VibG9naWMgQXBwbGljYXRpb24iIHx8IGJvZHk9IjxoMT5CRUEgV2ViTG9naWMgU2VydmVyIikgJiYgaGVhZGVyIT0iY291Y2hkYiIgJiYgaGVhZGVyIT0iYm9hIiAmJiBoZWFkZXIhPSJSb3V0ZXJPUyIgJiYgaGVhZGVyIT0iWC1HZW5lcmF0b3I6IERydXBhbCIpIHx8IChiYW5uZXI9IldlYmxvZ2ljIiAmJiBiYW5uZXIhPSJjb3VjaGRiIiAmJiBiYW5uZXIhPSJkcnVwYWwiICYmIGJhbm5lciE9IiBBcGFjaGUsVG9tY2F0LEpib3NzIiAmJiBiYW5uZXIhPSJSZWVDYW0gSVAgQ2FtZXJhIiAmJiBiYW5uZXIhPSI8aDI%2BQmxvZyBDb21tZW50czwvaDI%2BIikpIHx8IChwb3J0PSI3MDAxIiAmJiBwcm90b2NvbD09IndlYmxvZ2ljIik%3D) |
+| **Number of assets affected**  | 127705 |
+| **Description**  | WebLogic Server is one of the application server components suitable for both cloud and traditional environments. Due to the default activation of the WLS WebService component during the deployment process, WebLogic utilizes XMLDecoder to parse serialized data. Attackers can exploit this by constructing malicious XML files to achieve remote command execution, potentially allowing them to execute arbitrary code on the server and gain control over the entire web server. |
+| **Impact** | Since WebLogic enables the WLS WebService component by default during the deployment process, this component uses XMLDecoder to parse the serialized data. An attacker can implement remote command execution by constructing a malicious XML file, which may cause the attacker to execute arbitrary code on the server side. And then control the entire web server. |
+  
+## WordPress Plugin Events Made Easy SQL Injection Vulnerability(CVE-2022-1905)
+
+|   **Vulnerability**  | **WordPress Plugin Events Made Easy SQL Injection Vulnerability(CVE-2022-1905)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Events Made Easy 插件 admin-ajax.php 文件 lang 参数SQL注入漏洞（CVE-2022-1905） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/events-made-easy"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2V2ZW50cy1tYWRlLWVhc3ki) |
+| **Number of assets affected**  | 4021 |
+| **Description**  | Events Made Easy is a full-featured event and membership management solution for WordPress. Events Made Easy 2.2.81 has an unauthorized SQL injection vulnerability. |
+| **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+## Bifrost X-Requested-With Authentication Bypass Vulnerability (CVE-2022-39267)
+
+|   **Vulnerability**  | **Bifrost X-Requested-With Authentication Bypass Vulnerability (CVE-2022-39267)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Bifrost 中间件 X-Requested-With 系统身份认证绕过漏洞（CVE-2022-39267） |
+| **CVSS core**  | 8.8 |
+| **FOFA Query**  (click to view the results directly)| [body="/dologin" && body="Bifrost"](https://en.fofa.info/result?qbase64=Ym9keT0iL2RvbG9naW4iICYmIGJvZHk9IkJpZnJvc3Qi) |
+| **Number of assets affected**  | 14 |
+| **Description**  | Bifrost is a heterogeneous middleware that synchronizes MySQL, MariaDB to Redis, MongoDB, ClickHouse, MySQL and other services for production environments. Versions prior to 1.8.8-release are subject to authentication bypass in the admin and monitor user groups by deleting the X-Requested-With: XMLHttpRequest field in the request header. This issue has been patched in 1.8.8-release. There are no known workarounds. |
+| **Impact** | Bifrost is a heterogeneous middleware that synchronizes MySQL, MariaDB and Kafka to Redis, MongoDB, ClickHouse and other services for production environments. It can bypass identity authentication by deleting request headers and obtain passwords for various database accounts configured in the environment. |
+
+## MDT KNX manager panel default credentials vulnerability
+
+|   **Vulnerability**  | **MDT KNX manager panel default credentials vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | MDT KNX 管理面板默认口令 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title="MDT Technologies GmbH" && server="DEFAULT IP PLATFORM"](https://en.fofa.info/result?qbase64=dGl0bGU9Ik1EVCBUZWNobm9sb2dpZXMgR21iSCIgJiYgc2VydmVyPSJERUZBVUxUIElQIFBMQVRGT1JNIg%3D%3D) |
+| **Number of assets affected**  | 1135 |
+| **Description**  | MDT Technologies is an intelligent building automation service provider based on KNX technology for product manufacturing. Its KNX-IP Interface/ Knx-ip Object Server panel is used to access every bus device in the KNX bus system. These panels have default passwords and malicious attackers can take over the target panel system. Default passwords exist on the KNX-IP Interface and KNX-IP Object Server management panel of MDT Technologies. Malicious attackers can use these passwords to take over the target web system. |
+| **Impact** | Default passwords exist on the KNX-IP Interface and KNX-IP Object Server management panel of MDT Technologies. Malicious attackers can use these passwords to take over the target web system. |
+
+## WordPress Plugin LearnPress archive-course File Inclusion Vulnerability (CVE-2022-47615)
+
+|   **Vulnerability**  | **WordPress Plugin LearnPress archive-course File Inclusion Vulnerability (CVE-2022-47615)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Plugin LearnPress archive-course 文件包含漏洞（CVE-2022-47615） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/learnpress"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2xlYXJucHJlc3Mi) |
+| **Number of assets affected**  | 48623 |
+| **Description**  | LearnPress is a comprehensive WordPress LMS Plugin for WordPress. This is one of the best WordPress LMS Plugins which can be used to easily create &amp; sell courses online.</p><p>WordPress LearnPress Plugin &lt;= 4.1.7.3.2 is vulnerable to Local File Inclusion. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+## maxView Storage Manager dynamiccontent.properties.xhtml RCE
+
+|   **Vulnerability**  | **maxView Storage Manager dynamiccontent.properties.xhtml RCE**  |
+| :----:   | :-----|
+|  **Chinese name**  | maxView Storage Manager 系统 dynamiccontent.properties.xhtml 远程代码执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title=="maxView Storage Manager - Login"](https://en.fofa.info/result?qbase64=dGl0bGU9PSJtYXhWaWV3IFN0b3JhZ2UgTWFuYWdlciAtIExvZ2luIg%3D%3D) |
+| **Number of assets affected**  | 1465 |
+| **Description**  | maxView Storage Manager is a management system for enterprise storage and communication solutions.<br></p><p>There is a code execution vulnerability in maxView Storage Manager, an attacker can execute arbitrary code through dynamiccontent.properties.xhtml to gain server privileges. |
+| **Impact** | There is a code execution vulnerability in maxView Storage Manager, an attacker can execute arbitrary code through dynamiccontent.properties.xhtml to gain server privileges. |
+
+## SXETUX dynamiccontent.properties.xhtml RCE
+
+|   **Vulnerability**  | **XETUX dynamiccontent.properties.xhtml RCE**  |
+| :----:   | :-----|
+|  **Chinese name**  | XETUX 软件 dynamiccontent.properties.xhtml 远程代码执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="@XETUX" && title="XPOS" && body = "BackEnd"](https://en.fofa.info/result?qbase64=dGl0bGU9IkBYRVRVWCIgJiYgdGl0bGU9IlhQT1MiICYmIGJvZHkgPSAiQmFja0VuZCI%3D) |
+| **Number of assets affected**  | 2002 |
+| **Description**  | XETUX is a comprehensive solution comprising a set of safe, powerful and monitorable software programs, designed and developed for automatic control of restaurants and retail. There is a code execution vulnerability in XETUX, an attacker can execute arbitrary code through dynamiccontent.properties.xhtml to gain server privileges. |
+| **Impact** | There is a code execution vulnerability in XETUX, an attacker can execute arbitrary code through dynamiccontent.properties.xhtml to gain server privileges. |
+
 
 ## Some Hikvision iVMS file upload vulnerabilities
 
