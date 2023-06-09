@@ -49,6 +49,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Bifrost is a heterogeneous middleware that synchronizes MySQL, MariaDB to Redis, MongoDB, ClickHouse, MySQL and other services for production environments. Versions prior to 1.8.8-release are subject to authentication bypass in the admin and monitor user groups by deleting the X-Requested-With: XMLHttpRequest field in the request header. This issue has been patched in 1.8.8-release. There are no known workarounds. |
 | **Impact** | Bifrost is a heterogeneous middleware that synchronizes MySQL, MariaDB and Kafka to Redis, MongoDB, ClickHouse and other services for production environments. It can bypass identity authentication by deleting request headers and obtain passwords for various database accounts configured in the environment. |
 
+![](https://s3.bmp.ovh/imgs/2023/06/09/5d975955f9fd76d9.gif)
+
 ## MDT KNX manager panel default credentials vulnerability
 
 |   **Vulnerability**  | **MDT KNX manager panel default credentials vulnerability**  |
@@ -59,6 +61,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 1135 |
 | **Description**  | MDT Technologies is an intelligent building automation service provider based on KNX technology for product manufacturing. Its KNX-IP Interface/ Knx-ip Object Server panel is used to access every bus device in the KNX bus system. These panels have default passwords and malicious attackers can take over the target panel system. Default passwords exist on the KNX-IP Interface and KNX-IP Object Server management panel of MDT Technologies. Malicious attackers can use these passwords to take over the target web system. |
 | **Impact** | Default passwords exist on the KNX-IP Interface and KNX-IP Object Server management panel of MDT Technologies. Malicious attackers can use these passwords to take over the target web system. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/09/c82a201acb398b4b.gif)
 
 ## WordPress Plugin LearnPress archive-course File Inclusion Vulnerability (CVE-2022-47615)
 
@@ -81,6 +85,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 1465 |
 | **Description**  | maxView Storage Manager is a management system for enterprise storage and communication solutions.<br></p><p>There is a code execution vulnerability in maxView Storage Manager, an attacker can execute arbitrary code through dynamiccontent.properties.xhtml to gain server privileges. |
 | **Impact** | There is a code execution vulnerability in maxView Storage Manager, an attacker can execute arbitrary code through dynamiccontent.properties.xhtml to gain server privileges. |
+  
+![](https://s3.bmp.ovh/imgs/2023/06/09/b3b919992e1c09f1.gif)
 
 ## SXETUX dynamiccontent.properties.xhtml RCE
 
