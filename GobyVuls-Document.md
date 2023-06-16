@@ -1,7 +1,131 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 8, 2023** 
+**Updated document date: June 16, 2023** 
+
+## RocketMQ Broker rocketmqHome Config Remote Command Execution Vulnerability (CVE-2023-33246)
+
+|   **Vulnerability**  | **RocketMQ Broker rocketmqHome Config Remote Command Execution Vulnerability (CVE-2023-33246)**  |
+| :----:   | :-----|
+| **Chinese name**  | RocketMQ Broker rocketmqHome Config 远程命令执行漏洞（CVE-2023-33246） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [protocol="rocketmq-broker"](https://fofa.info/result?qbase64=cHJvdG9jb2w9InJvY2tldG1xLWJyb2tlciI%3D) |
+| **Number of assets affected**  | 10087 |
+| **Description**  | Apache RocketMQ is a lightweight data processing platform and messaging engine developed by the Apache Software Foundation in the United States.</p><p>There is a code injection vulnerability in Apache RocketMQ 5.1.0 and earlier versions, which originates from a remote command execution vulnerability. Attackers can exploit this vulnerability to execute commands with system user privileges using the update configuration function. |
+| **Impact** | There is a code injection vulnerability in Apache RocketMQ 5.1.0 and earlier versions, which originates from a remote command execution vulnerability. Attackers can exploit this vulnerability to execute commands with system user privileges using the update configuration function. |
+  
+![](https://github.com/gobysec/GobyVuls/blob/master/CVE-2023-33246.gif)
+
+## Telecom system /manager/teletext/material/upload.php fileupload vulnerability
+
+|   **Vulnerability**  | **Telecom system /manager/teletext/material/upload.php fileupload vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 电信网关配置管理系统后台 /manager/teletext/material/upload.php 文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="img/login_bg3.png" && body="系统登录"](https://fofa.info/result?qbase64=Ym9keT0iaW1nL2xvZ2luX2JnMy5wbmciICYmIGJvZHk9Iuezu%2Be7n%2BeZu%2BW9lSI%3D) |
+| **Number of assets affected**  | 856 |
+| **Description**  | China Telecom Group Co., Ltd. (English name \"China Telecom\", referred to as \"China Telecom\") was established in September 2000. It is a large state-owned telecommunications company in China and a global partner of the Shanghai World Expo. There is a file upload vulnerability in the background of the telecom gateway configuration management system. An attacker can exploit this vulnerability to obtain a device shell.|
+| **Impact** | China Telecom Group Co., Ltd. (English name \"China Telecom\", referred to as \"China Telecom\") was established in September 2000. It is a large state-owned telecommunications company in China and a global partner of the Shanghai World Expo. There is a file upload vulnerability in the background of the telecom gateway configuration management system. An attacker can exploit this vulnerability to obtain a device shell. |
+
+## Weaver E-office Office Automation System download.php filename file read vulnerability
+
+|   **Vulnerability**  | **Weaver E-office Office Automation System download.php filename file read vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 泛微E-office协同办公系统 download.php 文件 filename 参数文件读取漏洞 |
+| **CVSS core**  | 5.0 |
+| **FOFA Query**  (click to view the results directly)| [((header="general/login/index.php" \|\| body="/general/login/view//images/updateLoad.gif" \|\| (body="szFeatures" && body="eoffice") \|\| header="Server: eOffice") && body!="Server: couchdb") \|\| banner="general/login/index.php"](https://en.fofa.info/result?qbase64=KChoZWFkZXI9ImdlbmVyYWwvbG9naW4vaW5kZXgucGhwIiB8fCBib2R5PSIvZ2VuZXJhbC9sb2dpbi92aWV3Ly9pbWFnZXMvdXBkYXRlTG9hZC5naWYiIHx8IChib2R5PSJzekZlYXR1cmVzIiAmJiBib2R5PSJlb2ZmaWNlIikgfHwgaGVhZGVyPSJTZXJ2ZXI6IGVPZmZpY2UiKSAmJiBib2R5IT0iU2VydmVyOiBjb3VjaGRiIikgfHwgYmFubmVyPSJnZW5lcmFsL2xvZ2luL2luZGV4LnBocCI%3D) |
+| **Number of assets affected**  | 4971 |
+| **Description**  | Weaver E-office Office Automation System is a professional office software, is for small business or team work platform. There are file reading vulnerabilities in the Weaver E-office Office Automation System.Attackers can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., resulting in an extremely insecure state of the website. |
+| **Impact** | There are file reading vulnerabilities in the Weaver E-office Office Automation System.Attackers can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., resulting in an extremely insecure state of the website. |
+
+## WordPress Plugin Extensive VC Addons File Inclusion Vulnerability
+
+|   **Vulnerability**  | **WordPress Plugin Extensive VC Addons File Inclusion Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress Extensive VC Addons 插件 options[template] 文件包含漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/extensive-vc-addon"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2V4dGVuc2l2ZS12Yy1hZGRvbiI%3D) |
+| **Number of assets affected**  | 2583 |
+| **Description**  | Extensive VC is a powerful WordPress tool which allows you to add unique, flexible and fully responsive shortcode elements on your site. xtensive VC Addons &lt; 1.9.1 is vulnerable to Local File Inclusion. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+## Avaya Aura Device Services PhoneBackup File Upload Vulnerability
+
+|   **Vulnerability**  | **Avaya Aura Device Services PhoneBackup File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | Avaya Aura Device Services r软件 PhoneBackup 任意文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [((body="vmsTitle\">Avaya Aura&#8482;&nbsp;Utility Server" \|\| body="/webhelp/Base/Utility_toc.htm" \|\| (body="Avaya Aura&reg;&nbsp;Utility Services" && body="Avaya Inc. All Rights Reserved")) && body!="Server: couchdb")](https://en.fofa.info/result?qbase64=KChib2R5PSJ2bXNUaXRsZVwiPkF2YXlhIEF1cmEmIzg0ODI7Jm5ic3A7VXRpbGl0eSBTZXJ2ZXIiIHx8IGJvZHk9Ii93ZWJoZWxwL0Jhc2UvVXRpbGl0eV90b2MuaHRtIiB8fCAoYm9keT0iQXZheWEgQXVyYSZyZWc7Jm5ic3A7VXRpbGl0eSBTZXJ2aWNlcyIgJiYgYm9keT0iQXZheWEgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkIikpICYmIGJvZHkhPSJTZXJ2ZXI6IGNvdWNoZGIiKQ%3D%3D) |
+| **Number of assets affected**  | 565 |
+| **Description**  | Avaya Aura Device Services is an application software of Avaya Corporation in the United States. Provides a function to manage Avaya endpoints. Avaya Aura Device Services versions 7.0 to 8.1.4.0 have security vulnerabilities. Attackers can bypass authentication and upload arbitrary files to obtain server permissions. |
+| **Impact** | Avaya Aura Device Services versions 7.0 to 8.1.4.0 have security vulnerabilities. Attackers can bypass authentication and upload arbitrary files to obtain server permissions. |
+
+## Weaver OA PluginViewServlet Authentication Bypass Vulnerability
+
+|   **Vulnerability**  | **Weaver OA PluginViewServlet Authentication Bypass Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 泛微OA办公系统 PluginViewServlet 认证绕过漏洞 |
+| **CVSS core**  | 8.0 |
+| **FOFA Query**  (click to view the results directly)| [(header="testBanCookie" \|\| banner="testBanCookie" \|\| body="/wui/common/css/w7OVFont.css" \|\| (body="typeof poppedWindow" && body="client/jquery.client_wev8.js") \|\| body="/theme/ecology8/jquery/js/zDialog_wev8.js" \|\| body="ecology8/lang/weaver_lang_7_wev8.js")](https://en.fofa.info/result?qbase64=KGhlYWRlcj0idGVzdEJhbkNvb2tpZSIgfHwgYmFubmVyPSJ0ZXN0QmFuQ29va2llIiB8fCBib2R5PSIvd3VpL2NvbW1vbi9jc3MvdzdPVkZvbnQuY3NzIiB8fCAoYm9keT0idHlwZW9mIHBvcHBlZFdpbmRvdyIgJiYgYm9keT0iY2xpZW50L2pxdWVyeS5jbGllbnRfd2V2OC5qcyIpIHx8IGJvZHk9Ii90aGVtZS9lY29sb2d5OC9qcXVlcnkvanMvekRpYWxvZ193ZXY4LmpzIiB8fCBib2R5PSJlY29sb2d5OC9sYW5nL3dlYXZlcl9sYW5nXzdfd2V2OC5qcyIp) |
+| **Number of assets affected**  | 45034 |
+| **Description**  | Weaver OA is a professional and powerful multi-functional office management software that supports mobile approval, attendance, query, sharing and other functions, effectively improving the user's office efficiency. There is an authentication bypass vulnerability in Panwei OA weaver.mobile.plugin.ecology.service.PluginViewServlet, and attackers can log in arbitrarily to obtain administrator privileges. |
+| **Impact** | There is an authentication bypass vulnerability in Panwei OA weaver.mobile.plugin.ecology.service.PluginViewServlet, and attackers can log in arbitrarily to obtain administrator privileges. |
+
+## Netgod SecGate 3600 Firewall sys_export_conf_local_save File Read Vulnerability
+
+|   **Vulnerability**  | **Netgod SecGate 3600 Firewall sys_export_conf_local_save File Read Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 网神SecGate 3600防火墙 sys_export_conf_local_save 文件读取漏洞 |
+| **CVSS core**  | 8.0 |
+| **FOFA Query**  (click to view the results directly)| [title="网神SecGate 3600防火墙"](https://en.fofa.info/result?qbase64=dGl0bGU9Iue9keelnlNlY0dhdGUgMzYwMOmYsueBq%2BWimSI%3D) |
+| **Number of assets affected**  | 738 |
+| **Description**  | Netgod SecGate 3600 firewall is a composite hardware firewall based on status detection packet filtering and application level agents. It is a new generation of professional firewall equipment specially developed for large and medium-sized enterprises, governments, military, universities and other users. It supports external attack prevention, internal network security, network access control, network traffic monitoring and bandwidth management, dynamic routing, web content filtering, email content filtering, IP conflict detection and other functions, It can effectively ensure the security of the network; The product provides flexible network routing/bridging capabilities, supports policy routing and multi outlet link aggregation; It provides a variety of intelligent analysis and management methods, supports email alarm, supports log audit, provides comprehensive network management monitoring, and assists network administrators in completing network security management. There is a file reading vulnerability in the Netgod SecGate 3600 firewall, which allows attackers to obtain sensitive information from the server. |
+| **Impact** | There is a file reading vulnerability in the Netgod SecGate 3600 firewall, which allows attackers to obtain sensitive information from the server. |
+
+## PandoraFMS upload_head_image.php Arbitrary File Upload Vulnerability
+
+|   **Vulnerability**  | **PandoraFMS upload_head_image.php Arbitrary File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | PandoraFMS 软件 upload_head_image.php 任意文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="pandora_console/"](https://en.fofa.info/result?qbase64=Ym9keT0icGFuZG9yYV9jb25zb2xlLyI%3D) |
+| **Number of assets affected**  | 768 |
+| **Description**  | PandoraFMS is an application software of American PandoraFMS. Provides a monitoring function.<br></p><p>There is an unauthorized file upload vulnerability in PandoraFMS upload_head_image.php. Attackers can upload malicious Trojan horses to obtain server permissions. |
+| **Impact** | There is an unauthorized file upload vulnerability in PandoraFMS upload_head_image.php. Attackers can upload malicious Trojan horses to obtain server permissions. |
+
+## WordPress plugins User Post Gallery upg_datatable RCE Vulnerability (CVE-2022-4060)
+
+|   **Vulnerability**  | **WordPress plugins User Post Gallery upg_datatable RCE Vulnerability (CVE-2022-4060)**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress User Post Gallery 插件 upg_datatable 远程代码执行漏洞（CVE-2022-4060） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/wp-upg"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3dwLXVwZyI%3D) |
+| **Number of assets affected**  | 383 |
+| **Description**  | WordPress plugins User Post Gallery is a plugin that allows users to select albums, generate tags, upload pictures and videos from the front end. There is a code injection vulnerability in WordPress plugin User Post Gallery 2.19 and earlier versions. The vulnerability stems from the fact that the callback function allows any user to call it. Attackers can use this vulnerability to run code on its site. |
+| **Impact** | There is a code injection vulnerability in WordPress plugin User Post Gallery 2.19 and earlier versions. The vulnerability stems from the fact that the callback function allows any user to call it. Attackers can use this vulnerability to run code on its site. |
+
+
+## WordPress plugins User Verification Authentication Bypass Vulnerability (CVE-2022-4693)
+
+|   **Vulnerability**  | **WordPress plugins User Verification Authentication Bypass Vulnerability (CVE-2022-4693)**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress User Verification 插件 user_verification_send_otp 页面认证绕过漏洞（CVE-2022-4693） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/user-verification"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3VzZXItdmVyaWZpY2F0aW9uIg%3D%3D) |
+| **Number of assets affected**  | 707 |
+| **Description**  | WordPress plugins User Verification is a plugin to protect your website from spam users and block instant access by using spam email addresses. There is an authorization problem vulnerability in WordPress plugins User Verification before version 1.0.94. The vulnerability stems from the fact that login verification can be bypassed. |
+| **Impact** | There is an authorization problem vulnerability in WordPress plugins User Verification before version 1.0.94. The vulnerability stems from the fact that login verification can be bypassed. |
+
+## WordPress plugin Wholesale Market ced_cwsm_csv_import_export_module_download_error_log File Read Vulnerability (CVE-2022-4298)
+
+|   **Vulnerability**  | **WordPress plugin Wholesale Market ced_cwsm_csv_import_export_module_download_error_log File Read Vulnerability (CVE-2022-4298)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Wholesale Market 插件 ced_cwsm_csv_import_export_module_download_error_log 任意文件读取漏洞（CVE-2022-4298） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/wholesale-market"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3dob2xlc2FsZS1tYXJrZXQi) |
+| **Number of assets affected**  | 120 |
+| **Description**  | The WordPress plugin Wholesale Market is a woocommerce extension plugin that enables your store to create wholesale users and set wholesale prices for products by. The WordPress plugin Wholesale Market version prior to 2.2.1 has a path traversal vulnerability, which is caused by not performing authorization checks and not validating user input. Attackers exploit this vulnerability to download arbitrary files from the server. |
+| **Impact** | The WordPress plugin Wholesale Market version prior to 2.2.1 has a path traversal vulnerability, which is caused by not performing authorization checks and not validating user input. Attackers exploit this vulnerability to download arbitrary files from the server. |
 
 ## yongyou GRP-U8 U8AppProxy Arbitrary file upload vulnerability
 
