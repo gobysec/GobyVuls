@@ -1,7 +1,7 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 16, 2023** 
+**Updated document date: June 21, 2023** 
 
 ## VMware VRealize Network Insight resttosaasservlet Remote Command Execution Vulnerability (CVE-2023-20887)
 
