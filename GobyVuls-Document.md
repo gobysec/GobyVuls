@@ -3,6 +3,32 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 **Updated document date: June 16, 2023** 
 
+## VMware VRealize Network Insight resttosaasservlet Remote Command Execution Vulnerability (CVE-2023-20887)
+
+|   **Vulnerability**  | **VMware VRealize Network Insight resttosaasservlet Remote Command Execution Vulnerability (CVE-2023-20887)**  |
+| :----:   | :-----|
+| **Chinese name**  | VMware VRealize Network Insight resttosaasservlet 远程命令执行漏洞（CVE-2023-20887） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="VMware vRealize Network Insight" \|\| body="vneraapp/assets/fonts/bootstrap/glyphicons-halflings-regular" \|\| title="Operations for Networks"](https://en.fofa.info/result?qbase64=dGl0bGU9IlZNd2FyZSB2UmVhbGl6ZSBOZXR3b3JrIEluc2lnaHQiIHx8IGJvZHk9InZuZXJhYXBwL2Fzc2V0cy9mb250cy9ib290c3RyYXAvZ2x5cGhpY29ucy1oYWxmbGluZ3MtcmVndWxhciIgfHwgdGl0bGU9Ik9wZXJhdGlvbnMgZm9yIE5ldHdvcmtzIg%3D%3D) |
+| **Number of assets affected**  | 32 |
+| **Description**  | VMware Aria Operations is a unified, AI-driven autonomous IT operations management platform from VMware Inc. It is designed for private cloud, hybrid cloud, and multi-cloud environments.A security vulnerability exists in the /saas./resttosaasservlet component of VMware Aria Operations Networks 6.x series versions, which allows attackers to execute command injection attacks and subsequently result in remote code execution. |
+| **Impact** | A security vulnerability exists in the saasresttosaasservlet component of VMware Aria Operations Networks 6.x series versions, which allows attackers to execute command injection attacks and subsequently result in remote code execution. |
+
+![](https://github.com/gobysec/GobyVuls/blob/master/CVE-2023-20887.gif)
+
+## VMware VRealize Network Insight saasresttosaasservlet Remote Command Execution Vulnerability (CVE-2022-31702)
+
+|   **Vulnerability**  | **VMware VRealize Network Insight saasresttosaasservlet Remote Command Execution Vulnerability (CVE-2022-31702)**  |
+| :----:   | :-----|
+| **Chinese name**  | VMware VRealize Network Insight saasresttosaasservlet 远程命令执行漏洞（CVE-2022-31702） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="VMware vRealize Network Insight" \|\| body="vneraapp/assets/fonts/bootstrap/glyphicons-halflings-regular" \|\| title="Operations for Networks"](https://en.fofa.info/result?qbase64=dGl0bGU9IlZNd2FyZSB2UmVhbGl6ZSBOZXR3b3JrIEluc2lnaHQiIHx8IGJvZHk9InZuZXJhYXBwL2Fzc2V0cy9mb250cy9ib290c3RyYXAvZ2x5cGhpY29ucy1oYWxmbGluZ3MtcmVndWxhciIgfHwgdGl0bGU9Ik9wZXJhdGlvbnMgZm9yIE5ldHdvcmtzIg%3D%3D) |
+| **Number of assets affected**  | 32 |
+| **Description**  | VMware Aria Operations is a unified, AI-driven autonomous IT operations management platform from VMware Inc. It is designed for private cloud, hybrid cloud, and multi-cloud environments.A security vulnerability exists in the saasresttosaasservlet component of VMware Aria Operations Networks 6.x series versions, which allows attackers to execute command injection attacks and subsequently result in remote code execution. |
+| **Impact** | A security vulnerability exists in the saasresttosaasservlet component of VMware Aria Operations Networks 6.x series versions, which allows attackers to execute command injection attacks and subsequently result in remote code execution. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/16/ab6c2f05e446d56a.gif)
+
 ## Ignite Realtime Openfire Permission Bypass Vulnerability (CVE-2023-32315)
 
 |   **Vulnerability**  | **Ignite Realtime Openfire Permission Bypass Vulnerability (CVE-2023-32315)**  |
@@ -35,10 +61,12 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 | **Chinese name**  | 电信网关配置管理系统后台 /manager/teletext/material/upload.php 文件上传漏洞 |
 | **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [body="img/login_bg3.png" && body="系统登录"](https://fofa.info/result?qbase64=Ym9keT0iaW1nL2xvZ2luX2JnMy5wbmciICYmIGJvZHk9Iuezu%2Be7n%2BeZu%2BW9lSI%3D) |
+| **FOFA Query**  (click to view the results directly)| [body="img/login_bg3.png" && body="系统登录"](https://en.fofa.info/result?qbase64=Ym9keT0iaW1nL2xvZ2luX2JnMy5wbmciICYmIGJvZHk9Iuezu%2Be7n%2BeZu%2BW9lSI%3D) |
 | **Number of assets affected**  | 856 |
 | **Description**  | China Telecom Group Co., Ltd. (English name \"China Telecom\", referred to as \"China Telecom\") was established in September 2000. It is a large state-owned telecommunications company in China and a global partner of the Shanghai World Expo. There is a file upload vulnerability in the background of the telecom gateway configuration management system. An attacker can exploit this vulnerability to obtain a device shell.|
 | **Impact** | China Telecom Group Co., Ltd. (English name \"China Telecom\", referred to as \"China Telecom\") was established in September 2000. It is a large state-owned telecommunications company in China and a global partner of the Shanghai World Expo. There is a file upload vulnerability in the background of the telecom gateway configuration management system. An attacker can exploit this vulnerability to obtain a device shell. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/21/dd91a5dac2dab90d.gif)
 
 ## Weaver E-office Office Automation System download.php filename file read vulnerability
 
@@ -51,6 +79,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Weaver E-office Office Automation System is a professional office software, is for small business or team work platform. There are file reading vulnerabilities in the Weaver E-office Office Automation System.Attackers can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., resulting in an extremely insecure state of the website. |
 | **Impact** | There are file reading vulnerabilities in the Weaver E-office Office Automation System.Attackers can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., resulting in an extremely insecure state of the website. |
 
+![](https://s3.bmp.ovh/imgs/2023/06/21/008f7969a69cf000.gif)
+
 ## WordPress Plugin Extensive VC Addons File Inclusion Vulnerability
 
 |   **Vulnerability**  | **WordPress Plugin Extensive VC Addons File Inclusion Vulnerability**  |
@@ -61,6 +91,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 2583 |
 | **Description**  | Extensive VC is a powerful WordPress tool which allows you to add unique, flexible and fully responsive shortcode elements on your site. xtensive VC Addons &lt; 1.9.1 is vulnerable to Local File Inclusion. |
 | **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/21/10e1c4496ca1db1b.gif)
 
 ## Avaya Aura Device Services PhoneBackup File Upload Vulnerability
 
@@ -73,6 +105,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Avaya Aura Device Services is an application software of Avaya Corporation in the United States. Provides a function to manage Avaya endpoints. Avaya Aura Device Services versions 7.0 to 8.1.4.0 have security vulnerabilities. Attackers can bypass authentication and upload arbitrary files to obtain server permissions. |
 | **Impact** | Avaya Aura Device Services versions 7.0 to 8.1.4.0 have security vulnerabilities. Attackers can bypass authentication and upload arbitrary files to obtain server permissions. |
 
+![](https://s3.bmp.ovh/imgs/2023/06/21/06ca1ac2bfc684e0.gif)
+
 ## Weaver OA PluginViewServlet Authentication Bypass Vulnerability
 
 |   **Vulnerability**  | **Weaver OA PluginViewServlet Authentication Bypass Vulnerability**  |
@@ -83,6 +117,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 45034 |
 | **Description**  | Weaver OA is a professional and powerful multi-functional office management software that supports mobile approval, attendance, query, sharing and other functions, effectively improving the user's office efficiency. There is an authentication bypass vulnerability in Panwei OA weaver.mobile.plugin.ecology.service.PluginViewServlet, and attackers can log in arbitrarily to obtain administrator privileges. |
 | **Impact** | There is an authentication bypass vulnerability in Panwei OA weaver.mobile.plugin.ecology.service.PluginViewServlet, and attackers can log in arbitrarily to obtain administrator privileges. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/21/38cfb28426294995.gif)
 
 ## Netgod SecGate 3600 Firewall sys_export_conf_local_save File Read Vulnerability
 
@@ -95,6 +131,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Netgod SecGate 3600 firewall is a composite hardware firewall based on status detection packet filtering and application level agents. It is a new generation of professional firewall equipment specially developed for large and medium-sized enterprises, governments, military, universities and other users. It supports external attack prevention, internal network security, network access control, network traffic monitoring and bandwidth management, dynamic routing, web content filtering, email content filtering, IP conflict detection and other functions, It can effectively ensure the security of the network; The product provides flexible network routing/bridging capabilities, supports policy routing and multi outlet link aggregation; It provides a variety of intelligent analysis and management methods, supports email alarm, supports log audit, provides comprehensive network management monitoring, and assists network administrators in completing network security management. There is a file reading vulnerability in the Netgod SecGate 3600 firewall, which allows attackers to obtain sensitive information from the server. |
 | **Impact** | There is a file reading vulnerability in the Netgod SecGate 3600 firewall, which allows attackers to obtain sensitive information from the server. |
 
+![](https://s3.bmp.ovh/imgs/2023/06/21/cffc80cace17c408.gif)
+
 ## PandoraFMS upload_head_image.php Arbitrary File Upload Vulnerability
 
 |   **Vulnerability**  | **PandoraFMS upload_head_image.php Arbitrary File Upload Vulnerability**  |
@@ -105,6 +143,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 768 |
 | **Description**  | PandoraFMS is an application software of American PandoraFMS. Provides a monitoring function.<br></p><p>There is an unauthorized file upload vulnerability in PandoraFMS upload_head_image.php. Attackers can upload malicious Trojan horses to obtain server permissions. |
 | **Impact** | There is an unauthorized file upload vulnerability in PandoraFMS upload_head_image.php. Attackers can upload malicious Trojan horses to obtain server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/21/c89f35d6d3a29740.gif)
 
 ## WordPress plugins User Post Gallery upg_datatable RCE Vulnerability (CVE-2022-4060)
 
@@ -117,6 +157,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | WordPress plugins User Post Gallery is a plugin that allows users to select albums, generate tags, upload pictures and videos from the front end. There is a code injection vulnerability in WordPress plugin User Post Gallery 2.19 and earlier versions. The vulnerability stems from the fact that the callback function allows any user to call it. Attackers can use this vulnerability to run code on its site. |
 | **Impact** | There is a code injection vulnerability in WordPress plugin User Post Gallery 2.19 and earlier versions. The vulnerability stems from the fact that the callback function allows any user to call it. Attackers can use this vulnerability to run code on its site. |
 
+![](https://s3.bmp.ovh/imgs/2023/06/21/f82bbe1d63c40785.gif)
 
 ## WordPress plugins User Verification Authentication Bypass Vulnerability (CVE-2022-4693)
 
@@ -129,6 +170,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | WordPress plugins User Verification is a plugin to protect your website from spam users and block instant access by using spam email addresses. There is an authorization problem vulnerability in WordPress plugins User Verification before version 1.0.94. The vulnerability stems from the fact that login verification can be bypassed. |
 | **Impact** | There is an authorization problem vulnerability in WordPress plugins User Verification before version 1.0.94. The vulnerability stems from the fact that login verification can be bypassed. |
 
+![](https://s3.bmp.ovh/imgs/2023/06/21/5e1c0207e077f467.gif)
+
 ## WordPress plugin Wholesale Market ced_cwsm_csv_import_export_module_download_error_log File Read Vulnerability (CVE-2022-4298)
 
 |   **Vulnerability**  | **WordPress plugin Wholesale Market ced_cwsm_csv_import_export_module_download_error_log File Read Vulnerability (CVE-2022-4298)**  |
@@ -139,6 +182,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 120 |
 | **Description**  | The WordPress plugin Wholesale Market is a woocommerce extension plugin that enables your store to create wholesale users and set wholesale prices for products by. The WordPress plugin Wholesale Market version prior to 2.2.1 has a path traversal vulnerability, which is caused by not performing authorization checks and not validating user input. Attackers exploit this vulnerability to download arbitrary files from the server. |
 | **Impact** | The WordPress plugin Wholesale Market version prior to 2.2.1 has a path traversal vulnerability, which is caused by not performing authorization checks and not validating user input. Attackers exploit this vulnerability to download arbitrary files from the server. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/21/f9ab68386ba634ba.gif)
 
 ## yongyou GRP-U8 U8AppProxy Arbitrary file upload vulnerability
 
