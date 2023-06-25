@@ -14,7 +14,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | VMware Aria Operations is a unified, AI-driven autonomous IT operations management platform from VMware Inc. It is designed for private cloud, hybrid cloud, and multi-cloud environments.A security vulnerability exists in the /saas./resttosaasservlet component of VMware Aria Operations Networks 6.x series versions, which allows attackers to execute command injection attacks and subsequently result in remote code execution. |
 | **Impact** | A security vulnerability exists in the saasresttosaasservlet component of VMware Aria Operations Networks 6.x series versions, which allows attackers to execute command injection attacks and subsequently result in remote code execution. |
 
-![](https://github.com/gobysec/GobyVuls/blob/master/CVE-2023-20887.gif)
+![](https://github.com/jwy456829/Goby/blob/master/CVE-2023-20887.gif)
 
 ## VMware VRealize Network Insight saasresttosaasservlet Remote Command Execution Vulnerability (CVE-2022-31702)
 
