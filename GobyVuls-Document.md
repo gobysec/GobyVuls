@@ -1,7 +1,132 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 21, 2023** 
+**Updated document date: June 28, 2023** 
+
+## VNC remote desktop system default password vulnerability
+
+|   **Vulnerability**  | **VNC remote desktop system default password vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | VNC 远程桌面系统默认口令漏洞 |
+| **CVSS core**  | 7.3 |
+| **FOFA Query**  (click to view the results directly)| [(protocol="vnc" \|\| body="<APPLET code=VncViewer.class archive=VncViewer.jar")](https://en.fofa.info/result?qbase64=KHByb3RvY29sPSJ2bmMiIHx8IGJvZHk9IjxBUFBMRVQgY29kZT1WbmNWaWV3ZXIuY2xhc3MgYXJjaGl2ZT1WbmNWaWV3ZXIuamFyIik%3D) |
+| **Number of assets affected**  | 2611849 |
+| **Description**  | VNC is a screen sharing and remote operation software using RFB protocol. This software can send keyboard and mouse movements and real-time screen images through the network. VNC has nothing to do with the operating system, so it can be used across platforms, for example, you can use Windows to connect to a Linux computer, and vice versa. Even in a computer without a client program installed, as long as there is a browser that supports JAVA, it can be used. The product has weak passwords, and attackers can use the 123456 password to enter the system, view system information, and modify system configuration, which affects the use of users. |
+| **Impact** | The product has weak passwords, and attackers can use the 123456 password to enter the system, view system information, and modify system configuration, which affects the use of users. |
+
+## WordPress plugin Membership wps_membership_csv_file_upload File Upload Vulnerability (CVE-2022-4395)
+
+|   **Vulnerability**  | **WordPress plugin Membership wps_membership_csv_file_upload File Upload Vulnerability (CVE-2022-4395)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Membership 插件 wps_membership_csv_file_upload 文件上传漏洞（CVE-2022-4395） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/Membership"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL01lbWJlcnNoaXAi) |
+| **Number of assets affected**  | 1151 |
+| **Description**  | WordPress plugin Membership is a plugin that helps attract customers using membership programs, offers users membership programs as subscriptions to limit access to your eCommerce store. WordPress plugin Membership versions before 2.1.7 have a code problem vulnerability, which is caused by not verifying uploaded files. Attackers exploit this vulnerability to upload arbitrary files, such as malicious PHP code, and execute code remotely. |
+| **Impact** | WordPress plugin Membership versions before 2.1.7 have a code problem vulnerability, which is caused by not verifying uploaded files. Attackers exploit this vulnerability to upload arbitrary files, such as malicious PHP code, and execute code remotely. |
+
+## WordPress Theme Motor File Inclusion Vulnerability(CVE-2021-24375)
+
+|   **Vulnerability**  | **WordPress Theme Motor File Inclusion Vulnerability(CVE-2021-24375)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Motor 主题 admin-ajax.php 文件包含漏洞（CVE-2021-24375） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/themes/motor"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC90aGVtZXMvbW90b3Ii) |
+| **Number of assets affected**  | 711 |
+| **Description**  | Motor is a professional WordPress WooCommerce Theme for dealers, retailers, shops and mechanics. WordPress Motor  Theme < 3.1.0 is vulnerable to Local File Inclusion. |
+| **Impact** | Attackers can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in an extremely insecure website. |
+
+![](https://s3.bmp.ovh/imgs/2023/06/28/56a22a12996a7f9c.gif)
+
+## Arbitrary file reading vulnerability of edusoho classroom-course-statistics（CNVD-2023-03903）
+
+|   **Vulnerability**  | **Arbitrary file reading vulnerability of edusoho classroom-course-statistics（CNVD-2023-03903）**  |
+| :----:   | :-----|
+|  **Chinese name**  | edusoho 教培系统 classroom-course-statistics 任意文件读取漏洞（CNVD-2023-03903） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [title="Powered By EduSoho" \|\| body="Powered by \<a href=\"http://www.edusoho.com/\" target=\"_blank\">EduSoho" \|\| (body="Powered By EduSoho" && body="var app")](https://en.fofa.info/result?qbase64=dGl0bGU9IlBvd2VyZWQgQnkgRWR1U29obyIgfHwgYm9keT0iUG93ZXJlZCBieSA8YSBocmVmPVwiaHR0cDovL3d3dy5lZHVzb2hvLmNvbS9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5FZHVTb2hvIiB8fCAoYm9keT0iUG93ZXJlZCBCeSBFZHVTb2hvIiAmJiBib2R5PSJ2YXIgYXBwIik%3D) |
+| **Number of assets affected**  | 6957 |
+| **Description**  | The edusoho education and training system <v22.4.7 has unauthorized file reading vulnerability. Through this vulnerability, an attacker can read the contents of the config/parameters.yml file and obtain sensitive information such as the secret value saved in the file and database account password. After the secret value is obtained, an attacker can implement RCE with symfony _fragment routing |
+| **Impact** | EduSoho Education and training system is an open source network school system developed by Hangzhou Kozhi Network Technology Company. The education and training system <v22.4.7 has unauthorized arbitrary file reading vulnerability, through which an attacker can read the contents of the config/parameters.yml file. Get the secret value saved in the file, database account password and other sensitive information. After the secret value is obtained, an attacker can implement RCE with symfony _fragment routing |
+
+![](https://s3.bmp.ovh/imgs/2023/06/28/2639f5440b5697a4.gif)
+
+## dst-admin sendBroadcast message RCE Vulnerability (CVE-2023-0649)
+
+|   **Vulnerability**  | **dst-admin sendBroadcast message RCE Vulnerability (CVE-2023-0649)**  |
+| :----:   | :-----|
+|  **Chinese name**  | dst-admin 饥荒管理后台 sendBroadcast 文件 message 参数远程命令执行漏洞（CVE-2023-0649） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=="饥荒管理后台"](https://en.fofa.info/result?qbase64=dGl0bGU9PSLppaXojZLnrqHnkIblkI7lj7Ai) |
+| **Number of assets affected**  | 1999 |
+| **Description**  | dst-admin is a web program written in Java language by the individual developer of qinming99. There is a command injection vulnerability in dst-admin version 1.5.0. The vulnerability comes from the unknown function of the file home/sendBroadcast. Command injection can be performed through the parameter message, and the attacker can obtain server privileges. |
+| **Impact** | There is a command injection vulnerability in dst-admin version 1.5.0. The vulnerability comes from the unknown function of the file home/sendBroadcast. Command injection can be performed through the parameter message, and the attacker can obtain server privileges. |
+
+## WordPress plugin Build App Online admin-ajax.php vendor SQL Vulnerability (CVE-2022-3241)
+
+|   **Vulnerability**  | **WordPress plugin Build App Online admin-ajax.php vendor SQL Vulnerability (CVE-2022-3241)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Build App Online 插件 admin-ajax.php 文件 vendor 参数 SQL注入漏洞（CVE-2022-3241） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/build-app-online"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2J1aWxkLWFwcC1vbmxpbmUi) |
+| **Number of assets affected**  | 327 |
+| **Description**  | WordPress plugin Build App Online is a plugin that helps you create and run mobile apps for woocommerce. WordPress plugin Build App Online version before 1.0.19 has a SQL injection vulnerability. The vulnerability stems from the fact that some parameters are not properly cleaned and escaped before the SQL statement uses them, resulting in SQL injection, and the attacker can obtain sensitive information such as account passwords. information. |
+| **Impact** | WordPress plugin Build App Online version before 1.0.19 has a SQL injection vulnerability. The vulnerability stems from the fact that some parameters are not properly cleaned and escaped before the SQL statement uses them, resulting in SQL injection, and the attacker can obtain sensitive information such as account passwords. information. |
+
+## WordPress plugin Nirweb support admin-ajax.php id_form SQL Injection Vulnerability (CVE-2022-0781)
+
+|   **Vulnerability**  | **WordPress plugin Nirweb support admin-ajax.php id_form SQL Injection Vulnerability (CVE-2022-0781)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress Nirweb support 插件 admin-ajax.php 文件 id_form 参数SQL注入漏洞（CVE-2022-0781） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/nirweb-support"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL25pcndlYi1zdXBwb3J0Ig%3D%3D) |
+| **Number of assets affected**  | 408 |
+| **Description**  | WordPress plugin Nirweb support is a plugin with sales, support, management and other functions. There is a SQL injection vulnerability in versions before WordPress plugin Nirweb support 2.8.2. The vulnerability stems from the failure to clean and escape parameters. Attackers exploiting this vulnerability can lead to SQL injection attacks. |
+| **Impact** | There is a SQL injection vulnerability in versions before WordPress plugin Nirweb support 2.8.2. The vulnerability stems from the failure to clean and escape parameters. Attackers exploiting this vulnerability can lead to SQL injection attacks. |
+
+## WordPress theme Listingo listingo_temp_uploader File Upload Vulnerability (CVE-2022-3921)
+
+|   **Vulnerability**  | **WordPress theme Listingo listingo_temp_uploader File Upload Vulnerability (CVE-2022-3921)**  |
+| :----:   | :-----|
+|  **Chinese name**  | WordPress 主题 Listingo listingo_temp_uploader 功能任意文件上传漏洞（CVE-2022-3921） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/themes/listingo"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC90aGVtZXMvbGlzdGluZ28i) |
+| **Number of assets affected**  | 209 |
+| **Description**  | WordPress theme Listingo is a WordPress theme for displaying business listings and directories. WordPress theme Listingo version before 3.2.7 has a code problem vulnerability. The vulnerability is caused by not verifying the files to be uploaded through AJAX operations. Attackers can upload malicious webshells to obtain server permissions. |
+| **Impact** | WordPress theme Listingo version before 3.2.7 has a code problem vulnerability. The vulnerability is caused by not verifying the files to be uploaded through AJAX operations. Attackers can upload malicious webshells to obtain server permissions. |
+
+## dst-admin cavesConsole RCE Vulnerability (CVE-2023-0646)
+
+|   **Vulnerability**  | **dst-admin cavesConsole RCE Vulnerability (CVE-2023-0646)**  |
+| :----:   | :-----|
+|  **Chinese name**  | dst-admin cavesConsole 远程命令执行漏洞（CVE-2023-0646） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=="饥荒管理后台"](https://en.fofa.info/result?qbase64=dGl0bGU9PSLppaXojZLnrqHnkIblkI7lj7Ai) |
+| **Number of assets affected**  | 1980 |
+| **Description**  | dst-admin is a web program written in Java language by the individual developer of qinming99.There is a command injection vulnerability in dst-admin version 1.5.0. The vulnerability comes from the unknown function of the file home/cavesConsole. Command injection can be performed through the parameter command, and the attacker can obtain server privileges. |
+| **Impact** | There is a command injection vulnerability in dst-admin version 1.5.0. The vulnerability comes from the unknown function of the file home/cavesConsole. Command injection can be performed through the parameter command, and the attacker can obtain server privileges.|
+
+## dst-admin kickPlayer RCE Vulnerability (CVE-2023-0647)
+
+|   **Vulnerability**  | **dst-admin kickPlayer RCE Vulnerability (CVE-2023-0647)**  |
+| :----:   | :-----|
+|  **Chinese name**  | dst-admin kickPlayer 远程命令执行漏洞（CVE-2023-0647） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title=="饥荒管理后台"](https://en.fofa.info/result?qbase64=dGl0bGU9PSLppaXojZLnrqHnkIblkI7lj7Ai) |
+| **Number of assets affected**  | 1980 |
+| **Description**  | dst-admin is a web program written in Java language by the individual developer of qinming99.There is a command injection vulnerability in dst-admin version 1.5.0. The vulnerability comes from the unknown function of the file home/cavesConsole. Command injection can be performed through the parameter command, and the attacker can obtain server privileges. |
+| **Impact** | There is a command injection vulnerability in dst-admin version 1.5.0. The vulnerability comes from the unknown function of the file home/cavesConsole. Command injection can be performed through the parameter command, and the attacker can obtain server privileges.|
+
+## 	VNC remote desktop system week password vulnerability
+
+|   **Vulnerability**  | **VNC remote desktop system week password vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | VNC 远程桌面系统弱口令漏洞 |
+| **CVSS core**  | 7.3 |
+| **FOFA Query**  (click to view the results directly)| [(protocol="vnc" \|\| body="<APPLET code=VncViewer.class archive=VncViewer.jar")](https://en.fofa.info/result?qbase64=KHByb3RvY29sPSJ2bmMiIHx8IGJvZHk9IjxBUFBMRVQgY29kZT1WbmNWaWV3ZXIuY2xhc3MgYXJjaGl2ZT1WbmNWaWV3ZXIuamFyIik%3D) |
+| **Number of assets affected**  | 2611849 |
+| **Description**  | VNC is a screen sharing and remote operation software using RFB protocol. This software can send keyboard and mouse movements and real-time screen images through the network. VNC has nothing to do with the operating system, so it can be used across platforms, for example, you can use Windows to connect to a Linux computer, and vice versa. Even in a computer without a client program installed, as long as there is a browser that supports JAVA, it can be used. The product has weak passwords, and attackers can use the 123456 password to enter the system, view system information, and modify system configuration, which affects the use of users. |
+| **Impact** | The product has weak passwords, and attackers can use the 123456 password to enter the system, view system information, and modify system configuration, which affects the use of users. |
 
 ## VMware VRealize Network Insight resttosaasservlet Remote Command Execution Vulnerability (CVE-2023-20887)
 
