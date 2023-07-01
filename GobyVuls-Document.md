@@ -1,7 +1,152 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 28, 2023** 
+**Updated document date: June 30, 2023** 
+
+## Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability
+
+## Kingdee Cloud Starry Sky-Management Center Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc Arbitrary Code Execution Vulnerability
+
+|   **Vulnerability**  | **Kingdee Cloud Starry Sky-Management Center Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc Arbitrary Code Execution Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 金蝶云星空 Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc 任意代码执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="金蝶云星空"](https://en.fofa.info/result?qbase64=CXRpdGxlPSLph5HonbbkupHmmJ%2Fnqboi) |
+| **Number of assets affected**  | 6729 |
+| **Description**  | Kingdee Cloud Starry Sky-Management Center is based on a leading assembleable low-code PaaS platform, which comprehensively serves customers' transformation in R&amp;D, production, marketing, supply chain, finance and other fields.There is a deserialization vulnerability in the Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc interface of Kingdee Cloud Star-Management Center, and an attacker can execute arbitrary commands to obtain server permissions. |
+| **Impact** | There is a deserialization vulnerability in the Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc interface of Kingdee Cloud Star-Management Center, and an attacker can execute arbitrary commands to obtain server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/01/de00b732452eea00.gif)
+
+|   **Vulnerability**  | **Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 畅捷通T+ DownloadProxy.aspx 文件 Path 参数文件读取漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="><script>location='/tplus/';\</script>\</body>" \|\| title=="畅捷通 T+"](https://en.fofa.info/result?qbase64=Ym9keT0iPjxzY3JpcHQ%2BbG9jYXRpb249Jy90cGx1cy8nOzwvc2NyaXB0PjwvYm9keT4iIHx8IHRpdGxlPT0i55WF5o236YCaIFQrIg%3D%3D) |
+| **Number of assets affected**  | 112547 |
+| **Description**  | Chanjet T+ is a smart, flexible and stylish enterprise management software based on the Internet era.Chanjet T+ DownloadProxy.aspx has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as web.config to further control server permissions. |
+| **Impact** | Chanjet T+ DownloadProxy.aspx has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as web.config to further control server permissions. |
+
+## WordPress Plugin js-support-ticket File Upload Vulnerability
+
+|   **Vulnerability**  | **WordPress Plugin js-support-ticket File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress js-support-ticket 插件 saveconfiguration 功能文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/js-support-ticket"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL2pzLXN1cHBvcnQtdGlja2V0Ig%3D%3D) |
+| **Number of assets affected**  | 1115 |
+| **Description**  | JS Help Desk is a professional, simple, easy to use and complete customer support system. JS Help Desk comes packed with lot features than most of the expensive(and complex) support ticket system on market.JS Help Desk &lt;= 2.7.1 Unauthenticated Arbitrary File Upload. |
+| **Impact** | An attacker can use the uploaded malicious script file to control the whole website or even control the server. This malicious script file, also known as WebShell, can also be referred to as a kind of web backdoor. WebShell scripts have very powerful functions, such as viewing server directories, files in the server, executing system commands, etc. |
+
+## 91skzy Enterprise process control system formservice SQL Injection vulnerability
+
+|   **Vulnerability**  | **91skzy Enterprise process control system formservice SQL Injection vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 时空智友企业流程化管控系统 formservice SQL 注入漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="企业流程化管控系统"](https://en.fofa.info/result?qbase64=Ym9keT0i5LyB5Lia5rWB56iL5YyW566h5o6n57O757ufIg%3D%3D) |
+| **Number of assets affected**  | 1461 |
+| **Description**  | Spatiotemporal Intelligent Friend enterprise process management and control system is a system that uses JAVA development to provide process management and control for enterprises.Spatiotemporal Wisdom enterprise process management and control system formservice SQL injection vulnerability, attackers can use the vulnerability to obtain sensitive database information. |
+| **Impact** | Spatiotemporal Wisdom enterprise process management and control system formservice SQL injection vulnerability, attackers can use the vulnerability to obtain sensitive database information. |
+
+## Hongfan OA zyy_AttFile.asmx File SQL Injection Vulnerability
+
+|   **Vulnerability**  | **Hongfan OA zyy_AttFile.asmx File SQL Injection Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 红帆 OA zyy_AttFile.asmx 文件 fileName 参数 SQL 注入漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="iOffice.net" \|\| body="/iOffice/js" \|\| (body="iOffice.net" && header!="couchdb" && header!="drupal") \|\| body="iOfficeOcxSetup.exe" \|\| body="Hongfan. All Rights Reserved"](https://en.fofa.info/result?qbase64=dGl0bGU9ImlPZmZpY2UubmV0IiB8fCBib2R5PSIvaU9mZmljZS9qcyIgfHwgKGJvZHk9ImlPZmZpY2UubmV0IiAmJiBoZWFkZXIhPSJjb3VjaGRiIiAmJiBoZWFkZXIhPSJkcnVwYWwiKSB8fCBib2R5PSJpT2ZmaWNlT2N4U2V0dXAuZXhlIiB8fCBib2R5PSJIb25nZmFuLiBBbGwgUmlnaHRzIFJlc2VydmVkIg%3D%3D) |
+| **Number of assets affected**  | 261 |
+| **Description**  | Hongfan OA is an information management platform developed by Hongfan Technology based on the latest technology of Microsoft. NET. The Hongfan OA system provides the hospital with oA functions and completes administrative office services such as information release, process approval, document management, schedule management, work arrangement, document transfer, online communication, etc. Hongfan collaborative office system is the most professional and successful hospital OA in China. |
+| **Impact** | There is a SQL injection vulnerability in Hongfan iOffice Hospital Edition, which can be used by attackers to obtain sensitive database information. |
+
+## iOffice OA iorepsavexml.aspx Arbitrary File Upload Vulnerability
+
+|   **Vulnerability**  | **iOffice OA iorepsavexml.aspx Arbitrary File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 红帆-ioffice iorepsavexml.aspx 任意文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="iOffice.net" \|\| body="/iOffice/js" \|\| (body="iOffice.net" && header!="couchdb" && header!="drupal") \|\| body="iOfficeOcxSetup.exe" \|\| body="Hongfan. All Rights Reserved"](https://en.fofa.info/result?qbase64=dGl0bGU9ImlPZmZpY2UubmV0IiB8fCBib2R5PSIvaU9mZmljZS9qcyIgfHwgKGJvZHk9ImlPZmZpY2UubmV0IiAmJiBoZWFkZXIhPSJjb3VjaGRiIiAmJiBoZWFkZXIhPSJkcnVwYWwiKSB8fCBib2R5PSJpT2ZmaWNlT2N4U2V0dXAuZXhlIiB8fCBib2R5PSJIb25nZmFuLiBBbGwgUmlnaHRzIFJlc2VydmVkIg%3D%3D) |
+| **Number of assets affected**  | 261 |
+| **Description**  | Hongfan OA is an oA function that provides hospitals with information release, process approval, document management, schedule management, work arrangement, file delivery, online communication and other administrative office services.There is an arbitrary file upload vulnerability in the Hongfan OA iorepsavexml.aspx file. Attackers can upload malicious Trojan horses to obtain server permissions. |
+| **Impact** | There is an arbitrary file upload vulnerability in the Hongfan OA iorepsavexml.aspx file. Attackers can upload malicious Trojan horses to obtain server permissions. |
+
+## WordPress plugin perfect survey admin-ajax.php question_id SQL Injection Vulnerability (CVE-2021-24762)
+
+|   **Vulnerability**  | **WordPress plugin perfect survey admin-ajax.php question_id SQL Injection Vulnerability (CVE-2021-24762)**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress perfect survey 插件 admin-ajax.php 文件 question_id 参数 SQL注入漏洞（CVE-2021-24762） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="/wp-content/plugins/perfect-survey"](https://en.fofa.info/result?qbase64=Ym9keT0iL3dwLWNvbnRlbnQvcGx1Z2lucy9wZXJmZWN0LXN1cnZleSI%3D) |
+| **Number of assets affected**  | 628 |
+| **Description**  | WordPress plugin perfect survey is a plugin for surveying user feedback issues.WordPress plugin perfect survey version before 1.5.2 has a SQL injection vulnerability, the vulnerability stems from the lack of validation of externally input SQL statements in database-based applications. Attackers can exploit this vulnerability to execute illegal SQL commands to obtain sensitive information such as user passwords. |
+| **Impact** | WordPress plugin perfect survey version before 1.5.2 has a SQL injection vulnerability, the vulnerability stems from the lack of validation of externally input SQL statements in database-based applications. Attackers can exploit this vulnerability to execute illegal SQL commands to obtain sensitive information such as user passwords. |
+
+## WordPress Plugin QuadMenu admin-ajax.php output File Upload Vulnerability
+
+|   **Vulnerability**  | **WordPress Plugin QuadMenu admin-ajax.php output File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress QuadMenu 插件 admin-ajax.php 文件 output 参数任意文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/quadmenu"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3F1YWRtZW51Ig%3D%3D) |
+| **Number of assets affected**  | 7573 |
+| **Description**  | WordPress plugin perfect survey is a plugin for surveying user feedback issues.WordPress plugin perfect survey version before 1.5.2 has a SQL injection vulnerability, the vulnerability stems from the lack of validation of externally input SQL statements in database-based applications. Attackers can exploit this vulnerability to execute illegal SQL commands to obtain sensitive information such as user passwords. |
+| **Impact** | WordPress plugin perfect survey version before 1.5.2 has a SQL injection vulnerability, the vulnerability stems from the lack of validation of externally input SQL statements in database-based applications. Attackers can exploit this vulnerability to execute illegal SQL commands to obtain sensitive information such as user passwords. |
+
+## WordPress Plugin SuperStoreFinder-wp import.php File Upload Vulnerability
+
+|   **Vulnerability**  | **WordPress Plugin SuperStoreFinder-wp import.php File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress SuperStoreFinder-wp 插件 import.php 任意文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/superstorefinder-wp"](https://en.fofa.info/result?qbase64=Ym9keT0id3AtY29udGVudC9wbHVnaW5zL3N1cGVyc3RvcmVmaW5kZXItd3Ai) |
+| **Number of assets affected**  | 2363 |
+| **Description**  | WordPress Plugin SuperStoreFinder-wp is a plugin with precise geolocation built in to let customers route and reach your store outlets in the easiest way.The WordPress Plugin SuperStoreFinder-wp plugin does not properly check file uploads. An attacker can set the Content-Type header to text/csv and use double extensions to bypass the existing checks. An attacker can upload malicious files to gain server permissions. |
+| **Impact** | The WordPress Plugin SuperStoreFinder-wp plugin does not properly check file uploads. An attacker can set the Content-Type header to text/csv and use double extensions to bypass the existing checks. An attacker can upload malicious files to gain server permissions. |
+
+## WordPress Plugin WP Hotel Booking thimpress_hotel_booking_1 RCE Vulnerability (CVE-2020-29047)
+
+|   **Vulnerability**  | **WordPress Plugin WP Hotel Booking thimpress_hotel_booking_1 RCE Vulnerability (CVE-2020-29047)**  |
+| :----:   | :-----|
+| **Chinese name**  | WordPress 插件 WP Hotel Booking thimpress_hotel_booking_1 参数远程代码执行漏洞（CVE-2020-29047） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="wp-content/plugins/wp-hotel-booking"](https://en.fofa.info/result?qbase64=CWJvZHk9IndwLWNvbnRlbnQvcGx1Z2lucy93cC1ob3RlbC1ib29raW5nIg%3D%3D) |
+| **Number of assets affected**  | 1940 |
+| **Description**  | WordPress Plugin WP Hotel Booking is a complete hotel booking plugin.WordPress Plugin WP Hotel Booking version 1.10.2 has a code execution vulnerability, and attackers can execute malicious code to control the server. |
+| **Impact** | WordPress Plugin WP Hotel Booking version 1.10.2 has a code execution vulnerability, and attackers can execute malicious code to control the server. |
+
+## EasyCVR default password
+
+|   **Vulnerability**  | **EasyCVR default password**  |
+| :----:   | :-----|
+| **Chinese name**  | EasyCVR智能边缘网关默认口令漏洞 |
+| **CVSS core**  | 8.6 |
+| **FOFA Query**  (click to view the results directly)| [body="EasyGBS" \|\| body="EasyDarwin.Body" \|\| body="EasyCVR"](https://en.fofa.info/result?qbase64=Ym9keT0iRWFzeUdCUyIgfHwgYm9keT0iRWFzeURhcndpbi5Cb2R5IiB8fCBib2R5PSJFYXN5Q1ZSIg%3D%3D) |
+| **Number of assets affected**  | 25111 |
+| **Description**  | EasyCVR intelligent edge gateway is a product of TSINGSEE's software and hardware integration, which can provide multi-protocol (RTSP/RTMP/GB28181/Haikang Ehome/Dahua, Haikang SDK, etc.) device video access, Collection, AI intelligent detection, processing, distribution and other services.The EasyCVR video management platform has a default password vulnerability, where attackers can exploit the default credentials "easycvr/easycvr" to log in to the administration interface. |
+| **Impact** | The EasyCVR video management platform has a default password vulnerability, where attackers can exploit the default credentials "easycvr/easycvr" to log in to the administration interface. |
+
+## Apache Solr Velocity Template Injection Vulnerability (CVE-2019-17558)
+
+|   **Vulnerability**  | **Apache Solr Velocity Template Injection Vulnerability (CVE-2019-17558)**  |
+| :----:   | :-----|
+| **Chinese name**  | Apache Solr Velocity 模版注入漏洞（CVE-2019-17558） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [title="Solr Admin" \|\| body="SolrCore Initialization Failures" \|\| body="app_config.solr_path" \|\| (banner="/solr/" && banner="Location" && banner!="couchdb" && banner!="drupal")](https://en.fofa.info/result?qbase64=dGl0bGU9IlNvbHIgQWRtaW4iIHx8IGJvZHk9IlNvbHJDb3JlIEluaXRpYWxpemF0aW9uIEZhaWx1cmVzIiB8fCBib2R5PSJhcHBfY29uZmlnLnNvbHJfcGF0aCIgfHwgKGJhbm5lcj0iL3NvbHIvIiAmJiBiYW5uZXI9IkxvY2F0aW9uIiAmJiBiYW5uZXIhPSJjb3VjaGRiIiAmJiBiYW5uZXIhPSJkcnVwYWwiKQ%3D%3D) |
+| **Number of assets affected**  | 1128540 |
+| **Description**  | Apache Solr is a search server based on Lucene, developed by the Apache Software Foundation. The software supports features such as faceted search, vertical search, and highlighting of search results.A vulnerability has been discovered in Apache Solr versions 5.0.0 to 8.3.1 that allows injection attacks. Attackers can exploit this vulnerability using Velocity templates to execute arbitrary code on the system. |
+| **Impact** | A vulnerability has been discovered in Apache Solr versions 5.0.0 to 8.3.1 that allows injection attacks. Attackers can exploit this vulnerability using Velocity templates to execute arbitrary code on the system. |
+
+## 红帆-ioffice ioAssistance2.asmx 文件 SQL 注入漏洞 
+
+|   **Vulnerability**  | **红帆-ioffice ioAssistance2.asmx 文件 SQL 注入漏洞 **  |
+| :----:   | :-----|
+| **Chinese name**  | 红帆-ioffice ioAssistance2.asmx 文件 SQL 注入漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="iOffice.net" \|\| body="/iOffice/js" \|\| (body="iOffice.net" && header!="couchdb" && header!="drupal") \|\| body="iOfficeOcxSetup.exe" \|\| body="Hongfan. All Rights Reserved"](https://en.fofa.info/result?qbase64=dGl0bGU9IlNvbHIgQWRtaW4iIHx8IGJvZHk9IlNvbHJDb3JlIEluaXRpYWxpemF0aW9uIEZhaWx1cmVzIiB8fCBib2R5PSJhcHBfY29uZmlnLnNvbHJfcGF0aCIgfHwgKGJhbm5lcj0iL3NvbHIvIiAmJiBiYW5uZXI9IkxvY2F0aW9uIiAmJiBiYW5uZXIhPSJjb3VjaGRiIiAmJiBiYW5uZXIhPSJkcnVwYWwiKQ%3D%3D) |
+| **Number of assets affected**  | 261 |
+| **Description**  | Hongfan OA is an oA function that provides hospitals with information release, process approval, document management, schedule management, work arrangement, file delivery, online communication and other administrative office services.There is a SQL injection vulnerability in the Hongfan OA ioAssistance2.asmx file. An attacker can obtain information such as database passwords and execute commands to obtain server permissions. |
+| **Impact** | There is a SQL injection vulnerability in the Hongfan OA ioAssistance2.asmx file. An attacker can obtain information such as database passwords and execute commands to obtain server permissions. |
 
 ## VNC remote desktop system default password vulnerability
 
