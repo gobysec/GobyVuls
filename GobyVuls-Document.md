@@ -1,9 +1,116 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 30, 2023** 
+**Updated document date: Jul 30, 2023** 
 
 ## Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability
+
+## Tianqing terminal security management system YII_CSRF_TOKEN remote code execution vulnerability
+
+|   **Vulnerability**  | **Tianqing terminal security management system YII_CSRF_TOKEN remote code execution vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 天擎终端安全管理系统 YII_CSRF_TOKEN 远程代码执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="360新天擎" \|\| body="appid\":\"skylar6" \|\| body="/task/index/detail?id={item.id}" \|\| body="已过期或者未授权，购买请联系4008-136-360" \|\| title="360天擎" \|\| title="360天擎终端安全管理系统"](https://en.fofa.info/result?qbase64=dGl0bGU9IjM2MOaWsOWkqeaTjiIgfHwgYm9keT0iYXBwaWRcIjpcInNreWxhcjYiIHx8IGJvZHk9Ii90YXNrL2luZGV4L2RldGFpbD9pZD17aXRlbS5pZH0iIHx8IGJvZHk9IuW3sui%2Fh%2Bacn%2BaIluiAheacquaOiOadg%2B%2B8jOi0reS5sOivt%2BiBlOezuzQwMDgtMTM2LTM2MCIgfHwgdGl0bGU9IjM2MOWkqeaTjiIgfHwgdGl0bGU9IjM2MOWkqeaTjue7iOerr%2BWuieWFqOeuoeeQhuezu%2Be7nyI%3D) |
+| **Number of assets affected**  | 875 |
+| **Description**  | Qi Anxin Tianqing is a terminal security management system (referred to as "Tianqing") product of Qi Anxin Group dedicated to integrated terminal security solutions.The web part of Qi'an Xintianqing terminal security management system uses the yii framework. This version of the framework has its own deserialization entry point, and the attacker can execute arbitrary code to obtain server permissions. |
+| **Impact** | The web part of Qi'an Xintianqing terminal security management system uses the yii framework. This version of the framework has its own deserialization entry point, and the attacker can execute arbitrary code to obtain server permissions. |
+
+## 91skzy Enterprise process control system login File Read vulnerability
+
+|   **Vulnerability**  | **91skzy Enterprise process control system login File Read vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 时空智友企业流程化管控系统 login 文件读取漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="企业流程化管控系统" && body="密码(Password):"](https://en.fofa.info/result?qbase64=Ym9keT0i5LyB5Lia5rWB56iL5YyW566h5o6n57O757ufIiAmJiBib2R5PSLlr4bnoIEoUGFzc3dvcmQpOiI%3D) |
+| **Number of assets affected**  | 1467 |
+| **Description**  | Spatiotemporal Intelligent Friend enterprise process management and control system is a system that uses JAVA development to provide process management and control for enterprises.Spatiotemporal Zhiyou enterprise process control system login file read vulnerability, attackers can use the vulnerability to obtain sensitive information of the system. |
+| **Impact** | Spatiotemporal Zhiyou enterprise process control system login file read vulnerability, attackers can use the vulnerability to obtain sensitive information of the system. |
+
+## 91skzy Enterprise process control system formservice File Upload vulnerability
+
+|   **Vulnerability**  | **91skzy Enterprise process control system formservice File Upload vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 时空智友企业流程化管控系统 formservice 文件上传漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="企业流程化管控系统" && body="密码(Password):"](https://en.fofa.info/result?qbase64=Ym9keT0i5LyB5Lia5rWB56iL5YyW566h5o6n57O757ufIiAmJiBib2R5PSLlr4bnoIEoUGFzc3dvcmQpOiI%3D) |
+| **Number of assets affected**  | 1467 |
+| **Description**  | Spatiotemporal Intelligent Friend enterprise process management and control system is a system that uses JAVA development to provide process management and control for enterprises.Spatiotemporal Zhiyou enterprise process control system formservice file upload vulnerability, attackers can use the vulnerability to obtain system permissions. |
+| **Impact** | Spatiotemporal Zhiyou enterprise process control system formservice file upload vulnerability, attackers can use the vulnerability to obtain system permissions. |
+
+## Glodon-Linkworks GetUserByEmployeeCode employeeCode SQL Injection Vulnerability
+
+|   **Vulnerability**  | **Glodon-Linkworks GetUserByEmployeeCode employeeCode SQL Injection Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 广联达-Linkworks 协同办公管理平台 GetUserByEmployeeCode 文件 employeeCode 参数 SQL注入漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="Services/Identification/login.ashx" \|\| header="Services/Identification/login.ashx" \|\| banner="Services/Identification/login.ashx"](https://en.fofa.info/result?qbase64=Ym9keT0iU2VydmljZXMvSWRlbnRpZmljYXRpb24vbG9naW4uYXNoeCIgfHwgaGVhZGVyPSJTZXJ2aWNlcy9JZGVudGlmaWNhdGlvbi9sb2dpbi5hc2h4IiB8fCBiYW5uZXI9IlNlcnZpY2VzL0lkZW50aWZpY2F0aW9uL2xvZ2luLmFzaHgi) |
+| **Number of assets affected**  | 27341 |
+| **Description**  | Glodon-Linkworks collaborative office management platform is a management system that focuses on the entire life cycle of engineering projects and provides customers with digital software and hardware products and solutions.Glodon-Linkworks collaborative office management platform GetUserByEmployeeCode has a SQL injection vulnerability, and attackers can obtain sensitive information such as usernames and passwords. |
+| **Impact** | Glodon-Linkworks collaborative office management platform GetUserByEmployeeCode has a SQL injection vulnerability, and attackers can obtain sensitive information such as usernames and passwords. |
+
+## Huatian-OA8000 MyHttpServlet reportFile Arbitrary File Upload Vulnerability
+
+|   **Vulnerability**  | **Huatian-OA8000 MyHttpServlet reportFile Arbitrary File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 华天动力-OA8000 MyHttpServlet 文件 reportFile 参数文件上传漏洞 |
+| **CVSS core**  | 8.6 |
+| **FOFA Query**  (click to view the results directly)| [body="/OAapp/WebObjects/OAapp.woa"](https://en.fofa.info/result?qbase64=Ym9keT0iL09BYXBwL1dlYk9iamVjdHMvT0FhcHAud29hIg%3D%3D) |
+| **Number of assets affected**  | 2226 |
+| **Description**  | Huatian-OA8000 is a combination of advanced management ideas, management models, software technology and network technology, providing users with a low-cost, high-efficiency collaborative office and management platform.There is an arbitrary file upload vulnerability in Huatian Power OA MyHttpServlet. Attackers can upload malicious raq files and execute arbitrary sql statements in the raq files to obtain sensitive information such as user account passwords. |
+| **Impact** | 	There is an arbitrary file upload vulnerability in Huatian Power OA MyHttpServlet. Attackers can upload malicious raq files and execute arbitrary sql statements in the raq files to obtain sensitive information such as user account passwords. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/07/ee0dff7305687815.gif)
+
+## Ruijie WEB Management System EXCU_SHELL Information Disclosure Vulnerability
+
+|   **Vulnerability**  | **Ruijie WEB Management System EXCU_SHELL Information Disclosure Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 锐捷交换机 WEB 管理系统 EXCU_SHELL 信息泄露漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="img/free_login_ge.gif" && body="./img/login_bg.gif"](https://en.fofa.info/result?qbase64=Ym9keT0iaW1nL2ZyZWVfbG9naW5fZ2UuZ2lmIiAmJiBib2R5PSIuL2ltZy9sb2dpbl9iZy5naWYi) |
+| **Number of assets affected**  | 912 |
+| **Description**  | Ruijie WEB management system is a switch device widely used in government, education, finance, medical and health care, and enterprises.Ruijie WEB management system EXCU_SHELL has an information leakage vulnerability, and attackers can obtain sensitive information such as system passwords to further control the system. |
+| **Impact** | 	Ruijie WEB management system EXCU_SHELL has an information leakage vulnerability, and attackers can obtain sensitive information such as system passwords to further control the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/07/7bc1e0fd82aa53eb.gif)
+
+## RSeeyou-OA wpsAssistServlet templateUrl Arbitrary File Read Vulnerability
+
+|   **Vulnerability**  | **Seeyou-OA wpsAssistServlet templateUrl Arbitrary File Read Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 致远互联-OA wpsAssistServlet 文件 templateUrl 参数任意文件读取漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="/seeyon/USER-DATA/IMAGES/LOGIN/login.gif" \|\| title="用友致远A" \|\| (body="/yyoa/" && body!="本站内容均采集于") \|\| header="path=/yyoa" \|\| server=="SY8044" \|\| (body="A6-V5企业版" && body="seeyon" && body="seeyonProductId") \|\| (body="/seeyon/common/" && body="var _ctxpath = '/seeyon'") \|\| (body="A8-V5企业版" && body="/seeyon/") \|\| banner="Server: SY8044"](https://en.fofa.info/result?qbase64=Ym9keT0iL3NlZXlvbi9VU0VSLURBVEEvSU1BR0VTL0xPR0lOL2xvZ2luLmdpZiIgfHwgdGl0bGU9IueUqOWPi%2BiHtOi%2FnEEiIHx8IChib2R5PSIveXlvYS8iICYmIGJvZHkhPSLmnKznq5nlhoXlrrnlnYfph4fpm4bkuo4iKSB8fCBoZWFkZXI9InBhdGg9L3l5b2EiIHx8IHNlcnZlcj09IlNZODA0NCIgfHwgKGJvZHk9IkE2LVY15LyB5Lia54mIIiAmJiBib2R5PSJzZWV5b24iICYmIGJvZHk9InNlZXlvblByb2R1Y3RJZCIpIHx8IChib2R5PSIvc2VleW9uL2NvbW1vbi8iICYmIGJvZHk9InZhciBfY3R4cGF0aCA9ICcvc2VleW9uJyIpIHx8IChib2R5PSJBOC1WNeS8geS4mueJiCIgJiYgYm9keT0iL3NlZXlvbi8iKSB8fCBiYW5uZXI9IlNlcnZlcjogU1k4MDQ0Ig%3D%3D) |
+| **Number of assets affected**  | 	53406 |
+| **Description**  | Seeyou-OA is a collaborative office software that digitally builds the digital collaborative operation platform of enterprises and provides one-stop big data analysis solutions for various business scenarios of enterprises.Seeyou-OA wpsAssistServlet has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as system passwords to further control the system. |
+| **Impact** | 	Seeyou-OA wpsAssistServlet has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as system passwords to further control the system. |
+
+## koronsoft AIO management system UtilServlet fileName File Read vulnerability
+
+|   **Vulnerability**  | **koronsoft AIO management system UtilServlet fileName File Read vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 科荣 AIO 管理系统 UtilServlet 文件 fileName 参数文件读取漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="changeAccount('8000')"](https://en.fofa.info/result?qbase64=Ym9keT0iY2hhbmdlQWNjb3VudCgnODAwMCcpIg%3D%3D) |
+| **Number of assets affected**  | 1976 |
+| **Description**  | KoronsoftAIO management system is a very excellent enterprise management tool.The UtilServlet file reading vulnerability of koronsoftAIO management system can be used to obtain sensitive information of the system. |
+| **Impact** | 	The UtilServlet file reading vulnerability ofkoronsoftAIO management system can be used to obtain sensitive information of the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/07/57f1d03fa857d0ea.gif)
+
+## 91skzy Enterprise process control system wc.db Information Disclosure vulnerability
+
+|   **Vulnerability**  | **91skzy Enterprise process control system wc.db Information Disclosure vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 时空智友企业流程化管控系统 wc.db 文件信息泄露漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="企业流程化管控系统" && body="密码(Password):"](https://en.fofa.info/result?qbase64=Ym9keT0i5LyB5Lia5rWB56iL5YyW566h5o6n57O757ufIiAmJiBib2R5PSLlr4bnoIEoUGFzc3dvcmQpOiI%3D) |
+| **Number of assets affected**  | 1213 |
+| **Description**  | Spatiotemporal Intelligent Friend enterprise process management and control system is a system that uses JAVA development to provide process management and control for enterprises.Spatiotemporal Wisdom enterprise process control system wc.db information leakage vulnerability, attackers can use the vulnerability to obtain sensitive information of the system. |
+| **Impact** | 	Spatiotemporal Wisdom enterprise process control system wc.db information leakage vulnerability, attackers can use the vulnerability to obtain sensitive information of the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/07/894f6e466736766e.gif)
 
 ## Kingdee Cloud Starry Sky-Management Center Kingdee.BOS.ServiceFacade.ServicesStub.DevReportService.GetBusinessObjectData.common.kdsvc Arbitrary Code Execution Vulnerability
 
@@ -18,6 +125,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 ![](https://s3.bmp.ovh/imgs/2023/07/01/de00b732452eea00.gif)
 
+## Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability
+
 |   **Vulnerability**  | **Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability**  |
 | :----:   | :-----|
 | **Chinese name**  | 畅捷通T+ DownloadProxy.aspx 文件 Path 参数文件读取漏洞 |
@@ -26,6 +135,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 112547 |
 | **Description**  | Chanjet T+ is a smart, flexible and stylish enterprise management software based on the Internet era.Chanjet T+ DownloadProxy.aspx has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as web.config to further control server permissions. |
 | **Impact** | Chanjet T+ DownloadProxy.aspx has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as web.config to further control server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/07/191a72363fbc96e6.gif)
 
 ## WordPress Plugin js-support-ticket File Upload Vulnerability
 
