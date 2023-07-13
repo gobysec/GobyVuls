@@ -1,7 +1,7 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: Jul 30, 2023** 
+**Updated document date: Jul 13, 2023** 
 
 ## Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability
 
