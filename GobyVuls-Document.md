@@ -1,9 +1,78 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: Jul 13, 2023** 
+**Updated document date: Jul 14, 2023** 
 
 ## Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability
+
+
+## Kingdee Apusic Application Server deployApp Arbitrary File Upload Vulnerability
+
+|   **Vulnerability**  | **Kingdee Apusic Application Server deployApp Arbitrary File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | Apusic应用服务器 deployApp 任意文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="Apusic应用服务器"](https://en.fofa.info/result?qbase64=dGl0bGU9IkFwdXNpY%2BW6lOeUqOacjeWKoeWZqCI%3D) |
+| **Number of assets affected**  | 232 |
+| **Description**  | Kingdee Apusic application server is the first pure Java application server in China with its own intellectual property rights following the J2EE standard.There is an arbitrary file upload vulnerability in the deployApp interface of the Kingdee Apusic application server. Attackers can use double slashes to bypass authentication and upload malicious compressed packages to take over server permissions. |
+| **Impact** | There is an arbitrary file upload vulnerability in the deployApp interface of the Kingdee Apusic application server. Attackers can use double slashes to bypass authentication and upload malicious compressed packages to take over server permissions. |
+
+## DOCBOX dynamiccontent.properties.xhtml Remote Code Execution Vulnerability
+
+|   **Vulnerability**  | **DOCBOX dynamiccontent.properties.xhtml Remote Code Execution Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | DOCBOX dynamiccontent.properties.xhtml 文件 cmd 参数远程代码执行漏洞 |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="docbox.webapp"](https://en.fofa.info/result?qbase64=Ym9keT0iZG9jYm94LndlYmFwcCI%3D) |
+| **Number of assets affected**  | 657 |
+| **Description**  | DOCBOX is a solution that can improve healthcare, is easy to use, and is based on a secure, open system.There is a code execution vulnerability in the javax.faces.resource of the DOCBOX system, and an attacker can execute arbitrary code to obtain server permissions. |
+| **Impact** | There is a code execution vulnerability in the javax.faces.resource of the DOCBOX system, and an attacker can execute arbitrary code to obtain server permissions. |
+
+## Kingdee-EAS easWebClient Arbitrary File Download Vulnerability
+
+|   **Vulnerability**  | **Kingdee-EAS easWebClient Arbitrary File Download Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 金蝶-EAS easWebClient 任意文件下载漏洞 |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="easSessionId" \|\| header="easportal" \|\| header="eassso/login" \|\| banner="eassso/login" \|\| body="/eassso/common" \|\| (title="EAS系统登录" && body="金蝶")](https://en.fofa.info/result?qbase64=Ym9keT0iZWFzU2Vzc2lvbklkIiB8fCBoZWFkZXI9ImVhc3BvcnRhbCIgfHwgaGVhZGVyPSJlYXNzc28vbG9naW4iIHx8IGJhbm5lcj0iZWFzc3NvL2xvZ2luIiB8fCBib2R5PSIvZWFzc3NvL2NvbW1vbiIgfHwgKHRpdGxlPSJFQVPns7vnu5%2FnmbvlvZUiICYmIGJvZHk9IumHkeidtiIp) |
+| **Number of assets affected**  | 255 |
+| **Description**  | Kingdee-EAS is a leading enterprise management system, which helps enterprises to build an integrated platform for industry, treasury, tax and invoice files, covering human resource management, tax management, financial sharing, procurement management, inventory management, production and manufacturing, etc.There is an arbitrary file reading vulnerability in Kingdee-EAS easWebClient, and attackers can read sensitive configuration file information such as config.jar. |
+| **Impact** | There is an arbitrary file reading vulnerability in Kingdee-EAS easWebClient, and attackers can read sensitive configuration file information such as config.jar. |
+
+## seeyon M1 Server userTokenService Code Execution Vulnerability
+
+|   **Vulnerability**  | **seeyon M1 Server userTokenService Code Execution Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 致远 M1 移动端 userTokenService 代码执行漏洞 |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [title=="M1-Server 已启动"](https://en.fofa.info/result?qbase64=dGl0bGU9PSJNMS1TZXJ2ZXIg5bey5ZCv5YqoIg%3D%3D) |
+| **Number of assets affected**  | 7050 |
+| **Description**  | Seeyon M1 Server is a mobile device.Seeyon M1 Server userTokenService code execution vulnerability, attackers can arbitrarily execute code on the server side, write back door, obtain server permissions, and then control the entire web server. |
+| **Impact** | Seeyon M1 Server userTokenService code execution vulnerability, attackers can arbitrarily execute code on the server side, write back door, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/14/d3a8bec6a5065f70.gif)
+
+## Yonyou KSOA QueryService SQL Injection vulnerability
+
+|   **Vulnerability**  | **Yonyou KSOA QueryService SQL Injection vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 用友时空 KSOA QueryService 处 content 参数 SQL 注入漏洞 |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [body="onmouseout=\"this.classname='btn btnOff'\""](https://en.fofa.info/result?qbase64=Ym9keT0ib25tb3VzZW91dD1cInRoaXMuY2xhc3NuYW1lPSdidG4gYnRuT2ZmJ1wiIg%3D%3D) |
+| **Number of assets affected**  | 3995 |
+| **Description**  | Yonyou KSOA spacetime is based on the KSOA concept under the guidance of research and development of a new generation of products, is according to the forefront of circulation enterprises IT requirements to launch the unification of the IT infrastructure, IT can make circulation enterprises established between IT systems in different historical periods, relaxed conversation with each other, help circulation enterprises to protect the existing IT investments, simplify IT management, enhance competition ability, Ensure that the overall strategic objectives and innovation activities of the enterprise are achieved. SQL injection vulnerability exists in some function of Yonyou spatio-temporal KSOA, which can be used by attackers to obtain database sensitive information. |
+| **Impact** | In addition to using SQL injection vulnerability to obtain information in the database (for example, administrator background password, site user personal information), the attacker can even write Trojan horse to the server in the case of high permission to further obtain server system permission. |
+
+## Qi An Xin Tianqing Terminal Security Management System information disclosure vulnerability
+
+|   **Vulnerability**  | **Qi An Xin Tianqing Terminal Security Management System information disclosure vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 奇安信天擎终端安全管理系统信息泄露漏洞 |
+| **CVSS core**  | 5.6 |
+| **FOFA Query**  (click to view the results directly)| [title="新天擎"](https://en.fofa.info/result?qbase64=dGl0bGU9IuaWsOWkqeaTjiI%3D) |
+| **Number of assets affected**  | 574 |
+| **Description**  | Tianqing Terminal Security Management System is an integrated terminal security product solution for government and enterprise units.Tianqing Terminal Security Management System has an information disclosure vulnerability,the attacker reads the sensitive information of the system by constructing a special URL address. |
+| **Impact** | Tianqing Terminal Security Management System has an information disclosure vulnerability,the attacker reads the sensitive information of the system by constructing a special URL address. |
 
 ## Tianqing terminal security management system YII_CSRF_TOKEN remote code execution vulnerability
 
@@ -15,6 +84,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 875 |
 | **Description**  | Qi Anxin Tianqing is a terminal security management system (referred to as "Tianqing") product of Qi Anxin Group dedicated to integrated terminal security solutions.The web part of Qi'an Xintianqing terminal security management system uses the yii framework. This version of the framework has its own deserialization entry point, and the attacker can execute arbitrary code to obtain server permissions. |
 | **Impact** | The web part of Qi'an Xintianqing terminal security management system uses the yii framework. This version of the framework has its own deserialization entry point, and the attacker can execute arbitrary code to obtain server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/14/fdc6987a22268e3b.gif)
 
 ## 91skzy Enterprise process control system login File Read vulnerability
 
@@ -38,6 +109,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Spatiotemporal Intelligent Friend enterprise process management and control system is a system that uses JAVA development to provide process management and control for enterprises.Spatiotemporal Zhiyou enterprise process control system formservice file upload vulnerability, attackers can use the vulnerability to obtain system permissions. |
 | **Impact** | Spatiotemporal Zhiyou enterprise process control system formservice file upload vulnerability, attackers can use the vulnerability to obtain system permissions. |
 
+![](https://s3.bmp.ovh/imgs/2023/07/14/5b49872a996cbd1e.gif)
+
 ## Glodon-Linkworks GetUserByEmployeeCode employeeCode SQL Injection Vulnerability
 
 |   **Vulnerability**  | **Glodon-Linkworks GetUserByEmployeeCode employeeCode SQL Injection Vulnerability**  |
@@ -48,6 +121,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 27341 |
 | **Description**  | Glodon-Linkworks collaborative office management platform is a management system that focuses on the entire life cycle of engineering projects and provides customers with digital software and hardware products and solutions.Glodon-Linkworks collaborative office management platform GetUserByEmployeeCode has a SQL injection vulnerability, and attackers can obtain sensitive information such as usernames and passwords. |
 | **Impact** | Glodon-Linkworks collaborative office management platform GetUserByEmployeeCode has a SQL injection vulnerability, and attackers can obtain sensitive information such as usernames and passwords. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/14/30159400f31ca801.gif)
 
 ## Huatian-OA8000 MyHttpServlet reportFile Arbitrary File Upload Vulnerability
 
@@ -85,6 +160,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 	53406 |
 | **Description**  | Seeyou-OA is a collaborative office software that digitally builds the digital collaborative operation platform of enterprises and provides one-stop big data analysis solutions for various business scenarios of enterprises.Seeyou-OA wpsAssistServlet has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as system passwords to further control the system. |
 | **Impact** | 	Seeyou-OA wpsAssistServlet has arbitrary file reading vulnerabilities, and attackers can read sensitive information such as system passwords to further control the system. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/14/033b7613462dfe6a.gif)
 
 ## koronsoft AIO management system UtilServlet fileName File Read vulnerability
 
@@ -192,6 +269,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 628 |
 | **Description**  | WordPress plugin perfect survey is a plugin for surveying user feedback issues.WordPress plugin perfect survey version before 1.5.2 has a SQL injection vulnerability, the vulnerability stems from the lack of validation of externally input SQL statements in database-based applications. Attackers can exploit this vulnerability to execute illegal SQL commands to obtain sensitive information such as user passwords. |
 | **Impact** | WordPress plugin perfect survey version before 1.5.2 has a SQL injection vulnerability, the vulnerability stems from the lack of validation of externally input SQL statements in database-based applications. Attackers can exploit this vulnerability to execute illegal SQL commands to obtain sensitive information such as user passwords. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/13/7a534dcb3646e5c6.gif)
 
 ## WordPress Plugin QuadMenu admin-ajax.php output File Upload Vulnerability
 
