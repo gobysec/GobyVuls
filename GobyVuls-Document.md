@@ -1,10 +1,57 @@
 [# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: Jul 14, 2023** 
+**Updated document date: Jul 21, 2023** 
 
-## Chanjet T+ DownloadProxy.aspx Path File Read Vulnerability
+## SANGFOR-IOMS catjs.php File Read Vulnerability
 
+|   **Vulnerability**  | **SANGFOR-IOMS catjs.php File Read Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 深信服上网优化管理系统 catjs.php 文件读取漏洞 |
+| **CVSS core**  | 6.0 |
+| **FOFA Query**  (click to view the results directly)| [title="SANGFOR上网优化管理"](https://en.fofa.info/result?qbase64=CXRpdGxlPSJTQU5HRk9S5LiK572R5LyY5YyW566h55CGIg%3D%3D) |
+| **Number of assets affected**  | 97 |
+| **Description**  | Convinced by the Internet optimization management system deployment does not need to be adjusted, and transparent bridging mode is supported in organizational networks. At the same time, Intranet users can directly access the Internet regardless of any changes and maintain the original Internet access habits. This enables all data centers, links, and servers to be fully utilized.catjs.php file has any file reading vulnerability, through which an attacker can download any file in the server and leak sensitive information of the server. |
+| **Impact** | Attackers can use this vulnerability to read important server files, such as system configuration files, database configuration files, and so on, causing the website to be in an extremely insecure state. |
+
+## Command Execution Vulnerability in Hikvision Operations Management Center
+
+|   **Vulnerability**  | **Command Execution Vulnerability in Hikvision Operations Management Center**  |
+| :----:   | :-----|
+| **Chinese name**  | 海康运行管理中心命令执行漏洞 |
+| **CVSS core**  | 9.6 |
+| **FOFA Query**  (click to view the results directly)| [header="X-Content-Type-Options: nosniff" && body="\<h1>Welcome to OpenResty!\</h1>" && header="X-Xss-Protection: 1; mode=block"](https://en.fofa.info/result?qbase64=aGVhZGVyPSJYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmIiAmJiBib2R5PSI8aDE%2BV2VsY29tZSB0byBPcGVuUmVzdHkhPC9oMT4iICYmIGhlYWRlcj0iWC1Yc3MtUHJvdGVjdGlvbjogMTsgbW9kZT1ibG9jayI%3D) |
+| **Number of assets affected**  | 5905 |
+| **Description**  | Hikvision is a video-centric provider of intelligent IoT solutions and big data services. A command execution vulnerability exists in the operation and management center system of Hangzhou Hikvision Digital Technology Co. An attacker could use the vulnerability to gain server privileges. |
+| **Impact** | The latest version has fixed the vulnerability, upgrade the system version to the latest version :https://www.hikvision.com/cn/19th-asian-games/isecure-center/?q=%E6%B5%B7%E5%BA%B7%E5%9F%9F%E8%A7%81%E7%BB%BC%E5%90%88%E5%AE%89%E9%98%B2%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0 |
+
+![](https://s3.bmp.ovh/imgs/2023/07/21/9e8983187d4816a8.gif)
+
+## Netgod SecGate 3600 Firewall obj_area_import_save File Upload Vulnerability
+
+|   **Vulnerability**  | **Netgod SecGate 3600 Firewall obj_area_import_save File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 网神 SecGate 3600 防火墙 obj_area_import_save 文件上传漏洞 |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [title="网神SecGate 3600防火墙"](https://en.fofa.info/result?qbase64=CXRpdGxlPSLnvZHnpZ5TZWNHYXRlIDM2MDDpmLLngavlopki) |
+| **Number of assets affected**  | 725 |
+| **Description**  | Netgod SecGate 3600 firewall is a composite hardware firewall based on status detection packet filtering and application level agents. It is a new generation of professional firewall equipment specially developed for large and medium-sized enterprises, governments, military, universities and other users. It supports external attack prevention, internal network security, network access control, network traffic monitoring and bandwidth management, dynamic routing, web content filtering, email content filtering, IP conflict detection and other functions, It can effectively ensure the security of the network; The product provides flexible network routing/bridging capabilities, supports policy routing and multi outlet link aggregation; It provides a variety of intelligent analysis and management methods, supports email alarm, supports log audit, provides comprehensive network management monitoring, and assists network administrators in completing network security management.There is a file upload vulnerability in SecGate 3600 firewall, which allows attackers to gain server control permissions. |
+| **Impact** | There is a file upload vulnerability in SecGate 3600 firewall, which allows attackers to gain server control permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/21/cfe7cdf43c6e18a4.gif)
+
+## Netgod SecGate 3600 Firewall obj_area_import_save File Upload Vulnerability
+
+|   **Vulnerability**  | **Netgod SecGate 3600 Firewall app_av_import_save File Upload Vulnerability**  |
+| :----:   | :-----|
+| **Chinese name**  | 网神 SecGate 3600 防火墙 app_av_import_save 文件上传漏洞 |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [title="网神SecGate 3600防火墙"](https://en.fofa.info/result?qbase64=CXRpdGxlPSLnvZHnpZ5TZWNHYXRlIDM2MDDpmLLngavlopki) |
+| **Number of assets affected**  | 725 |
+| **Description**  | Netgod SecGate 3600 firewall is a composite hardware firewall based on status detection packet filtering and application level agents. It is a new generation of professional firewall equipment specially developed for large and medium-sized enterprises, governments, military, universities and other users. It supports external attack prevention, internal network security, network access control, network traffic monitoring and bandwidth management, dynamic routing, web content filtering, email content filtering, IP conflict detection and other functions, It can effectively ensure the security of the network; The product provides flexible network routing/bridging capabilities, supports policy routing and multi outlet link aggregation; It provides a variety of intelligent analysis and management methods, supports email alarm, supports log audit, provides comprehensive network management monitoring, and assists network administrators in completing network security management.There is a file upload vulnerability in SecGate 3600 firewall, which allows attackers to gain server control permissions. |
+| **Impact** | There is a file upload vulnerability in SecGate 3600 firewall, which allows attackers to gain server control permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/21/66573e8f0df89d78.gif)
 
 ## Kingdee Apusic Application Server deployApp Arbitrary File Upload Vulnerability
 
