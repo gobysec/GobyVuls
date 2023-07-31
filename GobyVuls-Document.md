@@ -1,7 +1,99 @@
-[# Goby History Update Vulnerability Total Document (Continuously Update) 
+# Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
 **Updated document date: Jul 28, 2023** 
+
+## Dahua Smart Park Integrated Management Platform searchJson SQL injection vulnerability
+
+|   **Vulnerability**  | **Dahua Smart Park Integrated Management Platform searchJson SQL injection vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 大华智慧园区综合管理平台 searchJson SQL 注入漏洞 |
+| **CVSS core**  | 8.2 |
+| **FOFA Query**  (click to view the results directly)| [body="src=\\"/WPMS/asset/common/js/jsencrypt.min.js\'"](https://en.fofa.info/result?qbase64=Ym9keT0ic3JjPVwiL1dQTVMvYXNzZXQvY29tbW9uL2pzL2pzZW5jcnlwdC5taW4uanMnIg%3D%3D) |
+| **Number of assets affected**  | 5415 |
+| **Description**  | Dahua Smart Park Integrated Management Platform is a comprehensive management platform for smart parks built to provide security and efficient management of general public buildings. By integrating Dahua’s experience and cutting-edge technologies in the field of security and intelligence, it integrates video, access control, alarm, parking lot, attendance, visitor, video intercom, information release and other business subsystems to provide customers with a set of integrated, efficient, open, flexible and scalable platform software products, forming a comprehensive security solution for the six major areas of "public management, infrastructure, economic development, ecological protection, security, and social services". There is a sql injection vulnerability in the comprehensive management platform of Dahua Smart Park. In addition to using the SQL injection vulnerability to obtain information in the database (for example, administrator background passwords, personal information of site users), attackers can even write Trojan horses into the server under high-privilege conditions to further obtain server system permissions. |
+| **Impact** | In addition to using SQL injection vulnerabilities to obtain information in the database (for example, the administrator's back-end password, the user's personal information of the site), an attacker can write a Trojan horse to the server even in a high-privileged situation to further obtain server system permissions. |
+
+## Dahua Smart Park Integrated Management Platform source/publishing/publishing/material/file/video File Upload Vulnerability
+
+|   **Vulnerability**  | **Dahua Smart Park Integrated Management Platform source/publishing/publishing/material/file/video File Upload Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | 大华智慧园区综合管理平台 source/publishing/publishing/material/file/video 文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [body="src=\\"/WPMS/asset/common/js/jsencrypt.min.js\"](https://en.fofa.info/result?qbase64=Ym9keT0ic3JjPVwiL1dQTVMvYXNzZXQvY29tbW9uL2pzL2pzZW5jcnlwdC5taW4uanMi) |
+| **Number of assets affected**  | 5420 |
+| **Description**  | Dahua Smart Park Comprehensive Management Platform The smart park comprehensive management platform is built to provide safe and efficient management for common public buildings. By integrating Dahua’s experience and cutting-edge technologies in the field of security and intelligence, it integrates video, access control, alarm, and parking Field, attendance, visitor, video intercom, information release and other business subsystems, providing customers with a set of integrated, efficient, open, flexible and scalable platform software products, forming a "public management, infrastructure, economic development Comprehensive security solutions in the six major areas of , ecological protection, security, and social services. There is a file upload vulnerability in the Dahua Smart Park system /publishing/, which leads to the server being controlled. |
+| **Impact** | There is a file upload vulnerability in the comprehensive management platform of the smart park of Zhejiang Dahua Technology Co., Ltd. An attacker can use this vulnerability to obtain server permissions by uploading a specific configuration file. |
+
+## SolarView Compact downloader.php RCE (CVE-2023-23333)
+
+|   **Vulnerability**  | **SolarView Compact downloader.php RCE (CVE-2023-23333)**  |
+| :----:   | :-----|
+|  **Chinese name**  | SolarView Compact downloader.php 任意命令执行漏洞（CVE-2023-23333） |
+| **CVSS core**  | 10.0 |
+| **FOFA Query**  (click to view the results directly)| [body="SolarView Compact"](https://en.fofa.info/result?qbase64=Ym9keT0iU29sYXJWaWV3IENvbXBhY3Qi) |
+| **Number of assets affected**  | 4941 |
+| **Description**  | There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/31/9e95a65910332af8.gif)
+
+## EMERSON-XWEB-EVO upload.cgi path Directory Traversal Vulnerability (CVE-2021-45427)
+
+|   **Vulnerability**  | **EMERSON-XWEB-EVO upload.cgi path Directory Traversal Vulnerability (CVE-2021-45427)**  |
+| :----:   | :-----|
+|  **Chinese name**  | EMERSON-XWEB-EVO upload.cgi 文件 path 参数目录遍历漏洞（CVE-2021-45427） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [body="src=\\"img/xweb-logo.png" \|\| body="src=\\"/css/images/Logo_XWEB_alpha.png"](https://en.fofa.info/result?qbase64=Ym9keT0ic3JjPVwiaW1nL3h3ZWItbG9nby5wbmciIHx8IGJvZHk9InNyYz1cIi9jc3MvaW1hZ2VzL0xvZ29fWFdFQl9hbHBoYS5wbmci) |
+| **Number of assets affected**  | 15849 |
+| **Description**  | Emerson XWEB 300D EVO is an energy-saving air conditioner of Emerson Company in the United States. Emerson XWEB 300D EVO 3.0.7 -- 3ee403 has a directory traversal vulnerability (CVE-2021-45427). An attacker may access some secret files including configuration files, logs, source codes, etc. by browsing the directory structure. With the comprehensive utilization of other vulnerabilities, the attacker can easily obtain higher permissions. |
+| **Impact** | Emerson XWEB 300D EVO is an energy-saving air conditioner of Emerson Company in the United States. Emerson XWEB 300D EVO 3.0.7 -- 3ee403 has a directory traversal vulnerability (CVE-2021-45427). An attacker may access some secret files including configuration files, logs, source codes, etc. by browsing the directory structure. With the comprehensive utilization of other vulnerabilities, the attacker can easily obtain higher permissions. |
+
+## Acmailer init_ctl.cgi sendmail_path Remote Command Execution Vulnerability (CVE-2021-20617)
+
+|   **Vulnerability**  | **Acmailer init_ctl.cgi sendmail_path Remote Command Execution Vulnerability (CVE-2021-20617)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Acmailer 邮件系统 init_ctl.cgi 文件 sendmail_path 参数远程命令执行漏洞（CVE-2021-20617） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="CGI acmailer"](https://en.fofa.info/result?qbase64=Ym9keT0iQ0dJIGFjbWFpbGVyIg%3D%3D) |
+| **Number of assets affected**  | 557 |
+| **Description**  | Acmailer is a CGI software used to support mail services. Acmailer 4.0.2 and earlier versions have a security vulnerability. The vulnerability is due to the fact that init_ctl.cgi does not strictly verify input parameters, and attackers can execute arbitrary commands to obtain server permissions. |
+| **Impact** | Acmailer 4.0.2 and earlier versions have a security vulnerability. The vulnerability is due to the fact that init_ctl.cgi does not strictly verify input parameters, and attackers can execute arbitrary commands to obtain server permissions. |
+
+## Acmailer enq_form.cgi Authentication Bypass Vulnerability (CVE-2021-20618)
+
+|   **Vulnerability**  | **Acmailer enq_form.cgi Authentication Bypass Vulnerability (CVE-2021-20618)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Acmailer 邮件系统 enq_form.cgi 认证绕过漏洞（CVE-2021-20618） |
+| **CVSS core**  | 9.0 |
+| **FOFA Query**  (click to view the results directly)| [body="CGI acmailer"](https://en.fofa.info/result?qbase64=Ym9keT0iQ0dJIGFjbWFpbGVyIg%3D%3D) |
+| **Number of assets affected**  | 552 |
+| **Description**  | Acmailer is a CGI software used to support mail services.Acmailer 4.0.2 and earlier versions have security vulnerabilities, which allow remote attackers to bypass authentication and gain administrative privileges. |
+| **Impact** | Acmailer 4.0.2 and earlier versions have security vulnerabilities, which allow remote attackers to bypass authentication and gain administrative privileges. |
+
+## Frappe Framework frappe.core.doctype.data_import.data_import.get_preview_from_template import_file Arbitrary File Read Vulnerability (CVE-2022-41712)
+
+|   **Vulnerability**  | **Frappe Framework frappe.core.doctype.data_import.data_import.get_preview_from_template import_file Arbitrary File Read Vulnerability (CVE-2022-41712)**  |
+| :----:   | :-----|
+|  **Chinese name**  | Frappe-Framework 框架 frappe.core.doctype.data_import.data_import.get_preview_from_template 文件 import_file 参数任意文件读取漏洞（CVE-2022-41712） |
+| **CVSS core**  | 6.5 |
+| **FOFA Query**  (click to view the results directly)| [body="<meta name=\\"generator\\" content=\\"frappe" \|\| body="frappe.ready_events.push (fn):" \|\| header= "Link: </assets/frappe/js/lib/jquery/query.min.js" \|\| header="</assets/frap pe/dist/js/frappe-web.bundle.7XJQJMPF.js"](https://en.fofa.info/result?qbase64=Ym9keT0iPG1ldGEgbmFtZT1cImdlbmVyYXRvclwiIGNvbnRlbnQ9XCJmcmFwcGUiIHx8IGJvZHk9ImZyYXBwZS5yZWFkeV9ldmVudHMucHVzaCAoZm4pOiIgfHwgaGVhZGVyPSAiTGluazogPC9hc3NldHMvZnJhcHBlL2pzL2xpYi9qcXVlcnkvcXVlcnkubWluLmpzIiB8fCBoZWFkZXI9IjwvYXNzZXRzL2ZyYXAgcGUvZGlzdC9qcy9mcmFwcGUtd2ViLmJ1bmRsZS43WEpRSk1QRi5qcyI%3D) |
+| **Number of assets affected**  | 48857 |
+| **Description**  | An attacker can use this vulnerability to read the leaked source code, database configuration files, etc., resulting in the extremely insecure state of the website. |
+| **Impact** | At present, the manufacturer has issued an upgrade patch to fix the vulnerability. The patch access link is:https://github.com/frappe/frappe/releases/tag/v14.12.0 |
+
+## Netgear Devices boardDataWW.php Unauthenticated Remote Command Execution
+
+|   **Vulnerability**  | **Netgear Devices boardDataWW.php Unauthenticated Remote Command Execution**  |
+| :----:   | :-----|
+|  **Chinese name**  | Netgear 多款设备 boardDataWW.php 文件命令执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title=="Netgear"](https://en.fofa.info/result?qbase64=dGl0bGU9PSJOZXRnZWFyIg%3D%3D) |
+| **Number of assets affected**  | 556 |
+| **Description**  | (1) boardData102.php, (2) boardData103.php, (3) boardDataJP.php, (4) boardDataNA.php, and (5) boardDataWW.php in Netgear WN604 before 3.3.3 and WN802Tv2, WNAP210v2, WNAP320, WNDAP350, WNDAP360, and WNDAP660 before 3.5.5.0 allow remote attackers to execute arbitrary commands. |
+| **Impact** | (1) boardData102.php, (2) boardData103.php, (3) boardDataJP.php, (4) boardDataNA.php, and (5) boardDataWW.php in Netgear WN604 before 3.3.3 and WN802Tv2, WNAP210v2, WNAP320, WNDAP350, WNDAP360, and WNDAP660 before 3.5.5.0 allow remote attackers to execute arbitrary commands. |
+
+![](https://s3.bmp.ovh/imgs/2023/07/31/4509202e858461b5.gif)
 
 ## Metabase JDBC Remote Code Execution Vulnerability (CVE-2023-38646)
 
