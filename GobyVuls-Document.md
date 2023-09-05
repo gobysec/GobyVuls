@@ -1,7 +1,7 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: Jul 28, 2023** 
+**Updated document date: September 5, 2023** 
 
 ## Adobe ColdFusion WDDX C3P0 remote code execution vulnerability
 
