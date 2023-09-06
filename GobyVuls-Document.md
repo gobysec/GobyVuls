@@ -1,18 +1,36 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: September 5, 2023** 
+**Updated document date: September 6, 2023** 
 
-## Adobe ColdFusion WDDX C3P0 remote code execution vulnerability
+## UF U8 Cloud upload.jsp file upload vulnerability
 
-|   **Vulnerability**  | **Adobe ColdFusion WDDX C3P0 remote code execution vulnerability**  |
+|   **Vulnerability**  | **UF U8 Cloud upload.jsp file upload vulnerability**  |
 | :----:   | :-----|
-|  **Chinese name**  | Adobe ColdFusion WDDX C3P0 远程代码执行漏洞 |
+|  **Chinese name**  | 用友 U8 Cloud upload.jsp 文件上传漏洞 |
 | **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [body="/cfajax/" \| header="CFTOKEN" \| banner="CFTOKEN" \| body="ColdFusion.Ajax" \| body="<cfscript>" \| server="ColdFusion" \| title="ColdFusion" \| (body="crossdomain.xml" && body="CFIDE") \| (body="#000808" && body="#e7e7e7")](https://en.fofa.info/result?qbase64=Ym9keT0iL2NmYWpheC8iIHx8IGhlYWRlcj0iQ0ZUT0tFTiIgfHwgYmFubmVyPSJDRlRPS0VOIiB8fCBib2R5PSJDb2xkRnVzaW9uLkFqYXgiIHx8IGJvZHk9IjxjZnNjcmlwdD4iIHx8IHNlcnZlcj0iQ29sZEZ1c2lvbiIgfHwgdGl0bGU9IkNvbGRGdXNpb24iIHx8IChib2R5PSJjcm9zc2RvbWFpbi54bWwiICYmIGJvZHk9IkNGSURFIikgfHwgKGJvZHk9IiMwMDA4MDgiICYmIGJvZHk9IiNlN2U3ZTciKQ%3D%3D) |
-| **Number of assets affected**  | 567468 |
-| **Description**  | Adobe Coldfusion is a commercial application server developed by Adobe for web applications.The attacker can send unbelievable serialized data and trigger derivativeization to the Coldfusion server, thereby executing any code. |
-| **Impact** | The attacker can execute the code at the server through this vulnerability, obtain the server permissions, and then control the entire web server. |
+| **FOFA Query**  (click to view the results directly)| [body="开启U8 cloud云端之旅"](https://en.fofa.info/result?qbase64=Ym9keT0i5byA5ZCvVTggY2xvdWTkupHnq6%2FkuYvml4Ui) |
+| **Number of assets affected**  | 13473 |
+| **Description**  | yonyou U8 cloud is a cloud ERP developed by yonyou.There is a file upload vulnerability in yonyou U8 upload.jsp, which can be exploited by attackers to gain server privileges. |
+| **Impact** | Attackers can use this vulnerability to upload file, execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/09/06/407cf745d8210300.gif)
+
+
+## Ruijie EWEB Network Management System flwo.control.php type Arbitrary Command Execution Vulnerability
+
+|   **Vulnerability**  | **Ruijie EWEB Network Management System flwo.control.php type Arbitrary Command Execution Vulnerability**  |
+| :----:   | :-----|
+|  **Chinese name**  | Ruijie-EWEB 网管系统 flwo.control.php 文件 type 参数任意命令执行漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [(body="<span class=\"resource\" mark=\"login.copyRight\">锐捷网络</span>" && body="login.getDeviceInfo") \| title="锐捷网络-EWEB网管系统"]((https://en.fofa.info/result?qbase64=KGJvZHk9IjxzcGFuIGNsYXNzPVwicmVzb3VyY2VcIiBtYXJrPVwibG9naW4uY29weVJpZ2h0XCI%2B6ZSQ5o23572R57ucPC9zcGFuPiIgJiYgYm9keT0ibG9naW4uZ2V0RGV2aWNlSW5mbyIpIHx8IHRpdGxlPSLplJDmjbfnvZHnu5wtRVdFQue9keeuoeezu%2Be7nyI%3D)) |
+| **Number of assets affected**  | 11544 |
+| **Description**  | Ruijie Network Management System is a new generation of cloud based network management software developed by Beijing Ruijie Data Era Technology Co., Ltd. With the slogan of "Innovative Network Management and Information Security in the Data Age", it is positioned as a unified solution for terminal security, IT operations, and enterprise service-oriented management.Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+| **Impact** | Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/09/06/3fa09e24d0bce4cb.gif)
+
+
 
 ## Adobe ColdFusion WDDX JGroups remote code execution vulnerability
 
