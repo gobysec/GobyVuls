@@ -1,7 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: September 14, 2023** 
+**Updated document date: September 15, 2023** 
+
+## GJP SelectImage.aspx file upload vulnerability
+
+|   **Vulnerability**  | 	GJP SelectImage.aspx file upload vulnerability  |
+| :----:   | :-----|
+|  **Chinese name**  | 	管家婆订货易在线商城 SelectImage.aspx 文件上传漏洞 |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [title="订货易"](https://en.fofa.info/result?qbase64=dGl0bGU9Iuiuoui0p%2BaYkyI%3D) |
+| **Number of assets affected**  | 	2617 |
+| **Description**  | 	Renwoxing took the lead in launching the Guanjiapo purchase, sales, inventory and financial integration software for small and medium-sized enterprises.There is a SelectImage.aspx arbitrary file upload vulnerability in the Guanjiapo Ordering Online Mall. An attacker can use this vulnerability to control the entire system, ultimately causing the system to be in an extremely unsafe state. |
+| **Impact** | An attacker can take control of the entire system through this vulnerability, ultimately leaving the system in an extremely unsafe state. |
+
+![](https://s3.bmp.ovh/imgs/2023/09/15/68d54cb7ae080127.gif)
+
 
 ## Junos webauth_operation.php File Upload Vulnerability (CVE-2023-36844)
 
