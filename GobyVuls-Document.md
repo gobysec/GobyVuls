@@ -1,7 +1,40 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: September 15, 2023** 
+**Updated document date: September 25, 2023** 
+
+
+## Revive Adserver adxmlrpc.php Remote Code Execution Vulnerability (CVE-2019-5434)
+
+|   **Vulnerability**  | 	Revive Adserver adxmlrpc.php Remote Code Execution Vulnerability (CVE-2019-5434)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	Revive Adserver 广告管理系统 adxmlrpc.php 文件远程代码执行漏洞（CVE-2019-5434） |
+| **CVSS core**  | 	9.0 |
+| **FOFA Query**  (click to view the results directly)| [title="Revive Adserver" \|\| body="strPasswordMinLength" \|\| body="Welcome to Revive Adserver"](https://en.fofa.info/result?qbase64=dGl0bGU9IlJldml2ZSBBZHNlcnZlciIgfHwgYm9keT0ic3RyUGFzc3dvcmRNaW5MZW5ndGgiIHx8IGJvZHk9IldlbGNvbWUgdG8gUmV2aXZlIEFkc2VydmVyIg%3D%3D)|
+| **Number of assets affected**  | 	5667 |
+| **Description**  | 	Revive Adserver is an open source advertising management system developed by the Revive Adserver team. The system provides functions such as advertising placement, advertising space management, and data statistics.The delivery XML-RPC script in versions prior to Revive Adserver 4.2.0 has a code problem vulnerability, and an attacker can execute arbitrary code to obtain server permissions. |
+| **Impact** | 	The delivery XML-RPC script in versions prior to Revive Adserver 4.2.0 has a code problem vulnerability, and an attacker can execute arbitrary code to obtain server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/09/25/74874bad3ffe8fc6.gif)
+
+
+
+
+## Weaver E-office flow_xml.php file SORT_ID parameter SQL injection vulnerability
+
+|   **Vulnerability**  | 	Weaver E-office flow_xml.php file SORT_ID parameter SQL injection vulnerability  |
+| :----:   | :-----|
+|  **Chinese name**  | 	泛微 E-office flow_xml.php 文件 SORT_ID 参数 SQL 注入漏洞 |
+| **CVSS core**  | 	7.8 |
+| **FOFA Query**  (click to view the results directly)| [body="href=\"/eoffice" \|\| body="/eoffice10/client" \|\| body="eoffice_loading_tip" \|\| body="eoffice_init" \|\| header="general/login/index.php" \|\| banner="general/login/index.php" \|\| body="/general/login/view//images/updateLoad.gif" \|\| (body="szFeatures" && body="eoffice") \|\| header="eOffice" \|\| banner="eOffice"](https://en.fofa.info/result?qbase64=Ym9keT0iaHJlZj1cIi9lb2ZmaWNlIiB8fCBib2R5PSIvZW9mZmljZTEwL2NsaWVudCIgfHwgYm9keT0iZW9mZmljZV9sb2FkaW5nX3RpcCIgfHwgYm9keT0iZW9mZmljZV9pbml0IiB8fCBoZWFkZXI9ImdlbmVyYWwvbG9naW4vaW5kZXgucGhwIiB8fCBiYW5uZXI9ImdlbmVyYWwvbG9naW4vaW5kZXgucGhwIiB8fCBib2R5PSIvZ2VuZXJhbC9sb2dpbi92aWV3Ly9pbWFnZXMvdXBkYXRlTG9hZC5naWYiIHx8IChib2R5PSJzekZlYXR1cmVzIiAmJiBib2R5PSJlb2ZmaWNlIikgfHwgaGVhZGVyPSJlT2ZmaWNlIiB8fCBiYW5uZXI9ImVPZmZpY2Ui)|
+| **Number of assets affected**  | 	21632 |
+| **Description**  | 	Weaver&nbsp;e-office is an OA product for small and medium-sized organizations, developed by Weaver Network Technology Co., LTD.There is an SQL injection vulnerability in flow_xml.php, which can be used by attackers to obtain information in the database (for example, administrator background password, site user personal information). |
+| **Impact** | 	An attacker can exploit the SQL injection vulnerability to obtain information from the database (for example, administrator background passwords, site user personal information). |
+
+![](https://s3.bmp.ovh/imgs/2023/09/25/6a416f12923360a7.gif)
+
+
+
 
 ## GJP SelectImage.aspx file upload vulnerability
 
