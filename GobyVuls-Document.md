@@ -1,7 +1,35 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: September 25, 2023** 
+**Updated document date: September 28, 2023** 
+
+## Cockpit assetsmanager/upload file upload vulnerability (CVE-2023-1313)
+
+|   **Vulnerability**  | 	Cockpit assetsmanager/upload file upload vulnerability (CVE-2023-1313)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	Cockpit assetsmanager/upload 文件上传漏洞（CVE-2023-1313） |
+| **CVSS core**  | 	7.2 |
+| **FOFA Query**  (click to view the results directly)| [title="Authenticate Please!" \|\| body="password:this.refs.password.value"  \|\| body="UIkit.components.formPassword.prototype.defaults.lblShow"  \|\| body="App.request('/auth/check'"]([https://en.fofa.info/result?qbase64=dGl0bGU9IlJldml2ZSBBZHNlcnZlciIgfHwgYm9keT0ic3RyUGFzc3dvcmRNaW5MZW5ndGgiIHx8IGJvZHk9IldlbGNvbWUgdG8gUmV2aXZlIEFkc2VydmVyIg%3D%3D](https://en.fofa.info/result?qbase64=dGl0bGU9IkF1dGhlbnRpY2F0ZSBQbGVhc2UhIiB8fCBib2R5PSJwYXNzd29yZDp0aGlzLnJlZnMucGFzc3dvcmQudmFsdWUiIHx8IGJvZHk9IlVJa2l0LmNvbXBvbmVudHMuZm9ybVBhc3N3b3JkLnByb3RvdHlwZS5kZWZhdWx0cy5sYmxTaG93IiB8fCBib2R5PSJBcHAucmVxdWVzdCgnL2F1dGgvY2hlY2snIg%3D%3D))|
+| **Number of assets affected**  | 	3185 |
+| **Description**  | 	Cockpit is a self-hosted, flexible and user-friendly headless content platform for creating custom digital experiences.Cockpit has a file upload vulnerability, which allows attackers to upload arbitrary files, leading to server control, etc. |
+| **Impact** | 	Attackers can use this vulnerability to arbitrarily execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/09/29/7fa28d36837b1e06.gif)
+
+## Revive Adserver adxmlrpc.php Remote Code Execution Vulnerability (CVE-2019-5434)
+
+|   **Vulnerability**  | 	Revive Adserver adxmlrpc.php Remote Code Execution Vulnerability (CVE-2019-5434)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	Revive Adserver 广告管理系统 adxmlrpc.php 文件远程代码执行漏洞（CVE-2019-5434） |
+| **CVSS core**  | 	9.0 |
+| **FOFA Query**  (click to view the results directly)| [title="Revive Adserver" \|\| body="strPasswordMinLength" \|\| body="Welcome to Revive Adserver"](https://en.fofa.info/result?qbase64=dGl0bGU9IlJldml2ZSBBZHNlcnZlciIgfHwgYm9keT0ic3RyUGFzc3dvcmRNaW5MZW5ndGgiIHx8IGJvZHk9IldlbGNvbWUgdG8gUmV2aXZlIEFkc2VydmVyIg%3D%3D)|
+| **Number of assets affected**  | 	5667 |
+| **Description**  | 	Revive Adserver is an open source advertising management system developed by the Revive Adserver team. The system provides functions such as advertising placement, advertising space management, and data statistics.The delivery XML-RPC script in versions prior to Revive Adserver 4.2.0 has a code problem vulnerability, and an attacker can execute arbitrary code to obtain server permissions. |
+| **Impact** | 	The delivery XML-RPC script in versions prior to Revive Adserver 4.2.0 has a code problem vulnerability, and an attacker can execute arbitrary code to obtain server permissions. |
+
+![](https://s3.bmp.ovh/imgs/2023/09/25/74874bad3ffe8fc6.gif)
+
+
 
 
 ## Revive Adserver adxmlrpc.php Remote Code Execution Vulnerability (CVE-2019-5434)
