@@ -1,7 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: September 28, 2023** 
+**Updated document date: October 10, 2023** 
+
+## Apache Superset Cookie Permission Bypass Vulnerability (CVE-2023-30776)
+
+|   **Vulnerability**  | 	Apache Superset Cookie Permission Bypass Vulnerability (CVE-2023-30776)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	Apache Superset Cookie 权限绕过漏洞（CVE-2023-27524） |
+| **CVSS core**  | 	9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="APACHE-Superset"]([https://en.fofa.info/result?qbase64=dGl0bGU9IlJldml2ZSBBZHNlcnZlciIgfHwgYm9keT0ic3RyUGFzc3dvcmRNaW5MZW5ndGgiIHx8IGJvZHk9IldlbGNvbWUgdG8gUmV2aXZlIEFkc2VydmVyIg%3D%3D](https://en.fofa.info/result?qbase64=dGl0bGU9IkF1dGhlbnRpY2F0ZSBQbGVhc2UhIiB8fCBib2R5PSJwYXNzd29yZDp0aGlzLnJlZnMucGFzc3dvcmQudmFsdWUiIHx8IGJvZHk9IlVJa2l0LmNvbXBvbmVudHMuZm9ybVBhc3N3b3JkLnByb3RvdHlwZS5kZWZhdWx0cy5sYmxTaG93IiB8fCBib2R5PSJBcHAucmVxdWVzdCgnL2F1dGgvY2hlY2snIg%3D%3D))|
+| **Number of assets affected**  | 		56089 |
+| **Description**  | 	Apache Superset is an open source modern data exploration and visualization platform.Apache Superset Cookie has a permission bypass vulnerability that allows an attacker to control the entire system, ultimately leaving the system in an extremely unsafe state. |
+| **Impact** | 	Apache Superset Cookie has a permission bypass vulnerability that allows an attacker to control the entire system, ultimately leaving the system in an extremely unsafe state. |
+
+![](https://s3.bmp.ovh/imgs/2023/10/10/ec147824884d3597.gif)
+
 
 ## Cockpit assetsmanager/upload file upload vulnerability (CVE-2023-1313)
 
