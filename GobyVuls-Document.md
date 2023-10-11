@@ -1,7 +1,36 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: October 10, 2023** 
+**Updated document date: October 11, 2023** 
+
+## Atlassian Confluence permission bypass vulnerability (CVE-2023-22515)
+
+|   **Vulnerability**  | 	Atlassian Confluence permission bypass vulnerability (CVE-2023-22515)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	Atlassian Confluence 权限绕过漏洞（CVE-2023-22515） |
+| **CVSS core**  | 	10.0 |
+| **FOFA Query**  (click to view the results directly)| [app="ATLASSIAN-Confluence"](https://en.fofa.info/result?qbase64=aGVhZGVyPSJDb25mbHVlbmNlIiB8fCBiYW5uZXI9IkNvbmZsdWVuY2UiIHx8IGJvZHk9ImNvbmZsdWVuY2UtYmFzZS11cmwiIHx8IGJvZHk9ImNvbS1hdGxhc3NpYW4tY29uZmx1ZW5jZSIgfHwgIHRpdGxlPSJBdGxhc3NpYW4gQ29uZmx1ZW5jZSIgfHwgKHRpdGxlPT0iRXJyb3JzIiAmJiBib2R5PSJDb25mbHVlbmNlIik%3D)|
+| **Number of assets affected**  | 	97667 |
+| **Description**  | 	Atlassian Confluence is a software developed by Atlassian based on the online enterprise wiki (collaboration software).A vulnerability exists in the Atlassian Confluence data center and server. The /server-info.action endpoint is used to pass the bootstrapStatusProvider.applicationConfig.setupComplete parameter, leaving the server in an incomplete state to access restricted endpoints and create unauthorized Confluence administrator accounts. Log in to the Confluence instance backend. |
+| **Impact** | 	A vulnerability exists in the Atlassian Confluence data center and server. The /server-info.action endpoint is used to pass the bootstrapStatusProvider.applicationConfig.setupComplete parameter, leaving the server in an incomplete state to access restricted endpoints and create unauthorized Confluence administrator accounts. Log in to the Confluence instance backend. |
+
+![](https://s3.bmp.ovh/imgs/2023/10/11/c0c440512d0c5ee2.gif)
+
+
+## Junos webauth_operation.php PHPRC Code Execution Vulnerability (CVE-2023-36845/CVE-2023-36846)
+
+|   **Vulnerability**  | 	Junos webauth_operation.php PHPRC Code Execution Vulnerability (CVE-2023-36845/CVE-2023-36846)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	Junos webauth_operation.php PHPRC 代码执行漏洞（CVE-2023-36845/CVE-2023-36846） |
+| **CVSS core**  | 	9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="JUNIPer-Web-Device-Manager"](https://en.fofa.info/result?qbase64=IHRpdGxlPSJKdW5pcGVyIFdlYiBEZXZpY2UgTWFuYWdlciIgfHwgYmFubmVyPSJqdW5pcGVyIiB8fCBoZWFkZXI9Imp1bmlwZXIiIHx8IGJvZHk9InN2ZzRldmVyeWJvZHkvc3ZnNGV2ZXJ5Ym9keS5qcyIgfHwgYm9keT0ianVuaXBlci5uZXQvdXMvZW4vbGVnYWwtbm90aWNlcyIgfHwgYm9keT0ibmF0aXZlbG9naW5fbG9naW5fY3JlZGVudGlhbHMi)|
+| **Number of assets affected**  | 	43627 |
+| **Description**  | 	Junos is a reliable, high-performance network operating system from Juniper Networks.An attacker can use the J-Web service of the Junos operating system to pass in the PHPRC environment variable, turn on the allow_url_include setting, run the incoming encoded PHP code, and gain control of the entire web server. |
+| **Impact** | 	Attackers can use this vulnerability to execute code on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/10/11/3e4434d6602a32a6.gif)
+
+
 
 ## Apache Superset Cookie Permission Bypass Vulnerability (CVE-2023-30776)
 
