@@ -1,7 +1,23 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: November 27, 2023** 
+**Updated document date: November 30, 2023** 
+
+
+
+
+## CrushFTP as2-to Authentication Permission bypass Vulnerability (CVE-2023-43177)
+
+|   **Vulnerability**  | 	CrushFTP as2-to Authentication Permission bypass Vulnerability (CVE-2023-43177)  |
+| :----:   | :-----|
+|  **Chinese name**  | CrushFTP as2-to 认证权限绕过漏洞（CVE-2023-43177） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="crushftp-WebInterface""](https://en.fofa.info/result?qbase64=c2VydmVyPSJDcnVzaEZUUCIgfHwgaGVhZGVyPSIvV2ViSW50ZXJmYWNlL2xvZ2luLmh0bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS9sb2dpbi5odG1sIiB8fCBoZWFkZXI9Ii9XZWJJbnRlcmZhY2UvdzNjL3AzcC54bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS93M2MvcDNwLnhtbCIgfHwgdGl0bGU9IkNydXNoRlRQIg%3D%3D) |
+| **Number of assets affected**  | 	38695 |
+| **Description**  | CrushFTP is a powerful file transfer server suitable for secure and efficient file transfer and management for individual or enterprise users.CrashFTP has a permission bypass vulnerability, where attackers can bypass system permission control by constructing malicious as2 to request authentication, achieving arbitrary execution of malicious operations such as file read and delete. |
+| **Impact** | CrashFTP has a permission bypass vulnerability, where attackers can bypass system permission control by constructing malicious as2 to request authentication, achieving arbitrary execution of malicious operations such as file read and delete. |
+
+![](https://s3.bmp.ovh/imgs/2023/11/30/8d49b65293d87b3a.gif)
 
 
 ## Splunk Enterprise XSLT Command Execute Vulnerability (CVE-2023-46214)
