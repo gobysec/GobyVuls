@@ -1,8 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: November 30, 2023** 
+**Updated document date: December 07, 2023** 
 
+
+## Apache OFBiz webtools/control/xmlrpc Remote Code Execution Vulnerability (CVE-2023-49070)
+
+|   **Vulnerability**  | 	Apache OFBiz webtools/control/xmlrpc Remote Code Execution Vulnerability (CVE-2023-49070)  |
+| :----:   | :-----|
+|  **Chinese name**  | Apache OFBiz webtools/control/xmlrpc 远程代码执行漏洞（CVE-2023-49070） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="Apache_OFBiz"](https://en.fofa.info/result?qbase64=Y2VydD0iT3JnYW5pemF0aW9uYWwgVW5pdDogQXBhY2hlIE9GQml6IiB8fCAoYm9keT0id3d3Lm9mYml6Lm9yZyIgJiYgYm9keT0iL2ltYWdlcy9vZmJpel9wb3dlcmVkLmdpZiIpIHx8IGhlYWRlcj0iU2V0LUNvb2tpZTogT0ZCaXouVmlzaXRvciIgfHwgYmFubmVyPSJTZXQtQ29va2llOiBPRkJpei5WaXNpdG9yIg%3D%3D) |
+| **Number of assets affected**  | 	5883 |
+| **Description**  | Apache OFBiz is an open source enterprise resource planning (ERP) system that provides a variety of business functions and modules.Apache OFBiz has a deserialization code execution vulnerability in webtools/control/xmlrpc. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
+| **Impact** | Apache OFBiz has a deserialization code execution vulnerability in webtools/control/xmlrpc. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2023/12/07/a73e0ef58369cbd8.gif)
 
 
 
@@ -12,7 +25,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  | CrushFTP as2-to 认证权限绕过漏洞（CVE-2023-43177） |
 | **CVSS core**  | 9.8 |
-| **FOFA Query**  (click to view the results directly)| [app="crushftp-WebInterface""](https://en.fofa.info/result?qbase64=c2VydmVyPSJDcnVzaEZUUCIgfHwgaGVhZGVyPSIvV2ViSW50ZXJmYWNlL2xvZ2luLmh0bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS9sb2dpbi5odG1sIiB8fCBoZWFkZXI9Ii9XZWJJbnRlcmZhY2UvdzNjL3AzcC54bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS93M2MvcDNwLnhtbCIgfHwgdGl0bGU9IkNydXNoRlRQIg%3D%3D) |
+| **FOFA Query**  (click to view the results directly)| [app="crushftp-WebInterface"](https://en.fofa.info/result?qbase64=c2VydmVyPSJDcnVzaEZUUCIgfHwgaGVhZGVyPSIvV2ViSW50ZXJmYWNlL2xvZ2luLmh0bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS9sb2dpbi5odG1sIiB8fCBoZWFkZXI9Ii9XZWJJbnRlcmZhY2UvdzNjL3AzcC54bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS93M2MvcDNwLnhtbCIgfHwgdGl0bGU9IkNydXNoRlRQIg%3D%3D) |
 | **Number of assets affected**  | 	38695 |
 | **Description**  | CrushFTP is a powerful file transfer server suitable for secure and efficient file transfer and management for individual or enterprise users.CrashFTP has a permission bypass vulnerability, where attackers can bypass system permission control by constructing malicious as2 to request authentication, achieving arbitrary execution of malicious operations such as file read and delete. |
 | **Impact** | CrashFTP has a permission bypass vulnerability, where attackers can bypass system permission control by constructing malicious as2 to request authentication, achieving arbitrary execution of malicious operations such as file read and delete. |
