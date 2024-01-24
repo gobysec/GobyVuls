@@ -1,7 +1,23 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: January 23, 2024** 
+**Updated document date: January 24, 2024** 
+
+
+
+## 	GoAnywhere MFT InitialAccountSetup.xhtml Bypass Vulnerability (CVE-2024-0204)
+
+|   **Vulnerability**  | 	GoAnywhere MFT InitialAccountSetup.xhtml Bypass Vulnerability (CVE-2024-0204)  |
+| :----:   | :-----|
+|  **Chinese name**  | 		GoAnywhere MFT InitialAccountSetup.xhtml 绕过漏洞（CVE-2024-0204） |
+| **CVSS core**  | 	9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="GoAnywhere-MFT"](https://en.fofa.info/result?qbase64=dGl0bGU9IkdvQW55d2hlcmUiIHx8IGhlYWRlcj0iL2dvYW55d2hlcmUiIHx8IGJhbm5lcj0iL2dvYW55d2hlcmUi)|
+| **Number of assets affected**  | 		4468 |
+| **Description**  | 	GoAnywhere MFT (Managed File Transfer) is an enterprise-class file transfer solution provided by HelpSystems, designed to meet the needs of organizations for secure, manageable and automated file transfer.Authentication bypass vulnerability in GoAnywhere MFT before Fortra version 7.4.1. Allows unauthorized users to pretend to be administrators through the management portal, create arbitrary management users, and take over the entire system. |
+| **Impact** | 	Authentication bypass vulnerability in GoAnywhere MFT before Fortra version 7.4.1. Allows unauthorized users to pretend to be administrators through the management portal, create arbitrary management users, and take over the entire system. |
+
+![](https://s3.bmp.ovh/imgs/2024/01/24/fed22927c8fb9a5f.gif).
+
 
 ## Atlassian Confluence template/aui/text-inline.vm code execution vulnerability (CVE-2023-22527)
 
@@ -14,7 +30,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 	Atlassian Confluence is an enterprise team collaboration and knowledge management software developed by Atlassian that provides a centralized platform for creating, organizing and sharing your team's documents, knowledge base, project plans and collaborative content.Atlassian Confluence has a remote code execution vulnerability in template/aui/text-inline.vm that could allow an unauthorized attacker to execute arbitrary code on an affected version. |
 | **Impact** | 	Atlassian Confluence has a remote code execution vulnerability in template/aui/text-inline.vm that could allow an unauthorized attacker to execute arbitrary code on an affected version. |
 
-![](https://s3.bmp.ovh/imgs/2024/01/23/1888fed69ab36f7a.gif)
+![](https://s3.bmp.ovh/imgs/2024/01/23/1888fed69ab36f7a.gif).
 
 
 ## Ivanti Connect Secure and Policy Secure keys-status remote command execution vulnerability (CVE-2023-46805/CVE-2024-21887)
@@ -28,7 +44,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 	Ivanti is a software and information technology services company focused on providing solutions for IT management, security, service management and endpoint management. Ivanti Connect Secure and Ivanti Policy Secure are part of two security solutions from Ivanti for network security and connectivity management.There is a command injection vulnerability in the web component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x). The authentication bypass vulnerability and the command injection vulnerability can be used to send specially crafted requests and Execute arbitrary commands on the device. |
 | **Impact** | 	which utilizes authentication to bypass the vulnerability and in combination with command injection vulnerabilities, can send customized requests and execute arbitrary commands on the device, gain server privileges, and thus control the entire web server. |
 
-![](https://s3.bmp.ovh/imgs/2023/10/10/ec147824884d3597.gif)
+![](https://s3.bmp.ovh/imgs/2023/10/10/ec147824884d3597.gif).
 
 
 
@@ -46,7 +62,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  |Apache OFBiz is an open source enterprise resource planning (ERP) system that provides a variety of business functions and modules.Apache OFBiz has a code execution vulnerability in webtools/control/ProgramExport. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
 | **Impact** | 	Apache OFBiz has a code execution vulnerability in webtools/control/ProgramExport. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
 
-![](https://s3.bmp.ovh/imgs/2023/12/28/f81ea49af8383f1b.gif)
+![](https://s3.bmp.ovh/imgs/2023/12/28/f81ea49af8383f1b.gif).
 
 
 
@@ -63,8 +79,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 	5883 |
 | **Description**  | Apache OFBiz is an open source enterprise resource planning (ERP) system that provides a variety of business functions and modules.Apache OFBiz has a deserialization code execution vulnerability in webtools/control/xmlrpc. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
 | **Impact** | Apache OFBiz has a deserialization code execution vulnerability in webtools/control/xmlrpc. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
-
-![](https://s3.bmp.ovh/imgs/2023/12/07/a73e0ef58369cbd8.gif)
+.
+![](https://s3.bmp.ovh/imgs/2023/12/07/a73e0ef58369cbd8.gif).
 
 
 
