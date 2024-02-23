@@ -1,7 +1,24 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: February 22, 2024** 
+**Updated document date: February 23, 2024** 
+
+## 	WordPress Bricks render_element Remote Code Execution Vulnerability (CVE-2024-25600)
+
+|   **Vulnerability**  | 		WordPress Bricks render_element Remote Code Execution Vulnerability (CVE-2024-25600)  |
+| :----:   | :-----|
+|  **Chinese name**  | 	WordPress Bricks render_element 远程代码执行漏洞（CVE-2024-25600） |
+| **CVSS core**  | 9.8 |
+| **FOFA Query**  (click to view the results directly)| [app="wordpress-bricks"](https://en.fofa.info/result?qbase64=Ym9keT0iL3dwLWNvbnRlbnQvdGhlbWVzL2JyaWNrcyI%3D)|
+| **Number of assets affected**  | 	25433 |
+| **Description**  | 		WordPress Bricks is an innovative, community driven, and visual WordPress website builder that allows you to design unique, high-performance, and scalable websites.WordPress Bricks has a remote code execution vulnerability, which allows attackers to execute code arbitrarily on the server side, write backdoors, gain server privileges, and then control the entire web server. |
+| **Impact** | WordPress Bricks has a remote code execution vulnerability, which allows attackers to execute code arbitrarily on the server side, write backdoors, gain server privileges, and then control the entire web server. |
+
+![](https://s3.bmp.ovh/imgs/2024/02/23/70784f1d16f8316e.gif).
+
+
+
+
 
 ## 			Weblogic ForeignOpaqueReference remote code execution vulnerability (CVE-2024-20931)
 
@@ -14,7 +31,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 		WebLogic Server is one of the application server components suitable for both cloud and traditional environments.WebLogic has a remote code execution vulnerability that allows an unauthenticated attacker to access and destroy a vulnerable WebLogic Server through the IIOP protocol network. Successful exploitation of the vulnerability can cause WebLogic Server to be taken over by an attacker, resulting in remote code execution. |
 | **Impact** | There is a remote code execution vulnerability in WebLogic, which allows an unauthenticated attacker to access and damage the vulnerable WebLogic Server through the IIOP protocol network. Successful exploitation of the vulnerability can lead to WebLogic Server being taken over by the attacker, resulting in remote code execution. |
 
-![](https://s3.bmp.ovh/imgs/2024/02/22/1919f42ca2a57a19.gif).
+![](https://s3.bmp.ovh/imgs/2024/02/23/70784f1d16f8316e.gif).
 
 
 ## 		Ivanti Connect Secure and Policy Secure saml20.ws server-side request forgery vulnerability (CVE-2024-21893)
