@@ -1,20 +1,20 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: February 29, 2024** 
+**Updated document date: March 1, 2024** 
 
-## 	kafka-ui messages remote code execution vulnerability (CVE-2023-52251)
+## 	ComfyUI follow_symlinks File Read Vulnerability (CVE-2024-23334)
 
-|   **Vulnerability**  | 	kafka-ui messages remote code execution vulnerability (CVE-2023-52251)  |
+|   **Vulnerability**  | 	ComfyUI follow_symlinks File Read Vulnerability (CVE-2024-23334)  |
 | :----:   | :-----|
-|  **Chinese name**  | kafka-ui messages 远程代码执行漏洞（CVE-2023-52251） |
-| **CVSS core**  | 8.8 |
-| **FOFA Query**  (click to view the results directly)| [	app="kafka-ui"](https://en.fofa.info/result?qbase64=Ym9keT0iZm9udHMvUm9ib3RvTW9uby1SZWd1bGFyLnR0ZiIgfHwgYm9keT0iL2ZvbnRzL1JvYm90b01vbm8tTWVkaXVtLnR0ZiIgfHwgYm9keT0iVUkgZm9yIEFwYWNoZSBLYWZrYSI%3D)|
-| **Number of assets affected**  | 6503 |
-| **Description**  | 		The kafka-ui project is developed and maintained by Provectus Company and aims to provide Kafka users with a visual management tool to simplify the management and monitoring tasks of Kafka clusters.kafka-ui has a remote code execution vulnerability in the q parameter of /api/clusters/local/topics/{topic}/messages. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then Control the entire web server. |
-| **Impact** | kafka-ui has a remote code execution vulnerability in the q parameter of /api/clusters/local/topics/{topic}/messages. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then Control the entire web server. |
+|  **Chinese name**  | ComfyUI follow_symlinks 文件读取漏洞（CVE-2024-23334） |
+| **CVSS core**  | 7.5 |
+| **FOFA Query**  (click to view the results directly)| [app="ComfyUI"](https://en.fofa.info/result?qbase64=dGl0bGU9IkNvbWZ5VUki)|
+| **Number of assets affected**  | 1564 |
+| **Description**  | 	ComfyUI is a powerful, modular stable diffusion GUI, API, and backend. It provides a graphical/node interface for designing and managing stable diffusion pipelines.ComfyUI uses a low version of aiohttp as a web server and configures static routes with the follow_symlinks option enabled, leading to an arbitrary file read vulnerability. The vulnerability allows an attacker to read leaked source code, database configuration files, etc., resulting in a highly insecure web site. |
+| **Impact** | ComfyUI uses a lower version of the aiohttp component as the web server and configures static routing with the follow_symlinks option enabled, resulting in an arbitrary file reading vulnerability. Attackers can use this vulnerability to read leaked source code, database configuration files, etc., causing the website to be in an extremely unsafe state. |
 
-![](https://s3.bmp.ovh/imgs/2024/02/29/fb6a40c3ef8c3953.gif).
+![](https://s3.bmp.ovh/imgs/2024/03/01/2b4bae4fd8ab1926.gif).
 
 
 
