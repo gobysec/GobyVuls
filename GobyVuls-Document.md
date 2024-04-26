@@ -1,7 +1,22 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: March 28, 2024** 
+
+**Updated document date: April 26, 2024** 
+
+
+## 	CrushFTP /WebInterface/function File Read Vulnerability
+
+|   **Vulnerability**  | CrushFTP /WebInterface/function File Read Vulnerability |
+| :----:   | :-----|
+|  **Chinese name**  |	CrushFTP /WebInterface/function 文件读取漏洞 |
+| **CVSS core**  | 7.7 |
+| **FOFA Query**  (click to view the results directly)| [app="crushftp"](https://en.fofa.info/result?qbase64=c2VydmVyPSJDcnVzaEZUUCIgfHwgaGVhZGVyPSIvV2ViSW50ZXJmYWNlL2xvZ2luLmh0bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS9sb2dpbi5odG1sIiB8fCBoZWFkZXI9Ii9XZWJJbnRlcmZhY2UvdzNjL3AzcC54bWwiIHx8IGJhbm5lcj0iL1dlYkludGVyZmFjZS93M2MvcDNwLnhtbCIgfHwgdGl0bGU9IkNydXNoRlRQIg%3D%3D)|
+| **Number of assets affected**  | 		36803 |
+| **Description**  | CrushFTP is a cross-platform FTP server software that supports FTP, FTPS, SFTP, HTTP, HTTPS and other protocols.There were server-side template injection vulnerabilities before CrushFTP version 10.7.1 and version 11.1.0, which may cause unauthenticated threats to read files from the file system outside the virtual file system (VFS) sandbox, bypass authentication to obtain management access, and Execute the code remotely on the server.|
+| **Impact** | 	There were server-side template injection vulnerabilities before CrushFTP version 10.7.1 and before version 11.1.0, which may cause unauthenticated threats to read files from the file system outside the virtual file system (VFS) sandbox, bypass authentication to obtain administrative access, and remotely execute code on the server.|
+
+![](https://s3.bmp.ovh/imgs/2024/04/26/2b696d3bc719d502.gif)
 
 
 ## 		Adobe ColdFusion /CFIDE/adminapi/_servermanager/servermanager.cfc File Read Vulnerability (CVE-2024-20767)
@@ -15,7 +30,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | Adobe ColdFusion is a commercial application server developed by Adobe for web application development. The vulnerability allows an attacker to read important system files (e.g., database configuration files, system configuration files), database configuration files, etc., resulting in an extremely insecure web site.|
 | **Impact** | The vulnerability allows an attacker to read important system files (e.g., database configuration files, system configuration files), database configuration files, etc., resulting in an extremely insecure web site. |
 
-![](https://s3.bmp.ovh/imgs/2024/03/28/d8f5c5bf74cb4017.gif).
+![](https://s3.bmp.ovh/imgs/2024/03/28/d8f5c5bf74cb4017.gif)
 
 
 ## 		JetBrains TeamCity permission bypass vulnerability (CVE-2024-27198 & CVE-2024-27199)
@@ -29,7 +44,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | JetBrains TeamCity is a continuous integration and continuous delivery (CI/CD) server developed by JetBrains. It provides a powerful platform for automating the building, testing and deployment of software projects. TeamCity aims to simplify team collaboration and software delivery processes, improve development team efficiency and product quality.JetBrains TeamCity has an authentication bypass vulnerability before version 2023.11.4. An attacker can use this vulnerability to bypass the authentication mechanism and directly perform administrator operations. Combined with the background function, the attacker can use this vulnerability to execute arbitrary system commands on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 | **Impact** | JetBrains TeamCity has an authentication bypass vulnerability before version 2023.11.4. An attacker can use this vulnerability to bypass the authentication mechanism and directly perform administrator operations. Combined with the background function, the attacker can use this vulnerability to execute arbitrary system commands on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 
-![](https://s3.bmp.ovh/imgs/2024/03/21/247110c62504abd3.gif).
+![](https://s3.bmp.ovh/imgs/2024/03/21/247110c62504abd3.gif)
 
 
 
@@ -44,7 +59,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 	Apache Druid is an open source distributed data storage and analysis system. It is designed to handle large-scale real-time data and provide fast interactive query and analysis.Apache Druid uses the vulnerable Kafka Connect. An attacker can access the Kafka Connect Worker and create or modify the connector by setting the sasl.jaas.config attribute to a malicious class, which can lead to a JNDI injection vulnerability. This vulnerability can be used Execute code arbitrarily on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 | **Impact** | Apache Druid uses the vulnerable Kafka Connect. An attacker can access the Kafka Connect Worker and create or modify the connector by setting the sasl.jaas.config attribute to a malicious class, which can lead to a JNDI injection vulnerability. This vulnerability can be used Execute code arbitrarily on the server side, write backdoors, obtain server permissions, and then control the entire web server. |
 
-![](https://s3.bmp.ovh/imgs/2024/03/15/7a1efed457cb487c.gif).
+![](https://s3.bmp.ovh/imgs/2024/03/15/7a1efed457cb487c.gif)
 
 
 ## 	ComfyUI follow_symlinks File Read Vulnerability (CVE-2024-23334)
@@ -58,8 +73,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 	ComfyUI is a powerful, modular stable diffusion GUI, API, and backend. It provides a graphical/node interface for designing and managing stable diffusion pipelines.ComfyUI uses a low version of aiohttp as a web server and configures static routes with the follow_symlinks option enabled, leading to an arbitrary file read vulnerability. The vulnerability allows an attacker to read leaked source code, database configuration files, etc., resulting in a highly insecure web site. |
 | **Impact** | ComfyUI uses a lower version of the aiohttp component as the web server and configures static routing with the follow_symlinks option enabled, resulting in an arbitrary file reading vulnerability. Attackers can use this vulnerability to read leaked source code, database configuration files, etc., causing the website to be in an extremely unsafe state. |
 
-![](https://s3.bmp.ovh/imgs/2024/03/01/2b4bae4fd8ab1926.gif).
-
+![](https://s3.bmp.ovh/imgs/2024/03/01/2b4bae4fd8ab1926.gif)
 
 
 
@@ -75,7 +89,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 		WordPress Bricks is an innovative, community driven, and visual WordPress website builder that allows you to design unique, high-performance, and scalable websites.WordPress Bricks has a remote code execution vulnerability, which allows attackers to execute code arbitrarily on the server side, write backdoors, gain server privileges, and then control the entire web server. |
 | **Impact** | WordPress Bricks has a remote code execution vulnerability, which allows attackers to execute code arbitrarily on the server side, write backdoors, gain server privileges, and then control the entire web server. |
 
-![](https://s3.bmp.ovh/imgs/2024/02/23/70784f1d16f8316e.gif).
+![](https://s3.bmp.ovh/imgs/2024/02/23/70784f1d16f8316e.gif)
 
 
 
@@ -92,7 +106,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 		WebLogic Server is one of the application server components suitable for both cloud and traditional environments.WebLogic has a remote code execution vulnerability that allows an unauthenticated attacker to access and destroy a vulnerable WebLogic Server through the IIOP protocol network. Successful exploitation of the vulnerability can cause WebLogic Server to be taken over by an attacker, resulting in remote code execution. |
 | **Impact** | There is a remote code execution vulnerability in WebLogic, which allows an unauthenticated attacker to access and damage the vulnerable WebLogic Server through the IIOP protocol network. Successful exploitation of the vulnerability can lead to WebLogic Server being taken over by the attacker, resulting in remote code execution. |
 
-![](https://s3.bmp.ovh/imgs/2024/02/23/70784f1d16f8316e.gif).
+![](https://s3.bmp.ovh/imgs/2024/02/23/70784f1d16f8316e.gif)
 
 
 ## 		Ivanti Connect Secure and Policy Secure saml20.ws server-side request forgery vulnerability (CVE-2024-21893)
@@ -106,7 +120,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 		Ivanti Connect/Policy Secure is a secure remote network connection tool from the American company Ivanti.Ivanti Connect Secure product saml20.ws has a server-side request forgery vulnerability. An attacker can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely unsafe state. |
 | **Impact** | Ivanti Connect Secure product saml20.ws has a server-side request forgery vulnerability. An attacker can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely unsafe state. |
 
-![](https://s3.bmp.ovh/imgs/2024/02/06/b02b7373188c6998.gif).
+![](https://s3.bmp.ovh/imgs/2024/02/06/b02b7373188c6998.gif)
 
 
 
@@ -121,7 +135,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 	CloudBees Jenkins (formerly known as Hudson Labs) is a set of Java-based continuous integration tools developed by American CloudBees Company. It is mainly used to monitor continuous software version release/test projects and some regularly executed tasks.Attackers can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely unsafe state. |
 | **Impact** | Attackers can use this vulnerability to read important system files (such as database configuration files, system configuration files), database configuration files, etc., causing the website to be in an extremely unsafe state. |
 
-![](https://s3.bmp.ovh/imgs/2024/01/26/bb74a2a4f3c0cdbc.gif).
+![](https://s3.bmp.ovh/imgs/2024/01/26/bb74a2a4f3c0cdbc.gif)
 
 
 
@@ -151,8 +165,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  | 	Atlassian Confluence is an enterprise team collaboration and knowledge management software developed by Atlassian that provides a centralized platform for creating, organizing and sharing your team's documents, knowledge base, project plans and collaborative content.Atlassian Confluence has a remote code execution vulnerability in template/aui/text-inline.vm that could allow an unauthorized attacker to execute arbitrary code on an affected version. |
 | **Impact** | 	Atlassian Confluence has a remote code execution vulnerability in template/aui/text-inline.vm that could allow an unauthorized attacker to execute arbitrary code on an affected version. |
 
-![](https://s3.bmp.ovh/imgs/2024/01/23/1888fed69ab36f7a.gif).
-
+![](https://s3.bmp.ovh/imgs/2024/01/23/1888fed69ab36f7a.gif)
 
 ## Ivanti Connect Secure and Policy Secure keys-status remote command execution vulnerability (CVE-2023-46805/CVE-2024-21887)
 
@@ -183,7 +196,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Description**  |Apache OFBiz is an open source enterprise resource planning (ERP) system that provides a variety of business functions and modules.Apache OFBiz has a code execution vulnerability in webtools/control/ProgramExport. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
 | **Impact** | 	Apache OFBiz has a code execution vulnerability in webtools/control/ProgramExport. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
 
-![](https://s3.bmp.ovh/imgs/2023/12/28/f81ea49af8383f1b.gif).
+![](https://s3.bmp.ovh/imgs/2023/12/28/f81ea49af8383f1b.gif)
 
 
 
@@ -200,8 +213,8 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | **Number of assets affected**  | 	5883 |
 | **Description**  | Apache OFBiz is an open source enterprise resource planning (ERP) system that provides a variety of business functions and modules.Apache OFBiz has a deserialization code execution vulnerability in webtools/control/xmlrpc. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
 | **Impact** | Apache OFBiz has a deserialization code execution vulnerability in webtools/control/xmlrpc. An attacker can use this vulnerability to execute arbitrary code on the server side, write a backdoor, obtain server permissions, and then control the entire web server. |
-.
-![](https://s3.bmp.ovh/imgs/2023/12/07/a73e0ef58369cbd8.gif).
+
+![](https://s3.bmp.ovh/imgs/2023/12/07/a73e0ef58369cbd8.gif)
 
 
 
