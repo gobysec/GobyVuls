@@ -2,7 +2,20 @@
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
 
-**Updated document date: May 15, 2024** 
+**Updated document date: May 23, 2024** 
+
+## 		Sonatype Nexus Repository Manager File Read Vulnerability(CVE-2024-4956)
+
+|   **Vulnerability**  | 	Sonatype Nexus Repository Manager File Read Vulnerability(CVE-2024-4956) |
+| :----:   | :-----|
+|  **Chinese name**  |		Sonatype Nexus Repository Manager 文件读取漏洞（CVE-2024-4956） |
+| **CVSS core**  | 	7.5 |
+| **FOFA Query**  (click to view the results directly)| [	app="Sonatype-Nexus"](https://en.fofa.info/result?qbase64=Ym9keT0iL25leHVzLSIgJiYgYm9keT0iUmVwb3NpdG9yeSI%3D)|
+| **Number of assets affected**  | 	93784 |
+| **Description**  | Nexus Repository Manager, commonly referred to as Nexus, is a product by Sonatype. It is currently the most popular repository management software globally, offering a powerful repository manager that greatly simplifies the maintenance of internal repositories and access to external repositories.In versions 3.0.0 to 3.68.0 of Sonatype Nexus Repository, there exists a path traversal vulnerability. An unauthenticated attacker can exploit this vulnerability by constructing malicious URLs containing sequences like "../../../../" to download arbitrary files from the target system, including files outside the scope of the Nexus Repository application. Successfully exploiting this vulnerability may lead to the disclosure of sensitive information such as application source code, configurations, and critical system files.|
+| **Impact** | 	In versions 3.0.0 to 3.68.0 of Sonatype Nexus Repository, there exists a path traversal vulnerability. An unauthenticated attacker can exploit this vulnerability by constructing malicious URLs containing sequences like "../../../../" to download arbitrary files from the target system, including files outside the scope of the Nexus Repository application. Successfully exploiting this vulnerability may lead to the disclosure of sensitive information such as application source code, configurations, and critical system files.|
+
+![](https://s3.bmp.ovh/imgs/2024/05/23/8b5ae355137fa582.gif)
 
 ## 		Mura CMS /index.cfm/_api/json/v1/default SQL Injection Vulnerability(CVE-2024-32640)
 
