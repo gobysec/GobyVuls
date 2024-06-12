@@ -2,7 +2,20 @@
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
 
-**Updated document date: May 30, 2024** 
+**Updated document date: June 12, 2024** 
+
+## 	XAMPP PHP-CGI Windows Code Execution Vulnerability
+
+|   **Vulnerability**  | XAMPP PHP-CGI Windows Code Execution Vulnerability |
+| :----:   | :-----|
+|  **Chinese name**  |	XAMPP Windows PHP-CGI 代码执行漏洞 |
+| **CVSS core**  | 		9.8 |
+| **FOFA Query**  (click to view the results directly)| [	app="php-CGI"](https://en.fofa.info/result?qbase64=aGVhZGVyPSJYYW1wcHNfaW5mbyIgfHwgYmFubmVyPSJYYW1wcHNfaW5mbyIgfHwgYm9keT0iL3hhbXBwcy5qcGciIHx8IChoZWFkZXI9ImxvY2F0aW9uIGh0dHAiICYmIGhlYWRlcj0ieGFtcHAiKSB8fCBib2R5PSJjb250ZW50PVwiS2FpIE9zd2FsZCBTZWlkbGVyIiB8fCB0aXRsZT0iWEFNUFAgZm9yIiB8fCB0aXRsZT0iWEFNUFAgVmVyc2lvbiIgfHwgYm9keT0iZm9udC1zaXplOiAxLjJlbTsgY29sb3I6IHJlZDtcIj5OZXcgWEFNUFAiIHx8IGhlYWRlcj0ieGFtcHAgdXNlciIgfHwgdGl0bGU9IldlbGNvbWUgdG8gWEFNUFAiIHx8IGJvZHk9ImNvbnRlbnQ9XCJYQU1QUCAiIHx8IChoZWFkZXI9IlNlcnZlcjogQXBhY2hlIiAmJiBoZWFkZXI9IldpbjY0IiAmJiBoZWFkZXI9IlBIUC8iKQ%3D%3D)|
+| **Number of assets affected**  | 	7631 |
+| **Description**  |PHP is a scripting language executed on the server side. There was a command execution vulnerability before version 8.3.8 of PHP. Due to the "Best-Fit Mapping" feature of Windows, non-ASCII characters may be incorrectly mapped to dash (-) when processing query strings, resulting in command line parameter parsing errors. When php_cgi runs on the Windows platform and the code page is in traditional Chinese, simplified Chinese or Japanese, the attacker can inject malicious parameters through a specific query string to execute arbitrary code.|
+| **Impact** | The attacker can inject malicious parameters through a specific query string to execute arbitrary code to take over the server.|
+
+![](https://s3.bmp.ovh/imgs/2024/06/12/f9b2da5202c78411.gif)
 
 ## 		CheckPoint Gateway /clients/MyCRL File Reading Vulnerability(CVE-2024-24919)
 
