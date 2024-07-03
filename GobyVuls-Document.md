@@ -7,9 +7,9 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 |   **Vulnerability**  | GeoServer /geoserver/wfs Code Execution Vulnerability(CVE-2024-36401) |
 | :----:   | :-----|
-|  **Chinese name**  |	 |
+|  **Chinese name**  |	GeoServer /geoserver/wfs 远程代码执行漏洞（CVE-2024-36401） |
 | **CVSS core**  | 		9.8 |
-| **FOFA Query**  (click to view the results directly)| [	app="GeoServer"](https://fofa.info/result?qbase64=Ym9keT0iL29yZy5nZW9zZXJ2ZXIud2ViLkdlb1NlcnZlckJhc2VQYWdlLyIgfHwgYm9keT0iY2xhc3M9XCJnZW9zZXJ2ZXIgbGViZWciIHx8IGJvZHk9Ii93ZWJhcHBzL2dlb3NlcnZlciIgfHwgKGJvZHk9IndpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKFwid2ViL1wiKTsiICYmIGJvZHk9Imdlb3NlcnZlciIpIHx8IHRpdGxlPSJHZW9TZXJ2ZXIi|)
+| **FOFA Query**  (click to view the results directly)|  [	app="GeoServer"]()|
 | **Number of assets affected**  | 7962 |
 | **Description**  |GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.23.6, 2.24.4, and 2.25.2, multiple OGC request parameters allow Remote Code Execution (RCE) by unauthenticated users through specially crafted input against a default GeoServer installation due to unsafely evaluating property names as XPath expressions.|
 | **Impact** | The attacker can inject malicious parameters through a specific query string to execute arbitrary code to take over the server.|
