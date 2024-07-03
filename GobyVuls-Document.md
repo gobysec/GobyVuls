@@ -1,7 +1,7 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: June 12, 2024** 
+**Updated document date: July 3, 2024** 
 
 ## 	GeoServer /geoserver/wfs Code Execution Vulnerability(CVE-2024-36401)
 
@@ -9,7 +9,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 | :----:   | :-----|
 |  **Chinese name**  |	GeoServer /geoserver/wfs 远程代码执行漏洞（CVE-2024-36401） |
 | **CVSS core**  | 		9.8 |
-| **FOFA Query**  (click to view the results directly)|  [	app="GeoServer"]()|
+| **FOFA Query**  (click to view the results directly)|  [	app="GeoServer"](https://fofa.info/result?qbase64=Ym9keT0iL29yZy5nZW9zZXJ2ZXIud2ViLkdlb1NlcnZlckJhc2VQYWdlLyIgfHwgYm9keT0iY2xhc3M9XCJnZW9zZXJ2ZXIgbGViZWciIHx8IGJvZHk9Ii93ZWJhcHBzL2dlb3NlcnZlciIgfHwgKGJvZHk9IndpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKFwid2ViL1wiKTsiICYmIGJvZHk9Imdlb3NlcnZlciIpIHx8IHRpdGxlPSJHZW9TZXJ2ZXIi)|
 | **Number of assets affected**  | 7962 |
 | **Description**  |GeoServer is an open source server that allows users to share and edit geospatial data. Prior to versions 2.23.6, 2.24.4, and 2.25.2, multiple OGC request parameters allow Remote Code Execution (RCE) by unauthenticated users through specially crafted input against a default GeoServer installation due to unsafely evaluating property names as XPath expressions.|
 | **Impact** | The attacker can inject malicious parameters through a specific query string to execute arbitrary code to take over the server.|
@@ -17,7 +17,6 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 ![](https://s3.bmp.ovh/imgs/2024/07/03/6095c50407de1221.gif)
 
 
-**Updated document date: June 12, 2024** 
 
 ## 	XAMPP PHP-CGI Windows Code Execution Vulnerability
 
