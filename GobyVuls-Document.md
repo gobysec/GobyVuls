@@ -1,7 +1,45 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: July 10, 2024** 
+**Updated document date: July 17, 2024** 
+
+## 	
+
+|   **Vulnerability**  | ServiceNowUI /login.do Input Validation Vulnerability（CVE-2024-4879）|
+| :----:   | :-----|
+|  **Chinese name**  |	ServiceNowUI /login.do Jelly模板注入漏洞（CVE-2024-4879） |
+| **CVSS core**  | 		9.3 |
+| **FOFA Query**  (click to view the results directly)|  [	Product=="servicenow-Products"](https://fofa.info/result?qbase64=UHJvZHVjdD09InNlcnZpY2Vub3ctUHJvZHVjdHMi)|
+| **Number of assets affected**  | 128,848 |
+| **Description**  |ServiceNow is a business transformation platform. Through the various modules on the platform, ServiceNow can be used for a variety of purposes, from HR and employee management to automating workflows or serving as a knowledge base.  |
+| **Impact** | ServiceNow's Jelly templates and Glide expressions have an injection vulnerability due to lax input validation. These vulnerabilities can be exploited by an unauthenticated attacker by crafting malicious requests to remotely execute code in ServiceNow.
+
+Affected versions:
+
+< Utah Patch 10 Hot Fix 3
+
+< Utah Patch 10a Hot Fix 2
+
+< Vancouver Patch 6 Hot Fix 2
+
+< Vancouver Patch 7 Hot Fix 3b
+
+< Vancouver Patch 8 Hot Fix 4
+
+< Vancouver Patch 9
+
+< Vancouver Patch 10
+
+< Washington DC Patch 1 Hot Fix 2b
+
+< Washington DC Patch 2 Hot Fix 2
+
+< Washington DC Patch 3 Hot Fix 1
+
+< Washington DC Patch 4
+
+![](https://s3.bmp.ovh/imgs/2024/07/17/7bd255e257963a8a.gif)
+
 
 ## 	Splunk Enterprise for Windows /en-US/modules/messaging File Reading Vulnerability（CVE-2024-36991）
 
@@ -16,7 +54,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 Affected versions:
 
- From 9.2.0 to 9.2.1 (excluding 9.2.2) 
+From 9.2.0 to 9.2.1 (excluding 9.2.2) 
 
 From 9.1.0 to 9.1.4 (excluding 9.1.5) 
 
