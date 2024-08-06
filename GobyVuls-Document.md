@@ -1,9 +1,9 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: July 17, 2024** 
+**Updated document date: August 6, 2024** 
 
-## 	
+## 	Apache OFbiz /ProgramExport Command Execution Vulnerability(CVE-2024-38856)
 |   **Vulnerability**  | Apache OFbiz /ProgramExport Command Execution Vulnerability(CVE-2024-38856)|
 | :----:   | :-----|
 |  **Chinese name**  |	Apache OFbiz /ProgramExport 命令执行漏洞（CVE-2024-38856） |
@@ -16,7 +16,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 
 
 
-
+## 	ServiceNowUI /login.do Input Validation Vulnerability（CVE-2024-4879）
 |   **Vulnerability**  | ServiceNowUI /login.do Input Validation Vulnerability（CVE-2024-4879）|
 | :----:   | :-----|
 |  **Chinese name**  |	ServiceNowUI /login.do Jelly模板注入漏洞（CVE-2024-4879） |
