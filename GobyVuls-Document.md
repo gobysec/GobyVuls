@@ -1,7 +1,22 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
-**Updated document date: October 11, 2024** 
+**Updated document date: October 31, 2024** 
+
+## 	Apache Solr /solr/admin/info/properties:/admin/info/key Permission Bypass Vulnerability(CVE-2024-45216)
+|   **Vulnerability**  | 	Apache Solr /solr/admin/info/properties:/admin/info/key Permission Bypass Vulnerability(CVE-2024-45216)|
+| :----:   | :-----|
+|  **Chinese name**  |	Apache Solr /solr/admin/info/properties:/admin/info/key Permission Bypass Vulnerability(CVE-2024-45216) |
+| **CVSS core**  | 		7.30 |
+| **FOFA Query**  (click to view the results directly)|  [app="APACHE-Solr"]
+| **Number of assets affected**  | 82,722  |
+| **Description**  |Apache Solr is an open-source search server developed in Java language, mainly based on HTTP and Apache Lucene implementation. |
+| **Impact** | The technical details and PoC of the vulnerability have been made public. There is an authentication bypass vulnerability when Apache Solr instances use the PKIAInformationPlugin (which may be enabled when Solr is started in SolrCloud mode and configured to use authentication). Attackers can bypass Solr's authentication mechanism by adding/admin/info/key at the end of the Solr API path, potentially accessing sensitive data or performing unauthorized operations.
+| **Affected versions** |5.3.0 <= Apache Solr < 8.11.49.0.0 <= Apache Solr < 9.7.0
+
+![](https://s3.bmp.ovh/imgs/2024/10/31/1451033749ff8068.gif)
+
+
 
 ## 	CyberPanel /dataBases/upgrademysqlstatus Command Execution Vulnerability
 |   **Vulnerability**  | GCyberPanel /dataBases/upgrademysqlstatus Command Execution Vulnerability|
