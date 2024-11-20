@@ -1,6 +1,19 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date: November 20, 2024** 
+
+## 	palo-alto-panos /php/utils/createRemoteAppwebSession.php Command Execution Vulnerability (CVE-2024-0012/CVE-2024-9474)
+|   **Vulnerability**  | 	palo-alto-panos /php/utils/createRemoteAppwebSession.php Command Execution Vulnerability (CVE-2024-0012/CVE-2024-9474)|
+| :----:   | :-----|
+|  **Chinese name**  |	palo-alto-panos /php/utils/createRemoteAppwebSession.php 命令执行漏洞（CVE-2024-0012/CVE-2024-9474） |
+| **CVSS core**  | 		9.50 |
+| **FOFA Query**  (click to view the results directly)|  [body="Panos.browser.cookie.set" && body="Panos.browser.param"]
+| **Number of assets affected**  | 27,397  |
+| **Description**  |A command execution vulnerability exists in palo-alto-panos, allowing attackers to execute arbitrary commands via the /php/utils/createRemoteAppwebSession.php/.js.map path without authorization, potentially leading to full system control. |
+
+![](https://s3.bmp.ovh/imgs/2024/11/20/849976b81da4b825.gif)
+
 **Updated document date: October 31, 2024** 
 
 ## 	Apache Solr /solr/admin/info/properties:/admin/info/key Permission Bypass Vulnerability(CVE-2024-45216)
