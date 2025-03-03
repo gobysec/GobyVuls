@@ -1,6 +1,22 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date:  March 03, 2025** 
+
+## 	Ollama /api/tags Unauthorized Access Vulnerability (CNVD-2025-04094)
+|   **Vulnerability**  | 	Ollama /api/tags Unauthorized Access Vulnerability (CNVD-2025-04094)|
+| :----:   | :-----|
+|  **Chinese name**  |	Ollama /api/tags 未授权访问漏洞（CNVD-2025-04094） |
+| **CVSS core**  | 		6.50 |
+| **FOFA Query**  (click to view the results directly)|  [app="Ollama"]
+| **Number of assets affected**  | 2.3W+ |
+| **Description**  |Ollama is an open-source Large Language Model (LLM) runtime environment and toolkit designed to help developers easily deploy, manage, and use models such as DeepSeek. Recently, it was disclosed that if Ollama directly exposes the service port (default 11434) to the public network and does not enable an authentication mechanism, remote attackers can access its high-risk interfaces without authorization. |
+| **Impact** | Attackers may exploit these unauthorized interfaces to access sensitive data, abuse resources, or tamper with system configurations, further escalating the attack.
+| **Affected versions** | all
+
+![](https://s3.bmp.ovh/imgs/2025/03/03/6e1cea33e52a0487.gif)
+
+
 **Updated document date: November 20, 2024** 
 
 ## 	palo-alto-panos /php/utils/createRemoteAppwebSession.php Command Execution Vulnerability (CVE-2024-0012/CVE-2024-9474)
