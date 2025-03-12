@@ -9,7 +9,7 @@ The following content is an updated vulnerability from Goby. Some of the vulnera
 |  **Chinese name**  |	Apache Tomcat 远程命令执行(CVE-2025-24813) |
 | **CVSS core**  | 		6.40 |
 | **FOFA Query**  (click to view the results directly)|  [app="APACHE-Tomcat"]
-| **Number of assets affected**  | 2.3W+ |
+| **Number of assets affected**  | 600W+ |
 | **Description**  |Apache Tomcat is an open-source Java Servlet container widely used for running Java-based web applications. This vulnerability (CVE-2025-24813) allows remote attackers to execute arbitrary commands on the target system via specially crafted malicious requests, potentially leading to full control of the affected server.|
 | **Impact** | Attackers can exploit this vulnerability to execute arbitrary commands on the target server, leading to sensitive data leakage, full system compromise, and potential use in further attacks.
 | **Affected versions** | 11.0.0-M1 ≤ Apache Tomcat ≤ 11.0.2 10.1.0-M1 ≤ Apache Tomcat ≤ 10.1.34 9.0.0.M1 ≤ Apache Tomcat ≤ 9.0.98
