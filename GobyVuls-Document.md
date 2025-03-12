@@ -1,6 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date:  March 12, 2025** 
+
+## 	Apache Tomcat Remote Command Execution Vulnerability (CVE-2025-24813)
+|   **Vulnerability**  | 	Apache Tomcat Remote Command Execution Vulnerability (CVE-2025-24813)|
+| :----:   | :-----|
+|  **Chinese name**  |	Apache Tomcat 远程命令执行(CVE-2025-24813) |
+| **CVSS core**  | 		6.40 |
+| **FOFA Query**  (click to view the results directly)|  [app="APACHE-Tomcat"]
+| **Number of assets affected**  | 2.3W+ |
+| **Description**  |Apache Tomcat is an open-source Java Servlet container widely used for running Java-based web applications. This vulnerability (CVE-2025-24813) allows remote attackers to execute arbitrary commands on the target system via specially crafted malicious requests, potentially leading to full control of the affected server.|
+| **Impact** | Attackers can exploit this vulnerability to execute arbitrary commands on the target server, leading to sensitive data leakage, full system compromise, and potential use in further attacks.
+| **Affected versions** | 11.0.0-M1 ≤ Apache Tomcat ≤ 11.0.2 10.1.0-M1 ≤ Apache Tomcat ≤ 10.1.34 9.0.0.M1 ≤ Apache Tomcat ≤ 9.0.98
+
+![](https://s3.bmp.ovh/imgs/2025/03/12/fb6c2a77c160d7e7.gif)
+
 **Updated document date:  March 03, 2025** 
 
 ## 	Ollama /api/tags Unauthorized Access Vulnerability (CNVD-2025-04094)
