@@ -1,6 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date:  April 9, 2025** 
+
+## 	Langflow /api/v1/validate/code Code Execution Vulnerability (CVE-2025-3248)
+|   **Vulnerability**  | 	Langflow /api/v1/validate/code Code Execution Vulnerability (CVE-2025-3248)|
+| :----:   | :-----|
+|  **Chinese name**  |	Langflow /api/v1/validate/code 代码执行漏洞（CVE-2025-3248） |
+| **CVSS core**  | 		7.80 |
+| **FOFA Query**  (click to view the results directly)|  [product="LOGSPACE-LangFlow"]
+| **Number of assets affected**  | 2448 |
+| **Description**  |LangFlow is a low-code visual AI application development tool based on Python, focusing on the development of Multi-Agent AI, Prompt Engineering, and Retrieval-Augmented Generation (RAG) applications. Versions prior to 1.3.0 are vulnerable to code injection in the /api/v1/validate/code endpoint. Remote and unauthenticated attackers can send crafted HTTP requests to execute arbitrary code.|
+| **Impact** | Versions prior to 1.3.0 are vulnerable to code injection in the /api/v1/validate/code endpoint. Remote and unauthenticated attackers can send crafted HTTP requests to execute arbitrary code, potentially leading to full server control.|
+| **Affected versions** | <1.3.0
+
+![](https://s3.bmp.ovh/imgs/2025/04/09/01613b486fcc5f6e.gif)
+
 **Updated document date:  March 12, 2025** 
 
 ## 	Apache Tomcat Remote Command Execution Vulnerability (CVE-2025-24813)
