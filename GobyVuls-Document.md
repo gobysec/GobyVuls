@@ -1,6 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date:  April 25, 2025** 
+
+## Erlang/OTP SSH Server Code Execution Vulnerability (CVE-2025-32433)
+|   **Vulnerability**  | 	LErlang/OTP SSH Server Code Execution Vulnerability (CVE-2025-32433)|
+| :----:   | :-----|
+|  **Chinese name**  |Erlang/OTP SSH服务器 代码执行漏洞（CVE-2025-32433） |
+| **CVSS core**  | 		10  |
+| **FOFA Query**  (click to view the results directly)|  [protocol="ssh" && banner="Erlang"]
+| **Number of assets affected**  | 600+ |
+| **Description**  |Erlang/OTP is a widely used programming language and runtime system primarily for building distributed systems. A critical security vulnerability exists in the Erlang/OTP SSH implementation, allowing attackers to execute arbitrary code without authentication by exploiting flaws in SSH protocol message handling.|
+| **Impact** |  When the SSH daemon runs with root privileges, attackers can gain full control of the device. This vulnerability affects all SSH servers based on the Erlang/OTP SSH library.|
+| **Affected versions** | <OTP-27.3.3、<OTP-26.2.5.11、<OTP-25.3.2.20
+
+![](https://s3.bmp.ovh/imgs/2025/04/25/7ff1a6f8da167768.gif)
+
 **Updated document date:  April 9, 2025** 
 
 ## 	Langflow /api/v1/validate/code Code Execution Vulnerability (CVE-2025-3248)
