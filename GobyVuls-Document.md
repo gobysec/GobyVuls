@@ -1,5 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
-The following content is an updated vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
+The following content is an updated Popular vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
+
+**Updated document date:  November 17, 2025** 
+
+## Fortinet FortiWeb /api/v2.0/cmdb/system/admin%3f/../../../../cgi-bin/fwbcgi PePermission Bypassulnerability (CVE-2025-64446)
+|   **Vulnerability**  | 	Fortinet FortiWeb /api/v2.0/cmdb/system/admin%3f/../../../../cgi-bin/fwbcgi PePermission Bypassulnerability (CVE-2025-64446))|
+| :----:   | :-----|
+|  **Chinese name**  |Fortinet FortiWeb /api/v2.0/cmdb/system/admin%3f/../../../../../cgi-bin/fwbcgi 权限绕过漏洞（CVE-2025-64446） |
+| **CVSS core**  | 		8.0  |
+| **FOFA Query**  (click to view the results directly)|  [(body="FortiWeb" && body="app.min.js")]
+| **Number of assets affected**  | 1900+ |
+| **Description**  |Fortinet FortiWeb is a widely used Web Application Firewall product. This vulnerability is of the directory traversal type, allowing attackers to bypass permission verification by constructing specific request paths, accessing protected resources or performing unauthorized operations, potentially leading to sensitive information leakage or further system exploitation. |
+| **Impact** | This vulnerability allows attackers to bypass permission verification through directory traversal, potentially leading to sensitive information leakage, unauthorized access, and further system control.|
+| **Affected versions** |8.0.0<=FortiWeb<=8.0.1、7.6.0<=FortiWeb<=7.6.4、7.4.0<=FortiWeb<=7.4.9、7.2.0<=FortiWeb<=7.2.11、7.0.0<=FortiWeb<=7.0.11
+
+![](https://s3.bmp.ovh/imgs/2025/11/17/e8bba65339376320.gif)
+
 
 **Updated document date:  July 1, 2025** 
 
