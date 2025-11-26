@@ -1,12 +1,26 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated hotspot vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
+**Updated document date:  November 26, 2025** 
+
+## GeoServer /geoserver/wms GetMap XML External Entity Injection Vulnerability (CVE-2025-58360)
+|   **Vulnerability**  | GeoServer /geoserver/wms GetMap XML External Entity Injection Vulnerability (CVE-2025-58360)|
+| :----:   | :-----|
+|  **Chinese name**  |GeoServer /geoserver/wms GetMap XML 外部实体注入漏洞（CVE-2025-58360）|
+| **CVSS core**  | 		7.5  |
+| **FOFA Query**  (click to view the results directly)|  [app="GeoServer"]
+| **Number of assets affected**  | 20k+ |
+| **Description**  |GeoServer is an open-source geospatial data server that supports publishing geospatial data through standard protocols. This vulnerability exists in the WMS interface of GeoServer, where attackers can exploit it by crafting malicious XML packets to perform external entity injection (XXE), potentially leading to arbitrary file reading on the server and sensitive information disclosure.|
+| **Impact** | This vulnerability allows attackers to read arbitrary files on the server via external entity injection, potentially leading to sensitive information disclosure and further exploitation for more severe attacks.|
+| **Affected versions** |	GeoServer < 2.25.6、2.26.0 <= GeoServer < 2.26.2|
+
+![](https://img.cdn1.vip/i/6926d9aedc10b_1764153774.webp)
 
 **Updated document date:  November 24, 2025** 
 
 ## Oracle Identity Manager /iam/governance/applicationmanagement/api/v1/applications/groovyscriptstatus;.wadl Command Execution Vulnerability (CVE-2025-61757)
 |   **Vulnerability**  | 	Oracle Identity Manager /iam/governance/applicationmanagement/api/v1/applications/groovyscriptstatus;.wadl Command Execution Vulnerability (CVE-2025-61757)|
 | :----:   | :-----|
-|  **Chinese name**  |Fortinet FortiWeb /api/v2.0/cmdb/system/admin%3f/../../../../../cgi-bin/fwbcgi 权限绕过漏洞（CVE-2025-64446） |
+|  **Chinese name**  |Oracle Identity Manager /iam/governance/applicationmanagement/api/v1/applications/groovyscriptstatus;.wadl 命令执行漏洞（CVE-2025-61757）|
 | **CVSS core**  | 		8.5  |
 | **FOFA Query**  (click to view the results directly)|  [(title="Oracle Access Management" || (body="/oamcustompage/pages/css/login_page.css" && body="/oamcustompage/pages/login.jsp"))]
 | **Number of assets affected**  | 1100+ |
