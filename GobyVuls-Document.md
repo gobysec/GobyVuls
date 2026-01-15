@@ -1,6 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated hotspot vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date:  January 30, 2026** 
+
+## Apache Struts XWork Component XML External Entity Injection Vulnerability (CVE-2025-68493)
+|   **Vulnerability**  |Apache Struts XWork Component XML External Entity Injection Vulnerability (CVE-2025-68493)|
+| :----:   | :-----|
+|  **Chinese name**  |Apache Struts XWork 组件 XML外部实体注入漏洞（CVE-2025-68493）|
+| **CVSS core**  | 		6.5 |
+| **FOFA Query**  (click to view the results directly)|  [app="Struts"]
+| **Number of assets affected**  | 250W+ |
+| **Description**  |The /login.action interface of Apache Struts XWork component is affected by an XML External Entity (XXE) injection vulnerability. This vulnerability exists in the XML parsing functionality. The system does not restrict external entity references when processing XML data, allowing attackers to read sensitive files on the server, such as configuration files and source code, by constructing malicious XML External Entity (XXE) payloads, potentially leading to sensitive information disclosure.|
+| **Impact** | This vulnerability allows attackers to read sensitive files on the server, potentially leading to sensitive information disclosure and exposure of system configurations, providing convenience for further attacks.|
+
+![](https://img.cdn1.vip/i/6968adf416937_1768467956.webp)
+
+
 **Updated document date:  December 30, 2025** 
 
 ## Zimbra Collaboration Suite /h javax.servlet.include.path_info File Inclusion Vulnerability (CVE-2025-68645)
